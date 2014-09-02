@@ -1,0 +1,98 @@
+body {
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 auto;
+  max-width: 1500px;
+  color: #333333;
+  font-family: Garamond, Baskerville, "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+  padding:4em 4% 6em 4% ;
+          -webkit-column-width: 16em; /* Chrome, Safari, Opera */
+    -moz-column-width: 16em; /* Firefox */  
+    column-width: 16em;
+        -webkit-column-gap: 24px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 24px; /* Firefox */
+    column-gap: 24px;
+}
+h1, h2, h3, h4 {
+  font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  letter-spacing: -0.03em;
+
+}
+h1, h2, h3 {
+     -webkit-column-span: all;
+   -moz-column-span: all;
+   column-span: all;
+}
+h1 {
+  font-size: 51px;
+  line-height: 72px;
+  margin-top: 48px;
+  margin-bottom: 24px;
+}
+h2 {
+  font-size: 36px;
+  line-height: 48px;
+  margin-top: 48px;
+  margin-bottom: 24px;
+}
+h3 {
+  font-size: 25px;
+  line-height: 48px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+h4 {
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding: 24px;
+  border-top: 1px solid ;
+  border-bottom: 1px solid ;
+  -webkit-column-break-inside:avoid;
+}
+h4:first-of-type {
+  margin-top: 0;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: justify;
+}
+p:before {
+  content: " ";
+  display: inline-block;
+  width: 2em;
+}
+p:first-of-type:before, h4 + p:before { 
+  width: 0;
+}
+ul, ol, pre, table, blockquote {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+.columns {
+
+}
+
+/* Sanitation */
+hr {
+  border: 1px solid;
+  margin: -1px 0;
+}
+ul ul, ol ol, ul ol, ol ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+b, strong, em, small, code {
+  line-height: 1;
+}
+sup, sub {
+  vertical-align: baseline;
+  position: relative;
+  top: -0.4em;
+}
+sub {
+  top: 0.4em;
+}
