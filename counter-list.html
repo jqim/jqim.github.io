@@ -1,0 +1,46 @@
+<style>
+body{
+	font-family: arial, helvetica, sans-serif;
+  color: rgb(52,52,52);
+}
+ul {
+    list-style: none;
+    counter-reset: cl1;
+    counter-reset: cl2;
+}
+ul li {
+    margin-left: 1em;
+    counter-increment: cl1;
+}
+ul li::before {
+    margin-right: 1em;
+    content: counter(cl1, decimal);
+}
+ul > ul {
+    margin-left:1em;
+}
+ul > ul li {
+    counter-increment: cl2;
+}
+ul > ul li::before {
+    margin-right: 1em;
+    content: counter(cl1, decimal)'.'counter(cl2, decimal);
+}
+</style>
+<body>
+  <ul>
+      <li>one</li>
+      <li>two</li>
+      <ul>
+          <li>one</li>
+          <li>two</li>
+          <li>three</li>
+      </ul>
+      <li>three</li>
+      <ul>
+          <li>one</li>
+          <li>two</li>
+          <li>three</li>
+      </ul>
+  </ul>
+</body>
