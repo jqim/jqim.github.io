@@ -38,12 +38,14 @@ body {
 	border-bottom: 1px solid rgb(31, 31, 31); /*--------NEW colour + @st-slate-black?-------*/
 }
 .nav-item:first-child {
+	cursor: default; /*--------NOTE not interactive element--------*/
  	border-top-color:rgb(31, 31, 31); /*--------NEW colour + @st-slate-black?-------*/
 }
 .nav-item:last-child {
 	border-bottom: none;
 }
 .lefty-nav-block-bottom .nav-item:first-child {
+	cursor: pointer; /*--------NOTE cursor for an interactive element--------*/
 	border-top: none;
 }
 .nav-head {
