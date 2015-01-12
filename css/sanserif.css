@@ -300,7 +300,9 @@ blockquote:before {
         margin-right: 16rem;
     }
     .sidenav {
-    position: fixed;
+    float: left;
+    margin-left: -132px;
+    width: 240px;
     width: 16rem;
     top: 330px;
     right: 160px;
