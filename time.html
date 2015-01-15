@@ -9,6 +9,7 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, user-scalable=no" />
 
         <SCRIPT TYPE="text/javascript">
 <!--
@@ -53,8 +54,8 @@ downStrokeField=null;
 	<form>
 		<span style="width:40%; display:inline-block;">HOURS</span>
 		<span style="width:40%; display:inline-block;">MINUETS</span>
-		<input style="width:40%; display:inline-block;" maxlength="2" type="number" name="hr">
-		<input style="width:40%; display:inline-block;" maxlength="2" type="number" name="min"></br>
+		<input style="width:40%; display:inline-block;" maxlength="2" type="number" pattern="[0-9]*" name="hr">
+		<input style="width:40%; display:inline-block;" maxlength="2" type="number" pattern="[0-9]*" name="min"></br>
 		<input style="width:80%; margin-top:20px;" type="submit" value="Submit" name="go">
 	</form>
 	<SCRIPT TYPE="text/javascript">
