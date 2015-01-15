@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <SCRIPT TYPE="text/javascript">
+<!--
+var downStrokeField;
+function autojump(fieldName,nextFieldName,fakeMaxLength)
+{
+var myForm=document.forms[document.forms.length - 1];
+var myField=myForm.elements[fieldName];
+myField.nextField=myForm.elements[nextFieldName];
+
+if (myField.maxLength == null)
+   myField.maxLength=fakeMaxLength;
+
+myField.onkeydown=autojump_keyDown;
+myField.onkeyup=autojump_keyUp;
+}
+
+function autojump_keyDown()
+{
+this.beforeLength=this.value.length;
+downStrokeField=this;
+}
+
+function autojump_keyUp()
+{
+if (
+   (this == downStrokeField) && 
+   (this.value.length > this.beforeLength) && 
+   (this.value.length >= this.maxLength)
+   )
+   this.nextField.focus();
+downStrokeField=null;
+}
+//-->
+</SCRIPT>
+
+    </head>
+
+<body style="text-align: center;">
+	<h1>whats the time?</h1>
+	<h5>(..snewroman)</h5>
+	<form>
+		<span style="width:40%; display:inline-block;">HOURS</span>
+		<span style="width:40%; display:inline-block;">MINUETS</span>
+		<input style="width:40%; display:inline-block;" maxlength="2" type="number" name="hr">
+		<input style="width:40%; display:inline-block;" maxlength="2" type="number" name="min"></br>
+		<input style="width:80%; margin-top:20px;" type="submit" value="Submit" name="go">
+	</form>
+	<SCRIPT TYPE="text/javascript">
+<!--
+autojump('hr', 'min', 2);
+autojump('min', 'go', 2);
+//-->
+</SCRIPT>
+</body>
+</html>
