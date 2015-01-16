@@ -140,6 +140,7 @@ h1 {
     line-height: 6.4rem;
     margin: 60px 0 60px 0;
     margin: 6.4rem 0 6.4rem 0;
+    padding-left: 0.2em;
 
 }
 h2 {
@@ -152,6 +153,7 @@ h2 {
     margin: 6.4rem 0 3.2rem 0;
     padding-bottom: 0.4rem;
     border-bottom: 1px solid rgb(125, 125, 125);
+    padding-left: 0.2em;
 }
 h3 {
     font-weight: normal;
@@ -205,10 +207,10 @@ p, ol, ul, dl, address {
     margin-bottom:2.4rem;
     max-width: 36em;    
 }
-p, h1, h2, h3, h4, h5, h6, ul, ol, dl, .lead-in {
+/*p, h1, h2, h3, h4, h5, h6, ul, ol, dl, .lead-in {
     margin-left: 0rem;
     margin-right: 0rem;
-    padding-left: 0;
+    padding-left: 0;*/
 
 }
 li {
@@ -240,20 +242,20 @@ blockquote {
 
     position: relative;
     font-size: 2.8rem;
-    line-height: 3.2rem;
     margin: 1em 0rem;
-    padding: 1em 3.6rem;
-    border-top: 1px solid rgb(125, 125, 125);
-    border-bottom: 1px solid rgb(125, 125, 125);
+    padding: 1.2em 40px;
+    background-color: #e6f3f8;
+/*    border-top: 1px solid rgb(125, 125, 125);
+    border-bottom: 1px solid rgb(125, 125, 125);*/
 }
 blockquote:before {
     display: block;
     content: '"';
-    font-size: 8.0rem;
+    font-size: 7rem;
     position: absolute;
-    left: 0px;
-    top: 40px;
-    color: rgb(125, 125, 125);
+    left: 8px;
+    top: 20px;
+    color: rgba(200,200,200,0.6);
 }
 .lead-in {
     font-size: 24px;
@@ -283,36 +285,52 @@ blockquote:before {
     margin: 0 ;
     cursor: pointer;
 }
-.mainnav ul li:hover {
+.mainnav ul li:hover, .sidenav ul li:hover {
     background-color: #54aeca;
     color: #e6f3f8;
 }
+/*.sidenav {
+    float: left;
+    margin-left: -132px;
+    width: 240px;
+    }*/
+.sidenav > ul {
+        list-style: none;
+        margin-left: 0;
+        margin-top: 0;
+        padding-left: 0;
+    }
+.sidenav > ul > li {
+        border-bottom:1px dotted #333333;
+        padding: 0.6em 0.8em;
+        margin: 0;
+        cursor: pointer;
+    }
+.sidenav > ul > li:first-child {
+        border-top:1px dotted #333333;
+    }
 
 
 @media (min-width: 960px) {
 
-    p, h3, h4, h5, h6, ul, ol, dl {
-        margin-left: 16rem;
-        margin-right: 16rem;
-        padding-left: 0;
+    .body-content >*:first-child {
+        margin-top: 0;
     }
-    h1, h2, blockquote, .lead-in {
-        margin-right: 16rem;
+
+    .body-content h1, .body-content h2, .body-content blockquote {
+        margin-left: -270px;
     }
     .sidenav {
-    float: left;
-    margin-left: -132px;
-    width: 240px;
-    width: 16rem;
-    top: 330px;
-    right: 160px;
+        float: left;
+        max-width: 240px;
+        width: 26%;
     }
-    .sidenav > ul {
-        margin-left: 0rem;
-        margin-right: 0rem;
+    .body-content {
+        float: right;
+        max-width: 680px;
+        width: 71%;
     }
 }
-
 
 /* ==========================================================================
    Helper classes
