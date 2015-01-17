@@ -118,7 +118,7 @@ body {
 .content-width {
     margin: auto;
     width: 90%;
-    max-width: 960px;
+/*    max-width: 960px;*/
 }
 /* Typography =================================================== */
 
@@ -264,6 +264,7 @@ blockquote:before {
     line-height: 3rem;
     margin-bottom: 30px;
     margin-bottom: 3rem;
+    color: rgb(80,80,80);
 }
 .mainnav {
     width: 100%;
@@ -318,17 +319,29 @@ blockquote:before {
     }
 
     .body-content h1, .body-content h2, .body-content blockquote {
-        margin-left: -270px;
+        margin-left: -41%;
     }
     .sidenav {
         float: left;
-        max-width: 240px;
+  /*      max-width: 240px;*/
         width: 26%;
     }
     .body-content {
         float: right;
-        max-width: 680px;
+     /*   max-width: 680px;*/
         width: 71%;
+    }
+    .content-half {
+        width: 40%;
+        height: 500px;
+        float: left;
+        margin: 2%;
+        padding: 2%;
+        border-left: 1px solid rgb(200,200,200);
+        -webkit-box-shadow: inset 0px 0px 7px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: inset 0px 0px 7px 0px rgba(0,0,0,0.75);
+box-shadow: inset 0px 0px 7px 0px rgba(0,0,0,0.75);
+        overflow: scroll;
     }
 }
 
