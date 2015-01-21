@@ -1,3 +1,6 @@
+<html>
+<head>
+
 <style>
 body {
 	font-family: arial, helvetica, sans-serif;
@@ -9,7 +12,15 @@ body {
 * { 
 	box-sizing: border-box; 
 }
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
 
+.cf:after {
+    clear: both;
+}
 /*-------- ABOVE asumed to be included elsewhere --------*/
 
 .lefty-nav-container {
@@ -92,12 +103,64 @@ body {
 	border-width: 6px 6px 6px 0;
 	border-color: transparent rgb(245, 245, 245) transparent transparent;
 }
+.client-bar {
+	background-color: rgb(63, 70, 75);
+	border-bottom: 1px solid rgb(27, 31, 35);
+}
+.bar-button {
+	height: 50px;
+	float: left;
+	border-right: 1px solid rgb(27, 31, 35); 
+	color:rgb(250, 250, 250);
+	padding: 18px 16px;
+	cursor: pointer; /*--------NOTE cursor for an interactive element--------*/
+}
+.bar-hover, .bar-button:hover {
+	background-color: rgb(245, 245, 245);
+	color: rgb(18, 81, 166);
+
+}
+.search-btn {
+	font-size: 12px;
+	font-weight: bold;
+	width: 137px;
+	text-align: center;
+}
+.client-btn {
+
+}
+.client-name {
+	font-size: 16px;
+	font-weight: bold;
+}
+.close-icon {
+	margin-left: 24px;
+}
 
 
 
 </style>
-<html>
+<script type="text/javascript" src="http://code.jquery.com/jquery-git.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function () {
+    $('#new-client').hover(function () {
+        $('#client-block').addClass('bar-hover');
+    }, function () {
+        $('#client-block').removeClass('bar-hover');
+    });
+
+});
+  
+</script>
+</head>
+
 <body>
+<div class="client-bar">
+	<div class="bar-button search-btn" id="new-client"><span>Search Clients</span></div>
+	<div class="bar-button client-btn" id="client-block"><span class="client-name">W.H.Smiths<span class="close-icon">X</span></div>
+	<div class="cf"></div>
+</div>
 
 <div class="lefty-nav-container">
 
