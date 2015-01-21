@@ -1,6 +1,5 @@
 <html>
 <head>
-
 <style>
 body {
 	font-family: arial, helvetica, sans-serif;
@@ -136,8 +135,9 @@ body {
 .close-icon {
 	margin-left: 24px;
 }
-
-
+.close-icon:before {
+		content: "\02715";
+}
 
 </style>
 <script type="text/javascript" src="http://code.jquery.com/jquery-git.js"></script>
@@ -158,7 +158,7 @@ $(document).ready(function () {
 <body>
 <div class="client-bar">
 	<div class="bar-button search-btn" id="new-client"><span>Search Clients</span></div>
-	<div class="bar-button client-btn" id="client-block"><span class="client-name">W.H.Smiths<span class="close-icon">X</span></div>
+	<div class="bar-button client-btn" id="client-block"><span class="client-name">W.H.Smiths<span class="close-icon"></span></div>
 	<div class="cf"></div>
 </div>
 
