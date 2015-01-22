@@ -1,5 +1,6 @@
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
 <style>
 body {
 	font-family: arial, helvetica, sans-serif;
@@ -146,15 +147,16 @@ body {
 	padding: 6px 8px;
 	border-radius: 100px;
 	cursor: pointer; /*--------NOTE cursor for an interactive element--------*/
+	display: inline;
 }
 .close-icon:hover {
 	background-color: rgb(245, 245, 245);
 	color: rgb(18, 81, 166);
 		
 }
-.close-icon:before {
+/*.close-icon:before {
 		content: "\02715";
-}
+}*/
 .bar-hover, .search-btn:hover {
 	background-color: rgb(245, 245, 245);
 	color: rgb(18, 81, 166);
@@ -162,7 +164,7 @@ body {
 }
 
 </style>
-<script type="text/javascript" src="http://code.jquery.com/jquery-git.js"></script>
+<script type="text/javascript" src="localJQ/jquery-git.js"></script>
 <script type="text/javascript">
 
 $(document).ready(function () {
@@ -180,7 +182,7 @@ $(document).ready(function () {
 <body>
 <div class="client-bar">
 	<div class="bar-button search-btn" id="new-client"><span>Search Clients</span></div>
-	<div class="bar-button client-btn" id="client-block"><span class="client-name">W.H.Smiths<span class="close-icon"></span></div>
+	<div class="bar-button client-btn" ><span class="client-name">W.H.Smiths<i id="client-block" class="fa fa-times close-icon"></i></div>
 	<div class="cf"></div>
 </div>
 
