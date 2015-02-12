@@ -22,10 +22,13 @@ li {
 	max-width: 44em;
 }
 li > i {
+	display: block;
+}
+.hide {
 	display: none;
 }
 @media (min-width: 480px) {
-	li > i {
+	.hide {
 		display: block;
 	}
 }
@@ -37,7 +40,7 @@ li > i {
 <ul>
 	<li><a href="asform.html">Semantic Form</a></li>
 	<li><a href="menu.html">lefty menu 2.0</a></li>
-	<li><a href="hipsum.html">Responsive typography sketch inspired by Canteen menu design</a><i>WARNING: will crash mobile browsers</i></li>
+	<li class="hide"><a href="hipsum.html">Responsive typography sketch inspired by Canteen menu design</a><i>WARNING: will crash mobile browsers</i></li>
 	<li><a href="miniblotter_justalist.html">Mini blotter - "just a list"</a></li>
 	<li><a href="sanserif.html">responsive typography sketch - playing with max-with on paragraphs</a></li>
 	<li><a href="accordion/index.html">Decision support side widget accordion mockup</a></li>
