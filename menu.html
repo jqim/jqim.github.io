@@ -45,6 +45,7 @@ body {
 .nav-item {
 	cursor: pointer; /*--------NOTE cursor for an interactive element--------*/
 	list-style: none;
+	background-color: rgb(44, 50, 57);
 	border-top: 1px solid rgb(63, 70, 75);
 	border-bottom: 1px solid rgb(31, 31, 31); /*--------NEW colour + @st-slate-black?-------*/
 }
@@ -54,6 +55,9 @@ body {
 }
 .nav-item:last-child {
 	border-bottom: none;
+}
+.nav-item:hover {
+	background-color: rgb(63, 70, 75);
 }
 .lefty-nav-block-bottom .nav-item:first-child {
 	cursor: pointer; /*--------NOTE cursor for an interactive element--------*/
@@ -80,18 +84,37 @@ body {
 	height: 38px;
     padding-left: 20px;
 	color:rgb(250, 250, 250);
-	background-color: rgb(44, 50, 57);
+	-webkit-transition: -webkit-transform 200ms ease-in-out;
+	-moz-transition: -moz-transform 200ms ease-in-out;
+	-o-transition: -o-transform 200ms ease-in-out;
+	transition: transform 200ms ease-in-out;
 }
 .nav-button:hover {
-	background-color: rgb(63, 70, 75);
+	-webkit-transform: translate(3px,0);
+	-moz-transform: translate(3px,0);
+	transform: translate(3px,0);
+}
+.nav-button:hover:after {
+	content: "";
+	float: right;
+	margin-top: 12px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 6px 6px 6px 0;
+	border-color: transparent rgb(245, 245, 245) transparent transparent;
 }
 .selected { 	
 	cursor:default; /*--------NOTE not interactive element--------*/
 	background-color: rgb(27, 31, 35);
 	border-bottom: 2px solid rgb(18, 81, 166);
+
 }
 .selected:hover { 
 	background-color: rgb(27, 31, 35);
+	-webkit-transform: translate(0px,0);
+	-moz-transform: translate(0px,0);
+	transform: translate(0px,0);
 }
 .selected:after {
 	content: "";
@@ -175,7 +198,13 @@ $(document).ready(function () {
     });
 
 });
-  
+  $(document).ready(function() {
+$(".nav-button").click(function () {
+    $(".nav-button").removeClass("selected");
+    // $(".tab").addClass("selected"); // instead of this do the below 
+    $(this).addClass("selected");   
+});
+});
 </script>
 </head>
 
@@ -192,14 +221,14 @@ $(document).ready(function () {
 		<li class="nav-item"><span class="nav-head">Client</span></li>
 		<li class="nav-item"><span class="nav-button">Info</span></li>
 		<li class="nav-item"><span class="nav-button">Users</span></li>
-		<li class="nav-item"><span class="nav-button selected">Trade</span></span></li>
+		<li class="nav-item"><span class="nav-button">Trade</span></span></li>
 		<li class="nav-item"><span class="nav-button">Blotter</span></li>
 		<li class="nav-item"><span class="nav-button">Orders</span></li>
 	</ul>
 
 	<ul class="lefty-nav-block">
 		<li class="nav-item"><span class="nav-head">Trader</span></li>
-		<li class="nav-item"><span class="nav-button">Market Overview</span></li>
+		<li class="nav-item"><span class="nav-button selected">Market Overview</span></li>
 		<li class="nav-item"><span class="nav-button">Group Blotter</span></li>
 		<li class="nav-item"><span class="nav-button">Calendar</span></li>
 		<li class="nav-item"><span class="nav-button">Client Overview</span></li>
