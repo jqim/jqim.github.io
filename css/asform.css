@@ -11,7 +11,7 @@ body {
 label, input, textarea, select {
 	box-sizing:border-box;
 	display: block;
-	padding: 4px;
+	padding: 0.5em;
 }
 *:focus {
 	outline: 2px dotted blue;
@@ -19,22 +19,22 @@ label, input, textarea, select {
 }
 #asform {
 	margin: 1em auto 2em auto;
-	padding: 16px;
+	padding: 1em;
 	max-width: 36em;
 	counter-reset: fieldsets;
 	background-color: #E6E6E6;
-	border-radius: 4px;
+	border-radius: 0.2em;
 }
 #asform > fieldset {
-	padding: 56px 24px 32px 24px;
-	margin: 16px 0 32px 0;
-	border-radius: 4px;
+	padding: 56px 1.5em 2em 1.5em;
+	margin: 1em 0 2em 0;
+	border-radius: 0.2em;
 	position:relative;
 	background-color: #FAFAFA;
 }
 #asform > fieldset > legend {
-	top: 24px;
-	left: 28px;;
+	top: 1.5em;
+	left: 1.5em;;
     position:absolute;
 }
 #asform > fieldset > legend:before {
@@ -44,18 +44,18 @@ label, input, textarea, select {
 
 #asform ol li {
 	list-style: none;
-	margin: 4px 0 8px 0;
+	margin: 0.2em 0 0.5em 0;
 }
 
 #asform ol li label {
-	font-size: 12px;
-	text-indent: 4px;
-	line-height: 24px;
+/*	font-size: 0.8em;*/
+	text-indent: 0.2em;
+	line-height: 1.5em;
 	cursor: pointer;
 }
-#asform ol li label:hover {
+/*#asform ol li label:hover {
 	background-color: #969696;
-}
+}*/
 #asform ol li label > *{
 	width: 100%;
 	}	
@@ -63,13 +63,15 @@ label, input, textarea, select {
 	border: 1px solid #6E6E6E;
 	border-width: 2px 1px 1px 1px;
 	border-radius: 2px;
-	line-height: 24px;
+	line-height: 1.5em;
 }
 #asform ol li select {
 	border: 1px solid #6E6E6E;
 	border-width: 1px 1px 2px 1px;
 	border-radius: 2px;
-	padding: 8px 4px;
+	padding: 0.5em 0.2em;
+	height: 3em;
+	background-color: #ffffff;
 }
 .formbtn {
 
@@ -82,10 +84,10 @@ label, input, textarea, select {
 .formbtn > * {
 	float: right;
 	padding: 0.8em 2em;
-	margin: 4px;
+	margin: 0.2em;
 	border: solid #1A1A1A;
 	border-width: 0 0 2px 0;
-	border-radius: 4px;
+	border-radius: 0.2em;
 }
 .formbtn >*:last-child {
 		float: left;
