@@ -1,0 +1,133 @@
+body, html {
+  font-family: sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.rates-tile {
+  width: 100%;
+  background-color: #fafafa;
+  margin: 8px;
+  border-top: 1px solid;
+  padding-top: 8px;
+}
+.rates-tile:hover {
+  background-color: #c7c7c7;
+}
+
+.rates-buttons-container {
+
+  width: 100%;
+  text-align: right;
+}
+
+.rates-tile button {
+  float: right;
+  width: 28px;
+  height: 27px;
+  border: none;
+  border-left: 1px solid #c7c7c7;
+  background: #fafafa;
+  font-size: 12px;
+  color: #7d7d7d;
+}
+.rates-tile button:hover {
+  color: #fafafa;
+  background-color: #1251a6;
+}
+
+ .bid-rate-button, .ask-rate-button {
+  display: inline-block;
+  margin: 4px 16px;
+}
+
+
+@media (min-width: 500px) {
+.rates-tile {
+  width: 236px;
+  height: 85px;
+  border: 1px solid #c7c7c7;
+  padding-top: 0px;
+  color: #333333;
+  cursor: default;
+  float: left;
+
+}
+.rates-tile:hover {
+  background-color: #fafafa;
+}
+.rates-tile header {
+  float: left;
+  height: 27px;
+  padding-left: 7px;
+  line-height: 29px;
+  font-size: 13px;
+  font-weight: bold;
+}
+
+.rates-tile .rates-buttons-container {
+  clear: both;
+   text-align: left;
+  height: 56px;
+  width: auto;
+  padding-top: 10px;
+  padding-left: 7px;
+  padding-right: 7px;
+  border-top: 1px solid #c7c7c7;
+}
+.rates-tile .rates-buttons-container.clickable {
+  cursor: pointer;
+}
+.rates-tile .rates-buttons-container.clickable:hover {
+  background-color: #e6e6e6;
+}
+.rates-tile .rates-buttons-container .bid-rate-button {
+  float: left;
+  display: block;
+margin: 0;
+
+  width: 109px;
+  height: 36px;
+  border-right: 1px solid #c7c7c7;
+}
+.rates-tile .rates-buttons-container .ask-rate-button {
+  float: left;
+  display: block;
+    margin: 0;
+
+  width: 100px;
+  height: 36px;
+  margin-left: 7px;
+}
+.rates-tile .rates-buttons-container .error {
+  color: red;
+}
+.rates-tile .rates-buttons-container .stale small,
+.rates-tile .rates-buttons-container .stale em,
+.rates-tile .rates-buttons-container .stale span {
+  color: #7d7d7d;
+}
+.rates-tile .rates-buttons-container .bid-rate-error {
+  height: 1px;
+  width: 36px;
+  margin-top: 17px;
+  margin-left: 92px;
+  background-color: #333333;
+}
+.rates-tile .rate-button small {
+  font-size: 14px;
+  font-weight: bold;
+  vertical-align: top;
+  display: inline-block;
+  padding-top: 4px;
+}
+.rates-tile .rate-button em {
+  font-size: 32px;
+  font-weight: bold;
+}
+.rates-tile .rate-button span {
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 1px;
+}
+
+}
