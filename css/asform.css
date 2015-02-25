@@ -103,6 +103,11 @@ body {
 	height: 3em;
 	background-color: #ffffff;
 }
+#asform input[type="radio"] {
+	width: auto;
+	display: inline-block;
+}
+
 .valid {
 	background-color: #C3E8D5;
 }
