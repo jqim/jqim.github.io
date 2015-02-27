@@ -201,7 +201,7 @@ $(document).ready(function () {
   $(document).ready(function() {
 $(".nav-button").click(function () {
     $(".nav-button").removeClass("selected");
-    // $(".tab").addClass("selected"); // instead of this do the below 
+
     $(this).addClass("selected");   
 });
 });
@@ -218,6 +218,14 @@ $(".nav-button").click(function () {
 <div class="lefty-nav-container">
 
 	<ul class="lefty-nav-block">
+		<li class="nav-item"><span class="nav-head">Sales</span></li>
+		<li class="nav-item"><span class="nav-button selected">Overview</span></li>
+		<li class="nav-item"><span class="nav-button">Blotter</span></li>
+		<li class="nav-item"><span class="nav-button">Calendar</span></li>
+		<li class="nav-item"><span class="nav-button">Overview</span></li>
+	</ul>
+
+	<ul class="lefty-nav-block">
 		<li class="nav-item"><span class="nav-head">Client</span></li>
 		<li class="nav-item"><span class="nav-button">Info</span></li>
 		<li class="nav-item"><span class="nav-button">Users</span></li>
@@ -226,13 +234,6 @@ $(".nav-button").click(function () {
 		<li class="nav-item"><span class="nav-button">Orders</span></li>
 	</ul>
 
-	<ul class="lefty-nav-block">
-		<li class="nav-item"><span class="nav-head">Trader</span></li>
-		<li class="nav-item"><span class="nav-button selected">Market Overview</span></li>
-		<li class="nav-item"><span class="nav-button">Group Blotter</span></li>
-		<li class="nav-item"><span class="nav-button">Calendar</span></li>
-		<li class="nav-item"><span class="nav-button">Client Overview</span></li>
-	</ul>
 
 	<ul class="lefty-nav-block-bottom">
 		<li class="nav-item"><span class="nav-button">Legal Info</span></li>
