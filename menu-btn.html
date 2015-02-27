@@ -27,6 +27,7 @@ body {
 	width: 137px;
 	background-color: rgb(44, 50, 57);
 	height: 100%;
+	padding-top: 50px;
 }
 .lefty-nav-block {
 	margin-top: 0;
@@ -113,9 +114,9 @@ body {
 }
 .selected:hover { 
 	background-color: rgb(27, 31, 35);
-	-webkit-transform: translate(0px,0);
+/*	-webkit-transform: translate(0px,0);
 	-moz-transform: translate(0px,0);
-	transform: translate(0px,0);
+	transform: translate(0px,0);*/
 }
 .selected:after {
 	content: "";
@@ -130,9 +131,12 @@ body {
 .client-bar {
 	background-color: rgb(63, 70, 75);
 	border-bottom: 1px solid rgb(27, 31, 35);
+	position: absolute;
+	width: 100%;
+}
 }
 .btn-medium {
-width: 120px;
+	width: 120px;
 }
 .btn-primary {
 	display: inline-block;
@@ -153,6 +157,7 @@ width: 120px;
 	color: #fafafa;
 	border-color: #082946;
 	border-width: 0 0 2px 0;
+	width: 120px;
 }
 
 .btn-primary:hover {
@@ -182,7 +187,34 @@ width: 120px;
 	padding: 0 1.6em;
 	font-weight: bold;
 }
-
+.width-shield {
+	position: relative;
+}
+.client-shield {
+	padding: 34px 12px 2px 12px;
+	background: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7); /*Transparent .gif to stop clicks going through*/
+	position: absolute;
+  	height: 100%;
+  	top: 0;
+  	left: 0; 
+  	z-index: 100;
+	cursor: not-allowed;
+}
+.client-shield-placard {
+	font-size: 14px;
+	line-height: 16px;
+	font-weight: bold;
+	color:rgb(250, 250, 250);
+	background-color: rgba(37, 43, 49, 0.9);
+	border: 1px solid rgba(27, 31, 35, 0.9);
+	border-radius: 2px;
+	padding: 16px 16px 20px 16px;
+	height: 100%;
+	width: 100%;
+}
+.hide {
+	display: none;
+}
 </style>
 <script type="text/javascript" src="localJQ/jquery-git.js"></script>
 <script type="text/javascript">
@@ -194,13 +226,14 @@ $(document).ready(function () {
         $('#client-block').removeClass('bar-hover');
     });
 
-});
-  $(document).ready(function() {
-$(".nav-button").click(function () {
-    $(".nav-button").removeClass("selected");
-
+	$(".nav-button").click(function () {
+    	$(".nav-button").removeClass("selected");
     $(this).addClass("selected");   
-});
+	});
+
+ 	$("#search-btn").click(function () {
+ 		$( "div.client-shield" ).toggleClass( "hide" )
+ 	});
 });
 </script>
 </head>
@@ -208,7 +241,7 @@ $(".nav-button").click(function () {
 <body>
 <div class="client-bar">
 	<div class="bar-button search-btn-container" id="new-client">
-		<button class="btn-medium btn-primary">Search Clients</button></div>
+		<button id="search-btn"class="btn-medium btn-primary">Search Clients</button></div>
 	<div class="bar-button client-btn" ><span class="client-name">W.H.Smiths</div>
 	<div class="cf"></div>
 </div>
@@ -222,7 +255,8 @@ $(".nav-button").click(function () {
 		<li class="nav-item"><span class="nav-button">Calendar</span></li>
 		<li class="nav-item"><span class="nav-button">Overview</span></li>
 	</ul>
-
+<div class="width-shield">
+	<div class="client-shield"><div class="client-shield-placard">No client selected</div></div>
 	<ul class="lefty-nav-block">
 		<li class="nav-item"><span class="nav-head">Client</span></li>
 		<li class="nav-item"><span class="nav-button">Info</span></li>
@@ -232,7 +266,7 @@ $(".nav-button").click(function () {
 		<li class="nav-item"><span class="nav-button">Orders</span></li>
 	</ul>
 
-
+</div>
 	<ul class="lefty-nav-block-bottom">
 		<li class="nav-item"><span class="nav-button">Legal Info</span></li>
 		<li class="nav-item"><span class="nav-button">Settings</span></li>
@@ -240,6 +274,6 @@ $(".nav-button").click(function () {
 	</ul>
 
 </div>
-
+	
 </body>
 </html>
