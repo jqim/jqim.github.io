@@ -102,6 +102,7 @@ body {
 	border-width: 1px 1px 2px 1px;
 	height: 3em;
 	background-color: #ffffff;
+	padding-left: 0.6em;
 }
 #asform input[type="radio"] {
 	width: auto;
@@ -130,7 +131,7 @@ body {
 	float: right;
 }
 .invalid:after {
-	content: "Somthing is not right with this email, please check it's yours.";
+	content: "Somthing is not right with this email, please check it's the right one.";
 	color: #3D0C08;
 	padding: 0.2em;
 }
@@ -146,6 +147,8 @@ body {
 	float: right;
 	padding: 0.8em 2em;
 	margin: 0.2em;
+	font-weight: bold;
+	background-color: #137BD1;
 	border: solid #1A1A1A;
 	border-width: 0 0 2px 0;
 	border-radius: 2px;
