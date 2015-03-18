@@ -26,7 +26,7 @@ body {
 	border-radius: 4px;
 }
 #asform > fieldset {
-	padding: 56px 1.5em 2em 1.5em;
+	padding: 56px 0.5em 2em 0.5em;
 	border:none;
 /*	margin: 1em 0 2em 0;*/
 /*	border-radius: 4px;*/
@@ -86,7 +86,7 @@ body {
 	border-radius: 2px;
 	line-height: 1.5em;
 	margin-bottom: 0.4em;
-	font-size: 1.2em;
+	font-size: 1em;
 }
 #asform input:hover,
 #asform select:hover,
@@ -162,6 +162,9 @@ body {
 	float: right;
 	cursor: help;
 	font-weight: normal;
+}
+.readmorebtn:hover {
+	text-decoration: underline;
 }
 .helpText {
 	padding: 0.4em 0 1em 0;
