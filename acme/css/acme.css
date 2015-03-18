@@ -1,0 +1,179 @@
+html, body, h1, form, fieldset, legend, ol, li {
+	margin: 0;
+	padding: 0;
+}
+body {
+/*	background: #FAFAFA;*/
+	color: #333333;
+	font-family: sans-serif;
+}
+
+/*label, input, textarea, select {
+	box-sizing:border-box;
+	display: block;
+	padding: 0.5em;
+}*/
+*:focus {
+	outline: 2px dotted #0CA3F5;
+	outline-offset:2px;
+}
+#asform {
+	margin: 1em auto 2em auto;
+	padding: 1em;
+	max-width: 36em;
+	counter-reset: fieldsets;
+	background-color: #E6E6E6;
+	border-radius: 4px;
+}
+#asform > fieldset {
+	padding: 56px 1.5em 2em 1.5em;
+	border:none;
+/*	margin: 1em 0 2em 0;*/
+/*	border-radius: 4px;*/
+	position:relative;
+	background-color: #FAFAFA;
+}
+#asform > fieldset + fieldset {
+	border-top: 1px solid #989898;
+}
+#asform > fieldset:first-of-type {
+	margin-top:1em;
+	border-radius: 4px 4px 0 0;
+}
+#asform > fieldset:last-of-type {
+	border-radius: 0 0 4px 4px;
+	margin-bottom: 2em;
+}
+
+#asform > fieldset > legend {
+	top: 1.5em;
+	left: 1.5em;;
+    position:absolute;
+}
+#asform > fieldset > legend:before {
+	content: "Step " counter(fieldsets) ": ";
+	counter-increment: fieldsets;
+}
+
+#asform ol li {
+	list-style: none;
+	margin: 0.2em 0 0.5em 0;
+}
+
+#asform ol li label {
+/*	font-size: 0.8em;*/
+	font-weight: bold;
+	line-height: 1.5em;
+	cursor: pointer;
+	display: block;
+	padding: 0.4em;
+	position: relative;
+}
+/*#asform ol li label:hover {
+	background-color: #969696;
+}*/
+/*#asform ol li label > *{
+	width: 100%;
+	}	*/
+
+#asform input,
+#asform select,
+#asform textarea {
+	box-sizing: border-box;
+	border: 1px solid #6E6E6E;
+	display: block;
+	width: 100%;
+	border-radius: 2px;
+	line-height: 1.5em;
+	margin-bottom: 0.4em;
+	font-size: 1.2em;
+}
+#asform input:hover,
+#asform select:hover,
+#asform textarea:hover {
+	border-color: #69B7BF;
+
+}
+#asform input,
+#asform textarea {
+	border-width: 2px 1px 1px 1px;
+	padding: 0.8em;
+}
+
+#asform select {
+	border-width: 1px 1px 2px 1px;
+	height: 3em;
+	background-color: #ffffff;
+	padding-left: 0.6em;
+}
+#asform input[type="radio"] {
+	width: auto;
+	display: inline-block;
+	float: left;
+}
+#asform .radio {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.valid {
+	background-color: #C3E8D5;
+}
+.valid:before {
+	content: "\2713";
+	color: #60967A;
+	float: right;
+}
+.invalid {
+	background-color: #DA9098;
+}
+.invalid:before {
+	content: "\2716";
+	color: #B63E43;
+	float: right;
+}
+.invalid:after {
+	content: "Somthing is not right with this email, please check it's the right one.";
+	color: #3D0C08;
+	padding: 0.2em;
+}
+.formbtn {
+
+}
+.formbtn:after {
+	content: "";
+    display: table;
+    clear: both;
+}
+.formbtn > *:first-child {
+	float: right;
+	padding: 0.8em 2em;
+	margin: 0.2em;
+	font-weight: bold;
+	background-color: #137BD1;
+	border: solid #1A1A1A;
+	border-width: 0 0 2px 0;
+	border-radius: 2px;
+}
+.formbtn >*:nth-child(n+2) {
+		float: left;
+}
+.readmorebtn {
+	float: right;
+	text-decoration: underline;
+	cursor: help;
+	font-weight: normal;
+}
+.helpText {
+	padding: 0.4em 0 1em 0;
+	font-weight: normal;
+}
+.helpText > p {
+	margin: 0.4em 0;
+}
+.counter {
+  position: absolute;
+  bottom: 12px;
+  right: 14px;
+  font-size: 0.8em;
+}
