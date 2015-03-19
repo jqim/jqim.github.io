@@ -21,7 +21,7 @@
 $(document).ready(function() {
   $('div.helpText').hide();  
   $('a.readmorebtn').click(function() {
-    $(this).next().slideToggle('fast');
+    $(this).nextAll('div.helpText').slideToggle('fast');
   });
 
   $("#title").charCount({
@@ -42,41 +42,48 @@ $(document).ready(function() {
 
 		<ol>
 			<li>
-				<label>Name of policy holder
-					<input id="name" type="text" name="name" placeholder="First and Last name">
-				</label>
+				<label class="valid">Name of policy holder</label>
+				<a class="readmorebtn">Where is this?</a>
+					<div class="cf"></div>
+					<div class="helpText">
+						<img src="http://placehold.it/200x150">
+						<p>Your policy number is in your welcome email and letter</p>
+					</div>
+				
+				<input id="name" type="text" name="name" placeholder="First and Last name">
+				
 			</li>
 
 			<li>
-				<label>Policy number	
-						<a class="readmorebtn">Where is this?</a>
-						<div class="helpText">
-							<img src="http://placehold.it/200x150">
-							<p>Your policy number is in your welcome email and letter</p>
-						</div>
-					<input id="claimNumberMask" type="text" name="name" placeholder="xxxx-xxxx-xxxx">
-				</label>
+				<label>Policy number</label>	
+				<a class="readmorebtn">Where is this?</a>
+				<div class="cf"></div>
+					<div class="helpText">
+						<img src="http://placehold.it/200x150">
+						<p>Your policy number is in your welcome email and letter</p>
+					</div>
+				<input id="claimNumberMask" type="text" name="name" placeholder="xxxx-xxxx-xxxx">
 			</li>
 
 			<li>
-				<label class="longDescription">Description of claim
-					<a class="readmorebtn">What to include?</a>
-						<div class="helpText">
-							<p>Describe the things that caused the damage you whish to claim for then list the items damaged</p>
-							<a href="#">Claim description guide</a>
-						</div>
-					<textarea name="description" rows="5" placeholder=""></textarea>
-				</label>
+				<label class="longDescription">Description of claim</label>
+				<a class="readmorebtn">What to include?</a>
+				<div class="cf"></div>
+					<div class="helpText">
+						<p>Describe the things that caused the damage you whish to claim for then list the items damaged</p>
+						<a href="#">Claim description guide</a>
+					</div>
+				<textarea name="description" rows="5" placeholder=""></textarea>
 			</li>
 
 			<li>
-				<label class="shortDescription">Title of claim
-					<a class="readmorebtn">Why?</a>
-						<div class="helpText">
-							<p>This title will show up on your claim dashboard and on our systems</p>
-						</div>
-					<textarea name="title" rows="2" id="title" type="text"  placeholder="Contents insurance claim 12/05/2017"></textarea>
-				</label>
+				<label class="shortDescription">Title of claim</label>
+				<a class="readmorebtn">Why?</a>
+				<div class="cf"></div>
+					<div class="helpText">
+						<p>This title will show up on your claim dashboard and on our systems</p>
+					</div>
+				<textarea name="title" rows="2" id="title" type="text"  placeholder="Contents insurance claim 12/05/2017"></textarea>
 			</li>
 
 

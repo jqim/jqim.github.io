@@ -13,6 +13,16 @@ body {
 	display: block;
 	padding: 0.5em;
 }*/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
 *:focus {
 	outline: 2px dotted #0CA3F5;
 	outline-offset:2px;
@@ -57,7 +67,8 @@ body {
 
 #asform ol li {
 	list-style: none;
-	margin: 0.2em 0 0.5em 0;
+	margin: 0.8em 0 1.2em 0;
+	position: relative;
 }
 
 #asform ol li label {
@@ -65,9 +76,9 @@ body {
 	font-weight: bold;
 	line-height: 1.5em;
 	cursor: pointer;
-	display: block;
-	padding: 0.4em;
-	position: relative;
+	padding: 0.4em;	
+	float: left;
+
 }
 /*#asform ol li label:hover {
 	background-color: #969696;
@@ -75,7 +86,16 @@ body {
 /*#asform ol li label > *{
 	width: 100%;
 	}	*/
-
+.readmorebtn {
+	line-height: 1.5em;
+	font-weight: normal;
+	cursor: help;
+	padding: 0.4em;
+	float: right;
+}
+.readmorebtn:hover {
+	text-decoration: underline;
+}
 #asform input,
 #asform select,
 #asform textarea {
@@ -117,26 +137,25 @@ body {
 }
 
 .valid {
-	background-color: #C3E8D5;
-}
-.valid:before {
-	content: "\2713";
 	color: #60967A;
-	float: right;
+}
+.valid:after {
+	content: "\2713";
+	margin: 0 0.6em;
+
 }
 .invalid {
-	background-color: #DA9098;
+	color: #DA9098;
 }
-.invalid:before {
+.invalid:after{
 	content: "\2716";
 	color: #B63E43;
-	float: right;
 }
-.invalid:after {
+/*.invalid:after {
 	content: "Somthing is not right with this email, please check it's the right one.";
 	color: #3D0C08;
 	padding: 0.2em;
-}
+}*/
 .formbtn {
 
 }
@@ -158,16 +177,10 @@ body {
 .formbtn >*:nth-child(n+2) {
 		float: left;
 }
-.readmorebtn {
-	float: right;
-	cursor: help;
-	font-weight: normal;
-}
-.readmorebtn:hover {
-	text-decoration: underline;
-}
+
 .helpText {
-	padding: 0.4em 0 1em 0;
+	line-height: 1.5em;
+	padding: 0.4em 0.4em 1em 0.4em;
 	font-weight: normal;
 }
 .helpText > p {
