@@ -168,14 +168,22 @@ body {
 	float: right;
 	padding: 0.8em 2em;
 	margin: 0.2em;
+	font-size: 14px;
 	font-weight: bold;
-	background-color: #137BD1;
+	color: #ffffff;
+	background-color: #0f2661;
 	border: solid #1A1A1A;
 	border-width: 0 0 2px 0;
-	border-radius: 2px;
+
 }
 .formbtn >*:nth-child(n+2) {
-		float: left;
+	float: left;
+	border: none;
+	background-color: transparent;
+	color: #cb1a2b;
+	font-size: 14px;
+	font-weight: bold;
+	text-decoration: underline;
 }
 
 .helpText {
