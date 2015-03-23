@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+		<title>Trade setup</title>
+
+<style>
+
+html, body, ol, li {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #333333;
+	font-family: sans-serif;
+}
+
+* {
+	box-sizing:border-box;
+}
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+.ticket {
+	max-width:600px;
+	border:1px solid grey;
+	padding: 24px 0 24px 24px;
+
+}
+ol {
+	list-style:none;
+	position: relative;
+}
+
+ol > li {
+	width:170px;
+	float:left;
+	margin: 10px 20px 10px 0;
+}
+label, input {
+	width:100%;
+	display:block;
+
+}
+.buttonContainer {
+	width: 170px;
+	float:right;
+	text-align: center;
+	margin-right: 20px;
+}
+.buttonContainer > button {
+	margin: 8px auto;
+	width: 120px;
+	height: 26px;
+	display: inline-block;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+	border-style:solid;
+	border-width: 0px 0px 2px 0px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	border-color: #082946;
+	background-color: #1251a6;
+	color: #fafafa;
+	cursor: pointer;
+
+}
+ol:after {
+	position: absolute;
+	right:-216px;
+	top: 28px;
+	width: 200px;
+	text-indent: -20px;
+}
+
+.required:after {
+	content:'<- These feilds are required';
+}
+.group:after {
+	content:'<- These three feilds are always together';
+}
+.additional:after {
+	content:'<- These are custom additional feilds';
+}
+
+</style>
+<div class="ticket">
+
+	<ol class="required">
+		<li>
+			<label>Required</label>
+			<input type="text">
+		</li>
+
+		<li>
+			<label>Required</label>
+			<input type="text">
+		</li>
+
+			<li>
+			<label>Required</label>
+			<input type="text">
+		</li>
+
+		<div class="cf"></div>
+	</ol>
+
+	<ol class="group">
+		<li>
+			<label>direction</label>
+			<input type="text">
+		</li>
+
+		<li>
+			<label>Amount</label>
+			<input type="text">
+		</li>
+
+			<li>
+			<label>Settlement</label>
+			<input type="text">
+		</li>
+
+		<div class="cf"></div>
+	</ol>
+
+	<ol class="additional">
+		<li>
+		<label>Additional</label>
+			<input type="text">
+		</li>
+
+		<li>
+			<label>Additional</label>
+			<input type="text">
+		</li>
+
+		<li>
+			<label>Additional</label>
+			<input type="text">
+		</li>
+			<li>
+			<label>Additional</label>
+			<input type="text">
+		</li>
+
+		<div class="cf"></div>
+	</ol>
+
+	<div class="buttonContainer">
+		<button type="getQuote" value="Get quote">Get quote</button>
+
+	</div>
+	<div class="cf"></div>
+</div>
+
+</html>
