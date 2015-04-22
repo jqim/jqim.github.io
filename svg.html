@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width">
+	<style>
+body {
+/*	margin: 0;
+	padding: 0;*/
+}
+* { 
+	box-sizing: border-box; 
+}
+svg {
+	height: 100%;
+	width: auto;
+}
+input[type=checkbox] {
+	display: none;
+}
+input[type=checkbox] + label {
+ font-style: italic;
+ cursor: pointer;
+ line-height: 20px;
+     -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+input[type=checkbox] + label > .checkIcon {
+   	height: 20px;
+   	width: 20px;
+   	background-color: grey;
+   	border:1px solid black;
+   	margin-right: 4px;
+  	float: left;
+/*  	position: relative;*/
+}
+/*input[type=checkbox] + label > .checkIcon > svg {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}*/
+
+input[type=checkbox] + label > .checkIcon {
+	fill:blue;
+
+} 
+input[type=checkbox]:checked + label > .checkIcon {
+	background-color: black;
+	border-color: pink;
+}
+input[type=checkbox]:checked + label > .checkIcon {
+  	fill:pink;
+
+} 
+
+
+</style>
+</head>
+<body>
+<input type="checkbox" id="checkbox_id">
+<label for="checkbox_id">
+	<span class="checkIcon">
+		<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" x="0px" y="0px" viewBox="0 0 256 256" enable-background="new 0 0 256 256" xml:space="preserve"><polygon points="107.5,211.7 39.4,143.6 60.6,122.4 107.5,169.3 220.9,55.9 242.1,77.1"/></svg>
+	</span>
+	Check me!
+</label>
+</body>
+</html>
