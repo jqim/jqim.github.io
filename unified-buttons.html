@@ -1,0 +1,108 @@
+<html>
+<head>
+
+</head>
+<style>
+body {
+	font-family: "Arial", sans-serif;
+	color: #444444;
+}
+.cf:before,
+.cf:after {
+    content: " ";
+    display: table;
+}
+
+.cf:after {
+    clear: both;
+}
+.wrap {
+	max-width: 600px;
+	margin: 40px auto;
+	-webkit-box-shadow: 0px 0px 22px 5px rgba(0,0,0,0.3);
+	-moz-box-shadow: 	0px 0px 22px 5px rgba(0,0,0,0.3);
+	box-shadow: 		0px 0px 22px 5px rgba(0,0,0,0.3);
+	padding: 20px;
+}
+
+.btn {
+	display: inline-block;
+	-webkit-appearance: none;
+   	-moz-appearance:    none;
+   	appearance:         none;
+	text-decoration: none;
+	border: none;
+    overflow: auto;
+    outline: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: 	none;
+    box-shadow: 		none;
+    cursor: pointer;
+	-webkit-border-radius: 	4px;
+	-moz-border-radius: 	4px;
+	border-radius: 			4px;
+}
+
+.btn-primary {
+	padding: 10px 20px;
+	background-color: #2c3e50;
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: bold;
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
+}
+.btn-secondary {
+	padding: 10px 20px;
+	background-color: #696969;
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: bold;
+	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
+}
+
+
+.buttongroup {
+	text-align: right;
+	padding: 10px;
+	width: 400px;
+	background-color: #eeeeee;
+	border:1px solid #d9d9d9;
+}
+.buttongroup--button {
+	width: 90px;
+}
+
+
+}
+</style>
+<body>
+	<div class="wrap">
+		<h1>Unified button library</h1>
+
+		<hr />
+
+		<h3>Primary button</h3>
+		<p>There should be only one of these given a choice of buttons, it should be the affermative action i.e. takes the user to the next step</p>
+		<button class="btn btn-primary">Post Allocations</button>
+		<button class="btn btn-primary">Accept</button>
+		<button class="btn btn-primary">OK</button>
+
+		<hr />
+
+		<h3>Secondary button</h3>
+		<p>These are ancillary choices to the primary action, or persistent functions</p>
+		<button class="btn btn-secondary">Cancel</button>
+		<button class="btn btn-secondary">Print</button>
+
+		<hr />
+
+		<h3>Button group</h3>
+		<p>A group of buttons are normaly aligned to the right to signify the next step in an interaction. The primary button is always on the far right</p>
+		<div class="buttongroup">
+			<button class="buttongroup--button btn btn-secondary">Cancel</button>
+			<button class="buttongroup--button btn btn-primary">OK</button>
+		</div>
+	</div>
+
+</body>
+</html>
