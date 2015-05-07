@@ -43,24 +43,40 @@ body {
 	border-radius: 			4px;
 }
 
-.btn-primary {
+.btn-medium {
 	padding: 10px 20px;
+	font-size: 12px;
+}
+
+.btn-small {
+	padding: 6px 8px ;
+	font-size: 11px;
+}
+
+.btn-primary {
 	background-color: #2c3e50;
 	color: #ffffff;
-	font-size: 12px;
 	font-weight: bold;
 	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
 }
+
 .btn-secondary {
-	padding: 10px 20px;
 	background-color: #696969;
 	color: #ffffff;
-	font-size: 12px;
 	font-weight: bold;
 	text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.4);
 }
-
-
+.btn-option {
+	line-height: 26px;
+	padding: 0px 6px;
+	text-transform: uppercase;
+	border-style: solid;
+	border-width: 1px 1px 2px 1px;
+	border-color: #d4d4d4;
+	color: #444444;
+	background-color: #ffffff;
+	font-weight: bold;
+}
 .buttongroup {
 	text-align: right;
 	padding: 10px;
@@ -68,6 +84,7 @@ body {
 	background-color: #eeeeee;
 	border:1px solid #d9d9d9;
 }
+
 .buttongroup--button {
 	width: 90px;
 }
@@ -83,24 +100,38 @@ body {
 
 		<h3>Primary button</h3>
 		<p>There should be only one of these given a choice of buttons, it should be the affermative action i.e. takes the user to the next step</p>
-		<button class="btn btn-primary">Post Allocations</button>
-		<button class="btn btn-primary">Accept</button>
-		<button class="btn btn-primary">OK</button>
+		<button class="btn btn-medium btn-primary">Post Allocations</button>
+		<button class="btn btn-medium btn-primary">Accept</button>
+		<button class="btn btn-medium btn-primary">OK</button>
 
 		<hr />
 
 		<h3>Secondary button</h3>
 		<p>These are ancillary choices to the primary action, or persistent functions</p>
-		<button class="btn btn-secondary">Cancel</button>
-		<button class="btn btn-secondary">Print</button>
+		<button class="btn btn-medium btn-secondary">Cancel</button>
+		<button class="btn btn-medium btn-secondary">Print</button>
+
+		<hr />
+
+		<h3>Small buttons</h3>
+		<p>These are for functions that are localised to a portion of a compomnet</p>
+		<button class="btn btn-small btn-secondary">Add All Accounts</button>
+		<button class="btn btn-small btn-secondary">Split</button>
+
+		<hr />
+
+		<h3>option buttons</h3>
+		<p>These are for functions that are localised to a portion of a compomnet</p>
+		<button class="btn btn-option">Add All Accounts</button>
+		<button class="btn btn-option">Split</button>
 
 		<hr />
 
 		<h3>Button group</h3>
 		<p>A group of buttons are normaly aligned to the right to signify the next step in an interaction. The primary button is always on the far right</p>
 		<div class="buttongroup">
-			<button class="buttongroup--button btn btn-secondary">Cancel</button>
-			<button class="buttongroup--button btn btn-primary">OK</button>
+			<button class="buttongroup--button btn btn-medium btn-secondary">Cancel</button>
+			<button class="buttongroup--button btn btn-medium btn-primary">OK</button>
 		</div>
 	</div>
 
