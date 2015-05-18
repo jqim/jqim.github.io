@@ -7,7 +7,21 @@
 	<style>
 	body{
 		font: 62.5% arial, sans-serif;
-		margin: 50px;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+
+	}
+	.bg-mock {
+		position: relative;
+		width: 1280px;
+		height: 1024px;
+		background-image: url(img/st_1280x1024.png);
+	}
+	.decision-widget {
+		position: absolute;
+		top:127px;
+		right: 38px;
 		width: 452px;
 	}
 	.demoHeaders {
@@ -51,23 +65,21 @@
 </head>
 <body>
 
+<div class="bg-mock">
 
-
-<!-- Accordion -->
-<div id="accordion">
-	<h3><img src="img/miniblotter-title.png"></h3>
-	<div><img src="img/miniblotter-list.png"></div>
-	<h3><img src="img/rate-title.png"></h3>
-	<div><img src="img/rate-open.png"></div>
-	<h3><img src="img/dealtwith-title.png"></h3>
-	<div><img src="img/dealtwith-open.png"></div>
-	<h3><img src="img/hit-title.png"></h3>
-	<div><img src="img/hit-open.png"></div>
-</div>
-
-
-
+	<!-- Accordion -->
+	<div id="accordion" class="decision-widget">
+		<h3><img src="img/miniblotter-title.png"></h3>
+		<div><img src="img/miniblotter-list.png"></div>
+		<h3><img src="img/rate-title.png"></h3>
+		<div><img src="img/rate-open.png"></div>
+		<h3><img src="img/dealtwith-title.png"></h3>
+		<div><img src="img/dealtwith-open.png"></div>
+		<h3><img src="img/hit-title.png"></h3>
+		<div><img src="img/hit-open.png"></div>
 	</div>
+
+
 </div>
 
 <script src="external/jquery/jquery.js"></script>
