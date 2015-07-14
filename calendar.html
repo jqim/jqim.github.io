@@ -3,7 +3,7 @@
 
  * { 
     box-sizing: border-box;
-    transition: all 0.2s ease;
+    transition: all 0.2s ease-in-out;
   }
 
 .cf:before,
@@ -117,9 +117,6 @@
   margin:2px;
   float:left;
 }
-.double {
-  width: 54px;
-}
 
 .weekdays > span {
   font-size: 12px;
@@ -132,6 +129,7 @@
   margin: 2px;
   float: left;
 }
+
 .valid {
   background-color:#2b92b6;
   color:#ffffff;
@@ -139,11 +137,48 @@
   cursor:pointer;
 }
 
-.valid:hover {
-  /*color: #425262;*/
- /* border-color: #2c3e50;*/
-  text-decoration: overline underline;
+.valid:after {
+  content:"";
+  position:relative;
+  display: block;
+  top:-28px;
+  left: -3px;
+  width: 27px;
+  height: 27px;
+  border:2px solid #888888;
+  border-radius: 4px;
+  opacity: 0;
+  transition: opacity .2s ease-in-out;
+}
 
+.valid:hover {
+  color: #425262;
+ /* border-color: #2c3e50;*/
+/*  text-decoration: overline underline;*/
+}
+
+.valid:hover:after {
+  opacity: 1;
+}
+
+.selected:after {
+  content:"";
+  position:relative;
+  display: block;
+  top:-28px;
+  left: -3px;
+  width: 27px;
+  height: 27px;
+  border:2px solid #2c3e50;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.double {
+  width: 54px;
+}
+.double:after {
+  width: 56px;
 }
 
 .invalid {
@@ -161,17 +196,7 @@
 
 }
 
-.selected:after {
-  content:"";
-  position:relative;
-  display: block;
-  top:-28px;
-  left: -3px;
-  width: 27px;
-  height: 27px;
-  border:2px solid #2c3e50;
-  border-radius: 4px;
-}
+
 
 </style>
 
