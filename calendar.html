@@ -140,7 +140,10 @@
 }
 
 .valid:hover {
-  background-color: #425262;
+  /*color: #425262;*/
+ /* border-color: #2c3e50;*/
+  text-decoration: overline underline;
+
 }
 
 .invalid {
@@ -150,12 +153,15 @@
   cursor: not-allowed;
 }
 
-.selected {
+.spot{
   background-color: #2c3e50;
   border-bottom: 2px solid #1b1f23;
 }
+.today {
 
-.spot:after {
+}
+
+.selected:after {
   content:"";
   position:relative;
   display: block;
@@ -168,6 +174,21 @@
 }
 
 </style>
+
+<script type="text/javascript" src="localJQ/jquery-git.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function () {
+  
+
+  $(".valid").click(function () {
+      $(".valid").removeClass("selected");
+    $(this).addClass("selected");   
+  });
+
+
+});
+</script>
 
 <body>
 <div class="cf datepicker">
@@ -208,9 +229,9 @@
       <div class="date invalid">11</div>
       <div class="date invalid">12</div>
     
-      <div class="date valid selected">13</div>
+      <div class="date valid today">13</div>
       <div class="date valid">14</div>
-      <div class="date valid spot">15</div>
+      <div class="date valid spot ">15</div>
       <div class="date valid">16</div>
       <div class="date valid">17</div>
       <div class="date invalid">18</div>
@@ -219,7 +240,7 @@
       <div class="date invalid">20</div>
       <div class="date valid">21</div>
       <div class="date valid">22</div>
-      <div class="date valid">23</div>
+      <div class="date valid selected">23</div>
       <div class="date valid">24</div>
       <div class="date invalid">25</div>
       <div class="date invalid">26</div>
@@ -237,7 +258,7 @@
   <div class="cf tenors">
       <div class="date double valid">Today</div>
       <div class="date double valid">Tom.</div>
-      <div class="date double valid">Spot</div>
+      <div class="date double spot valid">Spot</div>
       <div class="date valid">1d</div>
       <div class="date valid">1w</div>
       <div class="date valid">2w</div>
