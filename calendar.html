@@ -55,10 +55,25 @@
   font-size: 12px;
 }
 
-.calendar {
-  width: 257px;
-  padding: 27px;
+.datepicker {
   background-color: #e4e4e4;
+  padding: 25px 25px 35px 25px;
+  width: 429px;
+  border-radius: 4px;
+  border: 1px solid #c5c5c5;
+  border-width: 1px 1px 2px 1px;
+}
+
+.calendar {
+  width: 203px;
+  float: left;
+}
+
+.tenors {
+  width: 145px;
+  margin-top: 49px;
+  margin-left: 25px;
+  float: left;
 }
 .changemonth {
   float: left;
@@ -88,7 +103,6 @@
   float: left;
   margin: 2px;
   cursor: default;
-
 }
 
 .date {
@@ -102,6 +116,21 @@
   border-radius:2px;
   margin:2px;
   float:left;
+}
+.double {
+  width: 54px;
+}
+
+.weekdays > span {
+  font-size: 12px;
+  font-weight: normal;
+  font-family: arial;
+  text-align: center;
+  color: #333333;
+  width: 25px;
+  height:16px;
+  margin: 2px;
+  float: left;
 }
 .valid {
   background-color:#2b92b6;
@@ -141,11 +170,11 @@
 </style>
 
 <body>
-
+<div class="cf datepicker">
 
   <div class="cf calendar">
 
-    <div class="monthyear">
+    <div class="cf monthyear">
       <i class="icon-chevron-l-12 changemonth"></i>
       <span class="month">
         July 2015
@@ -153,6 +182,16 @@
       <i class="icon-chevron-r-12 changemonth"></i>
     </div>
     
+    <div class="cf weekdays">
+        <span>Mo</span>
+        <span>Tu</span>
+        <span>We</span>
+        <span>Th</span>
+        <span>Fr</span>
+        <span>Sa</span>
+        <span>Su</span>
+    </div>
+
       <div class="date invalid">29</div>
       <div class="date invalid">30</div>
       <div class="date invalid">1</div>
@@ -194,6 +233,29 @@
       <div class="date invalid">2</div>
 
   </div>
+
+  <div class="cf tenors">
+      <div class="date double valid">Today</div>
+      <div class="date double valid">Tom.</div>
+      <div class="date double valid">Spot</div>
+      <div class="date valid">1d</div>
+      <div class="date valid">1w</div>
+      <div class="date valid">2w</div>
+      <div class="date valid">3w</div>
+      <div class="date valid">1m</div>
+      <div class="date valid">2m</div>
+      <div class="date valid">3m</div>
+      <div class="date valid">4m</div>
+      <div class="date valid">5m</div>
+      <div class="date valid">6m</div>
+      <div class="date valid">9m</div>
+      <div class="date valid">1y</div>
+      <div class="date valid">15m</div>
+      <div class="date valid">18m</div>
+      <div class="date valid">2y</div>
+  </div>
+
+</div>
 
 </body>
 </html>
