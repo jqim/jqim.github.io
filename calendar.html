@@ -1,7 +1,10 @@
  <html>
  <style>
 
- * { box-sizing: border-box;}
+ * { 
+    box-sizing: border-box;
+    transition: all 0.2s ease;
+  }
 
 .cf:before,
 .cf:after {
@@ -12,11 +15,80 @@
 .cf:after {
     clear: both;
 }
+.f-left{
+  float: left;
+}
+.f-right{
+  float: right;
+}
+
+@font-face {
+  font-family: 'FX-sales';
+  src:url('fonts/FX-sales.eot?-yf8bxg');
+  src:url('fonts/FX-sales.eot?#iefix-yf8bxg') format('embedded-opentype'),
+    url('fonts/FX-sales.woff?-yf8bxg') format('woff'),
+    url('fonts/FX-sales.ttf?-yf8bxg') format('truetype'),
+    url('fonts/FX-sales.svg?-yf8bxg#FX-sales') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'FX-sales';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-chevron-r-12:before {
+  content: "\e60a";
+  font-size: 12px;
+}
+.icon-chevron-l-12:before {
+  content: "\e60b";
+  font-size: 12px;
+}
 
 .calendar {
   width: 257px;
   padding: 27px;
   background-color: #e4e4e4;
+}
+.changemonth {
+  float: left;
+  text-align: center;
+  height: 25px;
+  width: 25px;
+  line-height: 25px;
+  margin: 2px;
+  border-radius: 2px;
+  color: #333333;
+  cursor: pointer;
+
+}
+.changemonth:hover {
+  color: #ffffff;
+  background-color: #333333;
+}
+.month {
+  font-size: 18px;
+  color: #333333;
+  text-align: center;
+  font-family: arial;
+  font-weight: bold;
+  width: 141px; /*(25@grid + (2 × @margin2)) × 5 - (2 × @margin2)*/
+  height: 25px;
+  line-height: 25px;
+  float: left;
+  margin: 2px;
+  cursor: default;
+
 }
 
 .date {
@@ -72,6 +144,14 @@
 
 
   <div class="cf calendar">
+
+    <div class="monthyear">
+      <i class="icon-chevron-l-12 changemonth"></i>
+      <span class="month">
+        July 2015
+      </span>
+      <i class="icon-chevron-r-12 changemonth"></i>
+    </div>
     
       <div class="date invalid">29</div>
       <div class="date invalid">30</div>
