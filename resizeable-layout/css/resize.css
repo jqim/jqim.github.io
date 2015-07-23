@@ -1,7 +1,8 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: arial, sans-serif;
-  background: none; }
+.test3 {
+  background-color: red;
+  color: white; }
+
+.test3[max-width~="500px"] {
+  background-color: blue; }
 
 /*# sourceMappingURL=resize.css.map */
