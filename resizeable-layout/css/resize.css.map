@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,IAAK;EACJ,MAAM,EAAC,CAAC;EACR,OAAO,EAAC,CAAC;EACT,WAAW,EAAE,iBAAiB;EAC9B,UAAU,EAAC,IAAI",
+"sources": ["../sass/resize.scss"],
+"names": [],
+"file": "resize.css"
+}

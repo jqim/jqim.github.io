@@ -1,0 +1,1 @@
+sass --watch "/Users/jamesma/Git/jqim.github.io/resizeable-layout/sass/resize.scss":"/Users/jamesma/Git/jqim.github.io/resizeable-layout/css/resize.css"
