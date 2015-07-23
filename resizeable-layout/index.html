@@ -5,38 +5,85 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>untitled</title>
 
-    <link rel="stylesheet" href="css/resize.css" type="text/css" /> 
-    
-
- 
-
+    <link rel="stylesheet" href="css/resize.css" /> 
+    <script src="js/jquery.js"></script>
+    <script src="js/splitter.js"></script>
     <script src="js/ResizeSensor.js"></script>
     <script src="js/ElementQueries.js"></script>
+    <script type="text/javascript">
+ 
+        $().ready(function() {
+            $("#UpDown").splitter({
+                splitHorizontal: true,
+                outline: true,
 
+            });
+            
+            $("#LeftRight").splitter({
+                splitVertical: true,
+                outline: true,
+
+            });
+    
+
+        });
+
+
+
+
+$().ready(function() {
+    // Vertical splitter. Set min/max/starting sizes for the left pane.
+    $("#MySplitter").splitter({
+        splitVertical: true,
+        outline: true,
+        sizeLeft: 150, minLeft: 100, maxLeft: 200,
+        anchorToWindow: true,
+        accessKey: "L"
+    });
+    // First horizontal splitters, nested in the right pane of the vertical splitter.
+    $("#TopSplitter").splitter({
+        splitHorizontal: true,
+        outline: true,
+        sizeTop: 100, minTop: 50, maxTop: 200,
+        accessKey: "V"
+    });
+    // Second horizontal splitter, nested in bottom pane of first horizontal splitter
+    $("#BottomSplitter").splitter({
+        splitHorizontal: true,
+        outline: true,
+        sizeBottom: 120, minTop: 50,
+        accessKey: "J"
+    });});
+
+
+
+  </script>
 
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
- <style type="text/css">
-   .test {
-    background-color: red;
-   }
-   .test[max-width~="500px"] {
-    background-color: blue;
-   }
 
-    </style>
 </head>
 <body>    
 
 
-<div class="test">
-WordsWordsWordsWordsWords WordsWordsWords WordsWords Words Words Words </div>
+<div class="main">
+    <div class="topbar">topbar</div>
+    <div class="sidebar">sidebar</div>
+    <div class="clientbar">clientbar</div>
 
-<div class="test3">
-WordsWordsWordsWordsWords WordsWordsWords WordsWords Words Words Words </div>
+    <div id="UpDown">
 
+        <div id="LeftRight">
+            <div class="tiles">tiles</div>
+            <div class="trades">trades</div>
+        </div>
+
+        <div class="blotter">blotter</div>
+    </div>
+
+</div>
 </body>
 </html>

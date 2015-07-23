@@ -1,7 +1,36 @@
-        .test3 {
-            background-color: red;
-            color: white;
-        }
-        .test3[max-width~="500px"] {
-            background-color: blue;
-        }
+
+   .topbar {
+    background-color: red;
+   }
+
+   .sidebar{
+
+   }
+   .clientbar {
+    
+   }
+   .test[max-width~="500px"] {
+    background-color: blue;
+   }
+   .blotter {
+   	height: 100px;
+   }
+#UpDown {
+	height:900px;
+}
+#LeftRight{
+	height: 200px;
+	width: 500px;
+	border: 5px solid #aaa;
+}
+#LeftRightdiv {
+	overflow: hidden;
+}
+.vsplitbar {
+	width: 5px;
+	background: #aaa;
+}
+.hsplitbar {
+	height: 5px;
+	background: #aaa;
+}

@@ -1,1 +1,8 @@
-sass --watch "/Users/jamesma/Git/jqim.github.io/resizeable-layout/sass/resize.scss":"/Users/jamesma/Git/jqim.github.io/resizeable-layout/css/resize.css"
+
+cd /Users/jamesma/Git/jqim.github.io/resizeable-layout/
+
+sass --watch sass/resize.scss:css/resize.css
+
+ctrl-t to open new terminal tab
+
+browser-sync start --server --files "css/*.css, index.html"
