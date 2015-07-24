@@ -5,25 +5,26 @@
   background-color: blue; }
 
 .blotter {
-  height: 100px; }
+  background-image: url("http://gorillacool.com/wp-content/uploads/2014/10/Paper-Hand.jpg"); }
+
+.blotter[max-height~="500px"] {
+  background-image: url("http://www.slipperybrick.com/wp-content/uploads/2010/06/laser-guided-scissors.jpg"); }
 
 #UpDown {
-  height: 900px; }
+  border: 5px solid red; }
 
 #LeftRight {
-  height: 200px;
-  width: 500px;
-  border: 5px solid #aaa; }
+  border: 5px solid green; }
 
-#LeftRightdiv {
+.pane {
   overflow: hidden; }
 
 .vsplitbar {
-  width: 5px;
-  background: #aaa; }
+  width: 8px;
+  background: blue; }
 
 .hsplitbar {
-  height: 5px;
-  background: #aaa; }
+  height: 8px;
+  background: blue; }
 
 /*# sourceMappingURL=resize.css.map */
