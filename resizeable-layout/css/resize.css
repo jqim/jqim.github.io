@@ -1,5 +1,78 @@
+html, body {
+  font-family: arial, sans-serif;
+  color: #333333;
+  background-color: whitesmoke;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden; }
+
+* {
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  /* Chrome all / Safari all */
+  -moz-user-select: none;
+  /* Firefox all */
+  -ms-user-select: none;
+  /* IE 10+ */
+  user-select: none;
+  /* Likely future */ }
+
+.cf:before,
+.cf:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+.cf:after {
+  clear: both; }
+
 .topbar {
-  background-color: red; }
+  position: absolute;
+  background-color: #2b92b6;
+  width: 100%; }
+
+.logo {
+  height: 50px;
+  width: 120px;
+  background-color: black;
+  float: left; }
+
+.mainWrap {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%;
+  height: 100%; }
+
+.sidebar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 140px;
+  height: 100%;
+  background-color: #1c242b; }
+
+.clientbar {
+  position: absolute;
+  top: 0;
+  left: 140px;
+  width: 100%;
+  background-color: grey; }
+
+.stage {
+  position: absolute;
+  left: 140px;
+  top: 50px;
+  height: 100%;
+  width: 100%; }
+
+.clientName {
+  height: 50px;
+  float: left;
+  background-color: purple; }
 
 .test[max-width~="500px"] {
   background-color: blue; }
@@ -10,21 +83,31 @@
 .blotter[max-height~="500px"] {
   background-image: url("http://www.slipperybrick.com/wp-content/uploads/2010/06/laser-guided-scissors.jpg"); }
 
-#UpDown {
-  border: 5px solid red; }
-
-#LeftRight {
-  border: 5px solid green; }
-
-.pane {
-  overflow: hidden; }
-
 .vsplitbar {
-  width: 8px;
+  width: 12px;
   background: blue; }
 
 .hsplitbar {
-  height: 8px;
+  height: 12px;
   background: blue; }
+
+.trades {
+  background-color: teal; }
+
+.tiles {
+  padding: 4px 136px 4px 4px;
+  overflow-y: scroll; }
+
+.tile {
+  background-image: url("../img/advanced-pro-Tile_light.png");
+  float: left;
+  width: 246px;
+  height: 195px;
+  margin: 4px; }
+
+.tiles[max-width~="700px"] .tile {
+  background-image: url("../img/med-tile.png");
+  width: 203px;
+  height: 116px; }
 
 /*# sourceMappingURL=resize.css.map */

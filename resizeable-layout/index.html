@@ -16,7 +16,7 @@
             $("#UpDown").splitter({
                 splitHorizontal: true,
                 outline: false,
-                sizeTop: 400, minTop: 50,
+                sizeTop: 400, minTop: 50, minBottom: 40,
                 anchorToWindow: true,
                 accessKey: "J"
 
@@ -25,18 +25,14 @@
             $("#LeftRight").splitter({
                 splitVertical: true,
                 outline: false,
-                sizeLeft: 400, minLeft: 100,
-
+                sizeLeft: 400, minLeft: 100, minRight:380,
+               
                 accessKey: "L"
 
             });
     
 
         });
-
-
-
-
 
 
 
@@ -51,20 +47,52 @@
 </head>
 <body>    
 
+    <div class="topbar">
+        <div class="logo">Logo</div>
+        
+    </div>
 
-<div class="main">
-    <div class="topbar">topbar</div>
+<div class="mainWrap">
     <div class="sidebar">sidebar</div>
-    <div class="clientbar">clientbar</div>
+    <div class="clientbar">
+        <div class="clientName">clientName</div>
+        
+    </div>
 
-    <div id="UpDown">
 
-        <div id="LeftRight">
-            <div class="tiles">tiles</div>
-            <div class="trades">trades</div>
+
+    <div class="stage">
+        <div id="UpDown">
+
+            <div id="LeftRight" class="pane">
+
+                <div class="trades pane">trades</div>
+
+                <div class="tiles pane">
+                    <span class="tile"></span>
+                    <span class="tile"></span>
+                    <span class="tile"></span>
+                    <span class="tile"></span>
+                    <span class="tile"></span>
+                    <span class="tile"></span>
+                    <span class="tile"></span>
+                    <span class="tile"></span>
+                    <span class="tile"></span>
+                    <span class="tile"></span>
+                    <span class="tile"></span>
+                    <span class="tile"></span>
+                    <span class="tile"></span>
+                    <span class="tile"></span>
+                    <span class="tile"></span>
+                    <span class="tile"></span>
+                    <span class="tile"></span>
+                    <span class="tile"></span>
+                </div>
+                
+            </div>
+
+            <div class="blotter">blotter</div>
         </div>
-
-        <div class="blotter">blotter</div>
     </div>
 
 </div>
