@@ -1,5 +1,5 @@
 
-cd /Users/jamesma/Git/jqim.github.io/resizeable-layout/
+cd /Users/jamesma/Git/jqim.github.io/resizable-layout
 
 sass --watch sass/resize.scss:css/resize.css
 
