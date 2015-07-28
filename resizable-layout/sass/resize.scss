@@ -81,13 +81,7 @@ html, body {
   padding-left:20px;
   color: #f1f3f2;
 }
-.test[max-width~="500px"] {
-  background-color: blue;
-}
-.blotter {
-   background-image: url('../img/client-trade-blotter.png'), url('../img/client-trade-blotter-1px.png');
-   background-repeat: no-repeat, repeat-x;
-}
+
   // .blotter[max-height~="500px"] {
   //    background-image: url('http://www.slipperybrick.com/wp-content/uploads/2010/06/laser-guided-scissors.jpg');
   //  }
@@ -165,3 +159,18 @@ html, body {
     width: 203px;
     height: 116px;
   }
+
+.blotter-head {
+   background-image: url('../img/client-trade-blotter-topbar.png'), url('../img/client-trade-blotter-topbar-1px.png');
+   background-repeat: no-repeat, repeat-x;
+   height: 99px;
+}
+.blotter {
+   overflow-y: scroll;
+   height: 100%;
+ }
+ .blotter-rows {
+    background-image: url('../img/client-trade-blotter.png'), url('../img/client-trade-blotter-1px.png');
+    background-repeat: no-repeat, repeat-x;
+    height: 1036px;
+ }
