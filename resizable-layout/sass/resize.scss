@@ -145,7 +145,14 @@ html, body {
 .tiles-head {
   height: 38px;
   background-image:url('../img/tiles-topbar.png');
-
+}
+.tiles-head-btn-wrap {
+  position:absolute;
+  left: 120px;
+  background-image: url('../img/tiles-topbar-btns.png');
+  display: block;
+  width: 90px;
+  height: 38px;
 }
 .tile {
   background-image: url('../img/advanced-pro-Tile_light.png');
@@ -161,9 +168,18 @@ html, body {
   }
 
 .blotter-head {
-   background-image: url('../img/client-trade-blotter-topbar.png'), url('../img/client-trade-blotter-topbar-1px.png');
+   background-image: url('../img/client-trade-blotter-topbar.png'), url('../img/client-trade-blotter-topbar-1px.png') ;
    background-repeat: no-repeat, repeat-x;
    height: 99px;
+}
+.blotter-head:after {
+  content: '';
+  background-image: url('../img/client-trade-blotter-export-btn.png');
+  height: 39px;
+  width: 175px;
+  position:absolute;
+  top: 29px;
+  right: 140px;
 }
 .blotter {
    overflow-y: scroll;
