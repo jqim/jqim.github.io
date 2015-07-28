@@ -69,27 +69,31 @@
                 <div class="trades pane">trades</div>
                 <div class="pane">
                     <div class="tiles-head">
-                        <div class="tiles-head-btn-wrap"></div>
+                        <div class="tiles-head-btn-wrap">
+                            <div id="tile-size-btn-s" class="size-btn"></div>
+                            <div id="tile-size-btn-m" class="size-btn"></div>
+                            <div id="tile-size-btn-l" class="size-btn size-btn-active"></div>
+                        </div>
                     </div>
                     <div class="tiles">
-                        <span class="tile"></span>
-                        <span class="tile"></span>
-                        <span class="tile"></span>
-                        <span class="tile"></span>
-                        <span class="tile"></span>
-                        <span class="tile"></span>
-                        <span class="tile"></span>
-                        <span class="tile"></span>
-                        <span class="tile"></span>
-                        <span class="tile"></span>
-                        <span class="tile"></span>
-                        <span class="tile"></span>
-                        <span class="tile"></span>
-                        <span class="tile"></span>
-                        <span class="tile"></span>
-                        <span class="tile"></span>
-                        <span class="tile"></span>
-                        <span class="tile"></span>
+                        <span id="tile" class="tile tile-large"></span>
+                        <span id="tile" class="tile tile-large"></span>
+                        <span id="tile" class="tile tile-large"></span>
+                        <span id="tile" class="tile tile-large"></span>
+                        <span id="tile" class="tile tile-large"></span>
+                        <span id="tile" class="tile tile-large"></span>
+                        <span id="tile" class="tile tile-large"></span>
+                        <span id="tile" class="tile tile-large"></span>
+                        <span id="tile" class="tile tile-large"></span>
+                        <span id="tile" class="tile tile-large"></span>
+                        <span id="tile" class="tile tile-large"></span>
+                        <span id="tile" class="tile tile-large"></span>
+                        <span id="tile" class="tile tile-large"></span>
+                        <span id="tile" class="tile tile-large"></span>
+                        <span id="tile" class="tile tile-large"></span>
+                        <span id="tile" class="tile tile-large"></span>
+                        <span id="tile" class="tile tile-large"></span>
+                        <span id="tile" class="tile tile-large"></span>
                     </div>
                 </div>
 
@@ -106,5 +110,36 @@
     </div>
 
 </div>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+        $('#tile-size-btn-s').click(function () {
+            $( ".tiles #tile" ).removeClass( "tile-large tile-medium" ).addClass( "tile-small" );
+            $( ".size-btn" ).removeClass( "size-btn-active" );
+            $(this).addClass( "size-btn-active");
+        });
+
+        $('#tile-size-btn-m').click(function () {
+            $( ".tiles #tile" ).removeClass( "tile-large tile-small" ).addClass( "tile-medium" );
+            $( ".size-btn" ).removeClass( "size-btn-active" );
+            $(this).addClass( "size-btn-active");
+        });
+
+        $('#tile-size-btn-l').click(function () {
+            $( ".tiles #tile" ).removeClass( "tile-medium tile-small" ).addClass( "tile-large" );
+            $( ".size-btn" ).removeClass( "size-btn-active" );
+            $(this).addClass( "size-btn-active");
+        });
+
+    });
+
+
+
+$(".nav-button").click(function () {
+        $(".nav-button").removeClass("selected");
+    $(this).addClass("selected");   
+});
+</script>
 </body>
 </html>
