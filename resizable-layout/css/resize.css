@@ -121,7 +121,26 @@ html, body {
   border: 1px solid #969898; }
 
 .trades {
-  background-color: teal; }
+  overflow-y: scroll;
+  height: 100%; }
+
+.trades-head {
+  height: 38px; }
+
+.trades-head-btn-wrap {
+  display: none; }
+
+.trade {
+  float: left;
+  margin: 4px; }
+
+.trade-medium {
+  width: 100%;
+  padding-right: 7px; }
+
+.trade-medium img {
+  width: 100%;
+  height: auto; }
 
 .tiles {
   padding: 4px 136px 4px 4px;
@@ -172,7 +191,7 @@ html, body {
 .tile-medium {
   background-image: url("../img/med-tile.png");
   width: 203px;
-  height: 116px; }
+  height: 133px; }
 
 .tile-small {
   background-color: grey;
