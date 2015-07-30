@@ -138,9 +138,10 @@ html, body {
   width: 100%;
   padding-right: 7px; }
 
-.trade-medium img {
-  width: 100%;
-  height: auto; }
+.trade-medium {
+  background-image: url("../img/ticket-med-full.png");
+  width: 602px;
+  height: 344px; }
 
 .tiles {
   padding: 4px 136px 4px 4px;
@@ -150,6 +151,11 @@ html, body {
 .tiles-head {
   height: 38px;
   background-image: url("../img/tiles-topbar.png"); }
+
+.tiles-head[max-width~="650px"] {
+  height: 85px;
+  background-image: url("../img/tiles-topbar-small.png");
+  background-repeat: no-repeat; }
 
 .tiles-head-btn-wrap {
   position: absolute;
@@ -196,7 +202,8 @@ html, body {
 .tile-small {
   background-color: grey;
   width: 100%;
-  height: 30px; }
+  max-width: 400px;
+  height: 40px; }
 
 .blotter-head {
   background-image: url("../img/client-trade-blotter-topbar.png"), url("../img/client-trade-blotter-topbar-1px.png");
