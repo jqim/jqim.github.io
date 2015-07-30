@@ -137,8 +137,10 @@ html, body {
 .trades {
   overflow-y: scroll;
   height: 100%;
+  padding-bottom: 38px;
 }
 .trades-head {
+  background-image: url('../img/trades-topbar.png');
   height: 38px;
 }
 .trades-head-btn-wrap {
@@ -160,7 +162,7 @@ html, body {
   height: 344px;
 }
 .tiles {
-  padding: 4px 136px 4px 4px;
+  padding: 4px 136px 38px 4px;
   overflow-y: scroll;
   height: 100%;
 }
@@ -169,7 +171,7 @@ html, body {
   background-image:url('../img/tiles-topbar.png');
 }
 .tiles-head[max-width~="650px"] {
-  height: 85px;
+  height: 137px;
   background-image: url('../img/tiles-topbar-small.png');
   background-repeat: no-repeat;
 }
@@ -220,10 +222,17 @@ html, body {
   height: 133px;
 }
 .tile-small {
- background-color:grey;
- width: 100%;
- max-width: 400px;
- height: 40px;
+ background-image: url('../img/strip-tile-r.png'), url('../img/strip-tile-l.png');
+ background-position: right, left;
+ background-repeat: no-repeat, no-repeat;
+ background-color: #ebedec;
+ width:100%;
+ max-width: 540px;
+ min-width: 340px;
+ height: 34px;
+ // border-top: 1px solid #959496;
+ // border-bottom: 1px solid #959496;
+ margin:0 8px 12px 0;
 }
 
 .blotter-head {
