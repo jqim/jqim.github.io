@@ -80,6 +80,9 @@ html, body {
   padding-left: 20px;
   color: #f1f3f2; }
 
+.pane {
+  height: 100%; }
+
 .vsplitbar {
   width: 12px;
   background: #969898; }
@@ -145,8 +148,11 @@ html, body {
   width: 602px;
   height: 344px; }
 
+.tiles-wrap {
+  padding-right: 140px; }
+
 .tiles {
-  padding: 4px 136px 38px 4px;
+  padding: 4px 4px 38px 4px;
   overflow-y: scroll;
   height: 100%; }
 
@@ -154,7 +160,12 @@ html, body {
   height: 38px;
   background-image: url("../img/tiles-topbar.png"); }
 
-.tiles-head[max-width~="650px"] {
+.tiles-head[max-width~="770px"] {
+  height: 73px;
+  background-image: url("../img/tiles-topbar-medium.png");
+  background-repeat: no-repeat; }
+
+.tiles-head[max-width~="510px"] {
   height: 137px;
   background-image: url("../img/tiles-topbar-small.png");
   background-repeat: no-repeat; }
@@ -185,7 +196,7 @@ html, body {
   background-position: 0px 0px; }
 
 .size-btn-active {
-  background-color: grey; }
+  background-color: #6b6d6e; }
 
 .tile {
   float: left;
@@ -208,9 +219,32 @@ html, body {
   background-color: #ebedec;
   width: 100%;
   max-width: 540px;
-  min-width: 340px;
+  min-width: 328px;
   height: 34px;
-  margin: 0 8px 12px 0; }
+  margin: 0 8px 12px 0;
+  position: relative; }
+
+.tile-small .amount-field {
+  width: 137px;
+  height: 34px;
+  position: absolute;
+  top: 0;
+  left: 132px; }
+
+.tile-small .amount-field:hover {
+  background-color: #ebedec;
+  background-image: url("../img/amount-field.png");
+  background-repeat: no-repeat;
+  background-position: 4px 4px;
+  width: 190px;
+  height: 37px;
+  left: 121px;
+  border: 1px solid #969898;
+  border-width: 1px 1px 2px 1px;
+  border-radius: 2px; }
+
+.tile[max-width~="400px"] .amount-field {
+  display: none; }
 
 .blotter-head {
   background-image: url("../img/client-trade-blotter-topbar.png"), url("../img/client-trade-blotter-topbar-1px.png");
