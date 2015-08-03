@@ -1,0 +1,199 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>untitled</title>
+
+    <link rel="stylesheet" href="css/resize.css" /> 
+    <script src="js/jquery.js"></script>
+    <script src="js/splitter.js"></script>
+    <script src="js/ResizeSensor.js"></script>
+    <script src="js/ElementQueries.js"></script>
+    <script type="text/javascript">
+ 
+        $().ready(function() {
+            $("#UpDown").splitter({
+                splitHorizontal: true,
+                outline: false,
+                sizeTop: 400, minTop: 50, minBottom: 40,
+                anchorToWindow: true,
+                accessKey: "J"
+
+            });
+            
+            $("#LeftRight").splitter({
+                splitVertical: true,
+                outline: false,
+                sizeLeft: 624, minLeft: 624, minRight:484,
+               
+                accessKey: "L"
+
+            });
+    
+
+        });
+
+
+
+  </script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+</head>
+<body>    
+
+    <div class="topbar">
+        <div class="logo"></div>
+        
+    </div>
+
+<div class="mainWrap">
+    <div class="sidebar">sidebar</div>
+    <div class="clientbar">
+        <div class="clientName">W.H.Smiths - Mr. John Smith       PCE limit:  - 7,532 SGD</div>
+        
+    </div>
+
+
+
+    <div class="stage">
+        <div id="UpDown">
+
+            <div id="LeftRight" class="pane">
+
+                <div class="pane">
+
+                    <div class="trades-head">
+                        <div class="trades-head-btn-wrap">
+                            <div id="trade-size-btn-s" class="size-btn"></div>
+                            <div id="trade-size-btn-m" class="size-btn"></div>
+                            <div id="trade-size-btn-l" class="size-btn size-btn-active"></div>
+                        </div>
+                    </div>
+
+                    <div class="trades">
+                        <span id="trade" class="trade trade-medium">
+                            <div class="amount-field"></div>
+                        </span>
+                        <span id="trade" class="trade trade-medium"></span>
+                        <span id="trade" class="trade trade-medium"></span>
+                        <span id="trade" class="trade trade-medium"></span>
+                    </div>
+
+                </div>
+
+                <div class="pane tiles-wrap">
+
+                    <div class="tiles-head">
+                        <div class="tiles-head-btn-wrap">
+                            <div id="tile-size-btn-s" class="size-btn"></div>
+                            <div id="tile-size-btn-m" class="size-btn"></div>
+                            <div id="tile-size-btn-l" class="size-btn size-btn-active"></div>
+                        </div>
+                    </div>
+
+                    <div class="tiles">
+                        <span id="tile" class="tile tile-large">
+                            <div class="amount-field"></div>
+                        </span>
+                        <span id="tile" class="tile tile-large">
+                            <div class="amount-field"></div>
+                        </span>
+                        <span id="tile" class="tile tile-large">
+                            <div class="amount-field"></div>
+                        </span>
+                        <span id="tile" class="tile tile-large">
+                            <div class="amount-field"></div>
+                        </span>
+                        <span id="tile" class="tile tile-large">
+                            <div class="amount-field"></div>
+                        </span>
+                        <span id="tile" class="tile tile-large">
+                            <div class="amount-field"></div>
+                        </span>
+                        <span id="tile" class="tile tile-large">
+                            <div class="amount-field"></div>
+                        </span>
+                        <span id="tile" class="tile tile-large">
+                            <div class="amount-field"></div>
+                        </span>
+                        <span id="tile" class="tile tile-large">
+                            <div class="amount-field"></div>
+                        </span>
+                        <span id="tile" class="tile tile-large">
+                            <div class="amount-field"></div>
+                        </span>
+                        <span id="tile" class="tile tile-large">
+                            <div class="amount-field"></div>
+                        </span>
+                        <span id="tile" class="tile tile-large">
+                            <div class="amount-field"></div>
+                        </span>
+                        <span id="tile" class="tile tile-large">
+                            <div class="amount-field"></div>
+                        </span>
+                        <span id="tile" class="tile tile-large">
+                            <div class="amount-field"></div>
+                        </span>
+                        <span id="tile" class="tile tile-large">
+                            <div class="amount-field"></div>
+                        </span>
+                        <span id="tile" class="tile tile-large">
+                            <div class="amount-field"></div>
+                        </span>
+                        <span id="tile" class="tile tile-large">
+                            <div class="amount-field"></div>
+                        </span>
+                        <span id="tile" class="tile tile-large">
+                            <div class="amount-field"></div>
+                        </span>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="pane">
+                <div class="blotter-head"></div>
+                <div class="blotter">
+                    <div class="blotter-rows"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+        $('#tile-size-btn-s').click(function () {
+            $( ".tiles #tile" ).removeClass( "tile-large tile-medium" ).addClass( "tile-small" );
+            $( ".tiles-head-btn-wrap .size-btn" ).removeClass( "size-btn-active" );
+            $(this).addClass( "size-btn-active");
+        });
+
+        $('#tile-size-btn-m').click(function () {
+            $( ".tiles #tile" ).removeClass( "tile-large tile-small" ).addClass( "tile-medium" );
+            $( ".tiles-head-btn-wrap .size-btn" ).removeClass( "size-btn-active" );
+            $(this).addClass( "size-btn-active");
+        });
+
+        $('#tile-size-btn-l').click(function () {
+            $( ".tiles #tile" ).removeClass( "tile-medium tile-small" ).addClass( "tile-large" );
+            $( ".tiles-head-btn-wrap .size-btn" ).removeClass( "size-btn-active" );
+            $(this).addClass( "size-btn-active");
+        });
+
+    });
+
+
+
+</script>
+</body>
+</html>
