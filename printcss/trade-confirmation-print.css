@@ -215,15 +215,16 @@
     font-family: arial;
     background: none !important; 
     color: #000000 !important;
+    box-sizing: border-box; /* should already be present */
 }
-table {
-    border-collapse: collapse;
+table { /* Not sure if this is strictly necessary */
+    border-collapse: collapse; 
     border-spacing: 0;
 }
 tr {
     border-bottom: 1px solid #d4d4d4;
 }
 .trade-confirmation {
-  margin: 0 auto;
+  margin: 0 auto; 
   max-width: 800px; 
 }
