@@ -1,0 +1,229 @@
+.trade-confirmation {
+  width: 100%;
+  /*Possibly not needed*/  
+  margin: 0 auto;
+  max-width: 800px; 
+  /*Possibly not needed*/
+  color: #333333;
+}
+.trade-confirmation-header {
+  background: #20718e;
+  color: #fafafa;
+  width: 100%;
+  font-weight: bold;
+  padding: 8px 12px;
+  font-size: 18px;
+}
+.trade-confirmation-header .trade-id {
+  font-weight: normal;
+}
+.trade-confirmation-header-legs {
+  border-collapse: initial;
+  border-spacing: initial;
+  width: 94%;
+  margin: 0 3%;
+}
+.trade-confirmation-header-legs .header-legs-row .header-legs-label {
+  border-bottom: 1px solid #d4d4d4;
+  display: inline-block;
+  width: 100%;
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 4px;
+  margin: 24px 0 4px 0;
+}
+.trade-confirmation-header-legs .header-legs-row .header-legs-item {
+  font-size: 12px;
+  white-space: nowrap;
+  line-height: 16px;
+  padding-right: 20px;
+}
+.trade-confirmation-header-legs .header-legs-row .header-legs-item .item-pair-label {
+  display: block;
+  font-size: 10px;
+}
+.trade-confirmation-header-legs .header-legs-row .header-legs-item .item-pair-value {
+  display: block;
+  font-weight: bold;
+}
+.trade-confirmation-message {
+  background: #e2f3e6;
+  width: 100%;
+  margin: 32px 0 0 0;
+  padding: 16px 16px 24px 16px;
+  border-top: 1px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
+  font-size: 12px;
+  line-height: 18px;
+}
+.trade-confirmation-message .currency {
+  font-size: 11px;
+  text-transform: uppercase;
+}
+.trade-confirmation-title {
+  margin: 32px 20px 32px 20px;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: bold;
+}
+.trade-confirmation-title:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.trade-confirmation-title .bank-action {
+  display: inline-block;
+  float: left;
+}
+.trade-confirmation-title .bank-action .trade-type {
+  text-transform: capitalize;
+}
+.trade-confirmation-title .date-time {
+  font-weight: normal;
+  display: inline-block;
+  font-size: 12px;
+  position: relative;
+  top: 5px;
+  float: right;
+}
+.trade-confirmation-row {
+  margin: 0 20px;
+  display: block;
+}
+.trade-confirmation-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.trade-confirmation-row .leg-label-header {
+  border-bottom: 1px solid #d4d4d4;
+  display: inline-block;
+  width: 100%;
+  font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 4px;
+  margin: 24px 0 4px 0;
+}
+.trade-confirmation-row .leg-label-footer {
+  margin: 0 10px 0 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.trade-confirmation-row.one-leg {
+  margin-bottom: 16px;
+}
+.trade-confirmation-item {
+  float: left;
+  font-size: 12px;
+  white-space: nowrap;
+  line-height: 16px;
+  padding-right: 20px;
+}
+.trade-confirmation-item .item-label {
+  display: inline;
+}
+.trade-confirmation-item .item-pair-label {
+  display: block;
+  font-size: 10px;
+}
+.trade-confirmation-item .item-pair-value {
+  display: block;
+  font-weight: bold;
+}
+.trade-confirmation-item.medium {
+  font-size: 16px;
+}
+.trade-confirmation-item.large {
+  font-size: 20px;
+}
+.trade-confirmation-item.x-large {
+  font-size: 24px;
+  font-weight: bold;
+}
+.trade-confirmation-item.full-row {
+  width: 100%;
+  margin-right: 0;
+}
+.trade-confirmation-spot .client,
+.trade-confirmation-fwd .client {
+  margin-bottom: 20px;
+}
+.trade-confirmation-swap label {
+  font-weight: inherit;
+  font-size: inherit;
+}
+.trade-confirmation-swap span {
+  font-weight: inherit;
+}
+.trade-confirmation-table {
+  width: 100%;
+  margin-bottom: 24px;
+}
+.trade-confirmation-table tr {
+  width: 100%;
+}
+.trade-confirmation-table tr.even {
+  background-color: #d4d4d4;
+}
+.trade-confirmation-table tr.header-row td {
+  font-weight: bold;
+  line-height: 14px;
+  padding: 0;
+}
+.trade-confirmation-table tr.profit-row td {
+  background-color: transparent;
+  text-align: right;
+  font-weight: bold;
+  padding: 0 20px 0 20px;
+  line-height: 24px;
+  font-size: 12px;
+}
+.trade-confirmation-table tr.profit-row td .item-pair-value .profit-currency {
+  text-transform: uppercase;
+  font-size: 11px;
+}
+.trade-confirmation-table tr.profit-row.total td {
+  background-color: transparent;
+  text-align: right;
+  font-weight: bold;
+  padding: 24px 20px 0 20px;
+  line-height: 32px;
+  font-size: 16px;
+}
+.trade-confirmation-table tr.profit-row.total td .item-pair-value .profit-currency {
+  text-transform: uppercase;
+  font-size: 15px;
+}
+.trade-confirmation-table td {
+  padding: 4px 5px;
+  font-size: 12px;
+  text-align: center;
+  width: 25%;
+}
+.trade-confirmation-table td.desc-cell {
+  text-align: right;
+}
+.trade-confirmation-table td .item-pair-label {
+  text-transform: uppercase;
+  font-size: 10px;
+}
+
+/*---------------PRINT OVERWRIDES---------------*/
+
+
+* {
+    font-family: arial;
+    background: none !important; 
+    color: #000000 !important;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+tr {
+    border-bottom: 1px solid #d4d4d4;
+}
+.trade-confirmation {
+  margin: 0 auto;
+  max-width: 800px; 
+}

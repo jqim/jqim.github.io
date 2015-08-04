@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>untitled</title>
+
+    <link rel="stylesheet" href="trade-confirmation-print.css" /> 
+
+</head>
+<body>
+    <div class="trade-confirmation" data-bind="foreach: tradeSummaryItems">
+        <div data-bind="template: {name: templateName}, css: cssClassName" class="trade-confirmation-spot">
+    <div data-bind="template: {name: 'caplin.motf.confirmation.trade-confirmation-common'}">
+    <div class="trade-confirmation-header">
+        Trade Summary - <span class="trade-id" data-bind="text: tradeID">808155</span>
+    </div>
+    <div class="trade-confirmation-title">
+        <div data-bind="ifnot: tradeType === 'SWAP'">
+            <div class="bank-action" data-bind="if: baseBuySell === 'BUY'"></div>
+            <div class="bank-action" data-bind="if: baseBuySell === 'SELL'">
+                Bank Bought
+                <span class="currency-pair" data-bind="text: currencyPair">NZDUSD</span>
+                <span class="trade-type" data-bind="text: tradeType">SPOT</span>
+            </div>
+        </div>
+        <div data-bind="if: tradeType === 'SWAP'"></div>
+        <div class="date-time" data-bind="text: executionDateTime">04 Aug 2015 13:41:09</div>
+    </div>
+    <div class="trade-confirmation-row one-leg" data-bind="css: {'one-leg': tradeType !== 'SWAP'}">
+        <div class="trade-confirmation-item user">
+            <label class="item-pair-label">User</label>
+            <span class="item-pair-value" data-bind="text: userName">eugene.gerogiokas</span>
+        </div>
+        <div class="trade-confirmation-item account">
+            <label class="item-pair-label">Account</label>
+            <span class="item-pair-value" data-bind="text: account">RC Account 1</span>
+        </div>
+        <div class="trade-confirmation-item points" data-bind="if: tradeType === 'FWD', visible: tradeType === 'FWD'" style="display: none;"></div>
+        <div class="trade-confirmation-item points" data-bind="if: tradeType === 'SWAP', visible: tradeType === 'SWAP'" style="display: none;"></div>
+    </div>
+</div>
+	<table class="trade-confirmation-header-legs" data-bind="foreach: legs">
+		<tbody><tr class="header-legs-row leg-1" data-bind="if: $parent.baseBuySell === 'SELL'">
+			<td class="header-legs-item bank-bought">
+				<label class="item-pair-label">Bank Bought</label>
+                <span class="item-pair-value">
+                    <span data-bind="text: clientSoldAmount">1.00 NZD</span>
+                </span>
+			</td>
+			<td class="header-legs-item bank-sold">
+				<label class="item-pair-label">Bank Sold</label>
+                <span class="item-pair-value">
+                    <span data-bind="text: clientBoughtAmount">0.66 USD</span>
+                </span>
+			</td>
+			<td class="header-legs-item settlement-date">
+				<label class="item-pair-label">Settlement</label>
+	            <span class="item-pair-value">
+    	            <span class="settlement-date" data-bind="text: settlementDate">06/08/2015</span>
+	                <span class="tenor" data-bind="text: tenor">(SPOT)</span>
+	            </span>
+			</td>
+			<td class="header-legs-item spot-rate" data-bind="if: $parent.tradeType === 'FWD', visible: $parent.tradeType === 'FWD'" style="display: none;"></td>
+			<td class="header-legs-item all-in-rate">
+				<label class="item-pair-label">All In Rate</label>
+				<span class="item-pair-value" data-bind="text: allIn.clientRate">0.656160</span>
+			</td>
+		</tr>
+		<tr class="header-legs-row leg-1" data-bind="if: $parent.baseBuySell === 'BUY'"></tr>
+	</tbody></table>
+    <div data-bind="template: {name: 'caplin.motf.confirmation.trade-confirmation-message'}">
+    <div class="trade-confirmation-message">
+        <span data-bind="html: message">Client sold <b>1.00 NZD</b> and bought <b>0.66 USD</b> for settlement on <b>06/08/2015 (SPOT)</b> at rate <b>0.656160</b>.</span>
+    </div>
+</div>
+    <div data-bind="foreach: legs">
+        <div data-bind="template: {name: 'caplin.motf.confirmation.trade-confirmation-footer'}">
+    <div class="trade-confirmation-title">
+        Sales Information
+    </div>
+    <table class="trade-confirmation-table">
+        <tbody><tr class="header-row">
+            <td></td>
+            <td><label class="item-pair-label">Trader</label></td>
+            <td><label class="item-pair-label">Margin</label></td>
+            <td><label class="item-pair-label">Client</label></td>
+        </tr>
+        <tr class="spot-rate-row even">
+            <td class="desc-cell">Spot Rate</td>
+            <td><span class="item-pair-value trader-rate" data-bind="text: spot.traderRate">0.65815</span></td>
+            <td><span class="item-pair-value total-margin" data-bind="text: spot.totalMargin">19.9</span></td>
+            <td><span class="item-pair-value client-rate" data-bind="text: spot.clientRate">0.65616</span></td>
+        </tr>
+        <tr class="forward-points-row" data-bind="if: $parent.tradeType === 'FWD', visible: $parent.tradeType === 'FWD'" style="display: none;"></tr>
+        <tr class="all-in-rate-row even" data-bind="if: $parent.tradeType === 'FWD', visible: $parent.tradeType === 'FWD'" style="display: none;"></tr>
+        <tr class="profit-row total">
+            <td colspan="5">
+                Profit:
+                <span class="item-pair-value">
+                    <span class="profit" data-bind="text: $parent.profit.confirmed.value">0.01</span>
+                    <span class="profit-currency" data-bind="text: $parent.profit.confirmed.currency">USD</span>
+                </span>
+            </td>
+        </tr>
+    </tbody></table>
+</div>
+    </div>
+</div>
+    </div>
+
+</body>
+</html>
