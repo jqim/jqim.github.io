@@ -57,9 +57,25 @@ html, body {
   top: 0;
   width: 240px;
   height: 100%;
-  background-color: #1c242b;
+  background-color: #1c242b; }
+
+.openClient-wrap {
+  text-align: center; }
+
+.openClient-btn {
+  padding: 8px 8px;
+  background-color: #f1f3f2;
+  margin: 12px auto;
+  width: 150px;
+  border-radius: 4px;
+  color: #20718e;
+  font-weight: bold;
+  cursor: pointer; }
+
+.sidebar-clients {
   background-image: url(../img/clients-sidebar.png);
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  height: 100%; }
 
 .clientbar {
   position: absolute;
@@ -151,7 +167,7 @@ html, body {
   height: 344px; }
 
 .tiles-wrap {
-  padding-right: 140px; }
+  padding-right: 240px; }
 
 .tiles {
   padding: 4px 4px 38px 4px;
@@ -260,7 +276,7 @@ html, body {
   width: 175px;
   position: absolute;
   top: 29px;
-  right: 140px; }
+  right: 240px; }
 
 .blotter {
   overflow-y: scroll;
