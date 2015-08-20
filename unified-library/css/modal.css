@@ -1,0 +1,27 @@
+html, body {
+    margin: 0;
+    padding 0;
+    font-family:arial;
+    background-color: blue;
+}
+.overlay {
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: 800;
+}
+.modal {
+    width: 600px;
+    border: 1px solid grey;
+    border-radius: 2px 2px 4px 4px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    margin-left: -300px;
+    background-color: white;
+    z-index: 1000;
+}
