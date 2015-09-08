@@ -86,9 +86,30 @@ html, body {
   cursor: pointer;
 }
 .sidebar-clients {
-  background-image: url(../img/clients-sidebar.png);
-  background-repeat: no-repeat;
   height: 100%;
+  position: relative;
+  background-color: #212e3c;
+}
+.sidebar-clients-favorite {
+  background-image: url(../img/clients-sidebar-favorite.png);
+  background-repeat: no-repeat;
+  height: 200px;
+}
+.sidebar-clients-recent {
+  background-image: url(../img/clients-sidebar-recent.png);
+  background-repeat: no-repeat;
+  height: 200px;
+}
+.sidebar-clients-active {
+  background-image: url(../img/clients-sidebar-active.png);
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 240px;
+  position: absolute;
+  bottom: 108px;
+}
+.sidebar-clients[min-width~="710px"] .sidebar-clients-active {
+  height: 53px;
 }
 .clientbar {
   position: absolute;
