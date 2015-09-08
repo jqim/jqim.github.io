@@ -1,8 +1,0 @@
-
-cd /Users/jamesma/Git/jqim.github.io/resizable-layout
-
-sass --watch sass/resize.scss:css/resize.css
-
-ctrl-t to open new terminal tab
-
-browser-sync start --server --files "css/*.css, index.html"
