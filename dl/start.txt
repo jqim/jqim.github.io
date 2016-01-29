@@ -1,0 +1,6 @@
+
+browser-sync start --server --files "css/*.css, *.html"
+
+sass --watch sass/main.scss:css/main.css
+
+cd C:\git\velocity-download-portal
