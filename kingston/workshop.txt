@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Workshop</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+
+        <div class="wrap"></div>
+
+    </body>
+</html>
+
+  
+<!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ -->
+
+    <style>
+        body, html {
+            margin: 0;
+
+        }
+        .wrap {
+            width: 100%;
+            height: 900px;
+            background-image:url('img/01-xsmall-320x900.jpg');
+            background-repeat:no-repeat;
+            background-position:center; 
+        }
+        @media only screen and (min-width: 470px) {
+
+        }
+        @media only screen and (min-width: 768px) {
+
+        }
+        @media only screen and (min-width: 960px) {
+
+        }
+        @media only screen and (min-width: 1240px) {
+
+        }
+    </style>
+
+
