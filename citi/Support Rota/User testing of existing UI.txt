@@ -1,0 +1,54 @@
+You are:	Dariusz Soyta
+Your team:	London GUI 
+
+---
+THE SCENARIO:
+Its 9am and you are on Support today. An extremely important meeting that you are required to attend means you can no longer do support today.
+
+You sit next to Arthur Biniek and after a discussion with him have agreed to swap shifts.
+---
+
+Task:	Swap your shift today with Arthur's Thursday shift.
+
+
+Recommended enhancements in order of priority:
+
+1. Add Hover style to cells with icon or text "Change" or both
+	com/search/?q=move&i=50957
+	- link to icon > https://www.google.com/design/icons/#ic_input
+
+2. "Freeze" table head rows so content scrolls underneath
+3. Condense and "freeze" legend into top or bottom of table
+
+4. Add some whitespace between teams 
+4.1. + (extra) Option to show and hide teams (do this later)
+
+5. Remove Home page until needed
+
+6. Move content from tooltips into larger callouts
+- link to bootstrap component > http://getbootstrap.com/javascript/#tooltips
+
+7. Change content of confirmation dialogue to better describe the action (less "are you sure?" and more "do this action?")
+
+8. Move the confirmation dialogue from full screen modal to adjacent balloon/dropdown http://getbootstrap.com/javascript/#popovers
++ (need wireframe) contentual items for:
+ * Showing name, email and phone
+ * "start vacatoin here"
+ * "remove holiday"
+ * "mark as regional holiday"
+ * "remove regional holiday"
+ * "Assigne <name> to support here"
+
+9. Style "vacations" navigation as a button and move the page to a full screen modal
+
+10. add Login Page
+by sso ID
+
+11. add Tteam Management Console
+"add person" button
+Table
+| Name | Team | Email | Phone number (desk) | "deactivate" button|
+
+12. See 3 months in advance
+
+13. Max width on cells
