@@ -21,9 +21,7 @@
 </div> <!-- loader-mask end -->
 <button onclick="loading()" class="ignition">start</button>
 <script src="js/jquery-1.12.3.min.js"></script>
-<script type='text/javascript' id="__bs_script__">//<![CDATA[
-    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.2.9.11.js'><\/script>".replace("HOST", location.hostname));
-//]]></script>
+
 <script>
 
 window.onload = function() {
@@ -40,7 +38,7 @@ window.onload = function() {
 		var grabtwo = document.getElementsByClassName ('grabtwo');
 		var grabthree = document.getElementsByClassName ('grabthree');
 		var grabfour = document.getElementsByClassName ('grabfour');
-		console.log(tl);
+
 		grab();
 
 		function grab() {
@@ -48,6 +46,7 @@ window.onload = function() {
 			$(tr).addClass('grabtwo');
 			$(br).addClass('grabthree');
 			$(bl).addClass('grabfour');
+
 			move();
 		};
 		
