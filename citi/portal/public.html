@@ -1,0 +1,87 @@
+<html class="no-js">
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- JS -->
+<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script> -->
+
+
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+<!-- 		<link rel="stylesheet" type="text/css" href="css/component.css" /> -->
+		<script src="js/modernizr-custom.js"></script>
+</head>
+
+<body>
+
+<div class="publicBackground">
+	<div class="publicPanel-head"></div>
+	<div class="publicFrame">	
+		
+			<div class="publicDownload-link">
+		
+				<a class="publicLinkFallback" id="dlLink" href="start.txt">Download Velocity 2.0</a>
+				<button onclick="loadingDownload()" id="dlBtn" class="download-btn-large">
+					<span class="btn-lable">Download Velocity 2.0</span>
+					<div id="progressBar" class="bar notransition"></div>
+				</button>
+				<span id="ready" class="readyText"></span>
+				<div class="frame-foot">Copyright &copy; Citigroup 2015</div>
+			</div>
+
+
+	</div>
+
+
+<iframe id="iframeLink" style="display:none;" src=""></iframe>
+
+</div> <!--frame-->
+
+<script src="js/classie.js"></script>
+<script src="js/download.js"></script>
+
+<script>
+
+	var download = document.getElementById ('dlLink').getAttribute('href');
+
+	function loadingDownload() {
+		var bar = document.getElementById ('progressBar');
+		var bttn = document.getElementById ('dlBtn');
+		var query = Modernizr.mq('(min-width: 680px)') && Modernizr.svg;
+ 		if (query) {
+  			document.getElementById ('ready').innerHTML ="Initializing";
+			classie.remove( bar, 'notransition');
+			classie.add( bttn, 'state-shrink' );
+			var timerOne = setTimeout(keyframeTwo, 600);
+		}
+		else {	
+			document.getElementById ('ready').innerHTML ="Downloading";
+			downloadFile(download);
+		}
+
+		function keyframeTwo() {
+			classie.add( bar, 'state-download' );
+			
+			var timerTwo = setTimeout(keyframeThree, 600);
+		};
+
+		function keyframeThree () {
+		document.getElementById ('ready').innerHTML ="Downloading";
+		downloadFile(download);
+		var timerTwo = setTimeout(keyframeFour, 4000);
+		};
+
+		function keyframeFour () {
+				document.getElementById ('ready').innerHTML ="";
+				classie.remove( bttn, 'state-shrink');
+				classie.remove( bar, 'state-download');
+				classie.add( bar, 'notransition')	
+		};
+
+	};
+
+		</script>
+</body>
+
+
+
+</html>
