@@ -9,23 +9,49 @@
 </head>
 
 <body>
-
+<button onclick="curtian()">Start</button>
 <div class="loader-mask">
 	<div class="loader-wrap">
-		<div class="square square-tl_open"></div>
-		<div class="square square-tr_open"></div>
-		<div class="square square-bl_open"></div>
-		<div class="square square-br_open"></div>
+		<div class="square square-tl_closed"></div>
+		<div class="square square-tr_closed"></div>
+		<div class="square square-bl_closed"></div>
+		<div class="square square-br_closed"></div>
 	</div>
+	<button onclick="done = true" class="end-btn">End</button>
 </div> <!-- loader-mask end -->
 <!-- <button onclick="loading()" class="ignition">start</button> -->
 <script src="js/jquery-1.12.3.min.js"></script>
 
 <script>
 
-window.onload = function() {
-  loading();
-};
+	var done = false;
+
+	function curtian() {
+		$(document.getElementsByClassName ('loader-mask')).addClass('down');
+		var timerOne = setTimeout(split, 900);
+	};
+
+	function split() {
+		var tl = document.getElementsByClassName ('square-tl_closed');
+		var tr = document.getElementsByClassName ('square-tr_closed');
+		var br = document.getElementsByClassName ('square-br_closed');
+		var bl = document.getElementsByClassName ('square-bl_closed');
+
+			$(tl).addClass('square-tl_open');
+			$(tl).removeClass('square-tl_closed');
+
+			$(tr).addClass('square-tr_open');
+			$(tr).removeClass('square-tr_closed');
+
+			$(br).addClass('square-br_open');
+			$(br).removeClass('square-br_closed');
+
+			$(bl).addClass('square-bl_open');
+			$(bl).removeClass('square-bl_closed');
+
+			var timerTwo = setTimeout(loading, 900);
+
+	};
 
 	function loading() {
 		var tl = document.getElementsByClassName ('square-tl_open');
@@ -70,9 +96,49 @@ window.onload = function() {
 			$(grabtwo).removeClass('grabtwo');
 			$(grabthree).removeClass('grabthree');
 			$(grabfour).removeClass('grabfour');
-			var timerOne = setTimeout(loading, 1000);
+			if (done) {
+				console.log("done!");
+				var timerThree = setTimeout(endLoading, 1000);
+			}
+			else {
+				var timerFour = setTimeout(loading, 1000);
+			}
 		};	
 
+	};
+	function endLoading() {
+		var tl = document.getElementsByClassName ('square-tl_open');
+		var tr = document.getElementsByClassName ('square-tr_open');
+		var br = document.getElementsByClassName ('square-br_open');
+		var bl = document.getElementsByClassName ('square-bl_open');
+
+			$(tl).addClass('square-tl_closed');
+			$(tl).removeClass('square-tl_open');
+
+			$(tr).addClass('square-tr_closed');
+			$(tr).removeClass('square-tr_open');
+
+			$(br).addClass('square-br_closed');
+			$(br).removeClass('square-br_open');
+
+			$(bl).addClass('square-bl_closed');
+			$(bl).removeClass('square-bl_open');
+
+			var timerFive = setTimeout(fill, 750);
+	};
+
+	function fill() {
+		$(document.getElementsByClassName ('loader-wrap')).addClass('fill')
+		var timerSix = setTimeout(fade, 300);
+	};
+	function fade() {
+		$(document.getElementsByClassName ('loader-mask')).addClass('fade')
+		var timerSeven = setTimeout(scrub, 3000);
+	};
+	function scrub() {
+		$(document.getElementsByClassName ('loader-mask')).removeClass('down fade')
+		$(document.getElementsByClassName ('loader-wrap')).removeClass('fill')
+	done = false
 	};
 
 		</script>

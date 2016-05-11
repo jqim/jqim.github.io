@@ -1,14 +1,33 @@
+body, html {
+  margin: 0;
+  padding: 0; }
+
+button {
+  min-width: 100px;
+  height: 3em; }
+
+body {
+  background-color: #b6b6b6; }
+
 .ignition {
   z-index: 900; }
 
 .loader-mask {
-  z-index: -1;
+  z-index: 800;
   position: absolute;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
-  background-color: rgba(255, 255, 255, 0.6); }
+  background-color: rgba(255, 255, 255, 0.6);
+  transform: translateY(-110%);
+  transition: all 300ms ease; }
+
+.loader-mask.down {
+  transform: translateY(0%); }
+
+.loader-mask.down.fade {
+  opacity: 0; }
 
 .loader-wrap {
   z-index: 900;
@@ -19,65 +38,61 @@
   left: 50%;
   margin: -25px 0 0 -25px; }
 
+.loader-wrap.fill {
+  transition: all 300ms ease;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  margin: 0;
+  background-color: #B62E29; }
+
+.loader-wrap.fill > .square {
+  display: none; }
+
 .square {
   width: 25px;
   height: 25px;
   position: absolute;
   background-color: #B62E29;
-  -webkit-transition: all 300ms cubic-bezier(0.225, 0.64, 0.505, 1);
+  -webkit-transition: all 750ms cubic-bezier(0.225, 0.64, 0.505, 1);
   /* older webkit */
-  -webkit-transition: all 300ms cubic-bezier(0.225, 0.64, 0.505, 1.175);
-  -moz-transition: all 300ms cubic-bezier(0.225, 0.64, 0.505, 1.175);
-  -o-transition: all 300ms cubic-bezier(0.225, 0.64, 0.505, 1.175);
-  transition: all 300ms cubic-bezier(0.225, 0.64, 0.505, 1.175);
+  -webkit-transition: all 750ms cubic-bezier(0.225, 0.64, 0.505, 1.175);
+  -moz-transition: all 750ms cubic-bezier(0.225, 0.64, 0.505, 1.175);
+  -o-transition: all 750ms cubic-bezier(0.225, 0.64, 0.505, 1.175);
+  transition: all 750ms cubic-bezier(0.225, 0.64, 0.505, 1.175);
   /* custom */ }
 
 .square-tl_closed {
   top: 0px;
-  bottom: 25px;
-  left: 0px;
-  right: 25px; }
+  left: 0px; }
 
 .square-tr_closed {
   top: 0px;
-  bottom: 25px;
-  left: 25px;
-  right: 0px; }
+  left: 25px; }
 
 .square-bl_closed {
   top: 25px;
-  bottom: 0px;
-  left: 0px;
-  right: 25px; }
+  left: 0px; }
 
 .square-br_closed {
   top: 25px;
-  bottom: 0px;
-  left: 25px;
-  right: 0px; }
+  left: 25px; }
 
 .square.square-tl_open {
-  top: -3px;
-  bottom: 28px;
-  left: -3px;
-  right: 28px; }
+  top: -14px;
+  left: -14px; }
 
 .square.square-tr_open {
-  top: -3px;
-  bottom: 28px;
-  left: 28px;
-  right: -3px; }
+  top: -14px;
+  left: 38px; }
 
 .square.square-bl_open {
-  top: 28px;
-  bottom: -3px;
-  left: -3px;
-  right: 28px; }
+  top: 38px;
+  left: -14px; }
 
 .square.square-br_open {
-  top: 28px;
-  bottom: -3px;
-  left: 28px;
-  right: -3px; }
+  top: 38px;
+  left: 38px; }
 
 /*# sourceMappingURL=squares-load.css.map */
