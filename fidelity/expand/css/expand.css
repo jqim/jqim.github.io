@@ -1,0 +1,22 @@
+.row {
+	width: 100%;
+	height: 3em;
+	background-color: #BCBABA;
+}
+.row:hover {
+	cursor: pointer;
+}
+#cross-v {
+	transform-origin: center;
+	transition: all 0.3s ease;
+
+}
+.row:hover #icon-expand {
+	fill: blue;
+}
+.row:hover #icon-expand #cross-v {
+	transform: rotate(90deg);
+}
+#icon-expand {
+	margin: 12px;
+}
