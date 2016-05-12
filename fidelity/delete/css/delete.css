@@ -1,0 +1,56 @@
+
+*{box-sizing: border-box;}
+
+.pills-wrap {
+ 	clear: both;
+ 	max-width: 600px;
+ }
+
+.pill {
+	transition: color 200ms ease,
+				background-color 200ms ease,
+				width 600ms ease-in,
+				margin 600ms ease-in;
+
+    width: 120px;
+    height: 28px;
+    float: left;
+    margin: 8px 12px;
+    background-color: #eaf2f5;
+    border: 1px solid #bfbfc1;
+    font-family: sans-serif;
+}
+.pill > span {
+	  line-height: 28px;
+	  margin: 0px 8px;
+	  color: inherit;
+}
+.pill > img {
+	transition: all 100ms ease;
+    float: right;
+    height: 18px;
+    width: 18px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-right: 4px;
+}
+#delete-pill {
+	cursor: pointer;
+}
+#delete-pill:hover {
+	background-color: #6c7071;
+}
+.pill.delete {
+	width: 0px;
+	padding: 0px;
+    margin: 8px 0;
+    overflow: hidden;
+    background-color: #262626;
+    color: #262626;
+    border: none;
+   	transform: scale(0.8,0.8)
+
+}
+.pill.delete > img {
+	margin-right: -24px;
+}

@@ -1,22 +1,35 @@
 .row {
 	width: 100%;
-	height: 3em;
 	background-color: #BCBABA;
+	transition: all 0.3s ease;
+	height: 52px;
+	margin: 8px 0;
 }
 .row:hover {
-	cursor: pointer;
-}
-#cross-v {
-	transform-origin: center;
-	transition: all 0.3s ease;
 
 }
-.row:hover #icon-expand {
-	fill: blue;
-}
-.row:hover #icon-expand #cross-v {
-	transform: rotate(90deg);
+#cross-v, #cross-h {
+	transform-origin: center;
+	transition: all 0.3s ease;
 }
 #icon-expand {
-	margin: 12px;
+	cursor: pointer;
+}
+#icon-expand:hover {
+	fill: #016fae;
+}
+
+.expand-row_open {
+	height: 600px;
+}
+.expand-row_open #icon-expand #cross-v {
+	transform: rotate(270deg);
+}
+.expand-row_open #icon-expand #cross-h {
+	transform: rotate(180deg);
+}
+#icon-expand {
+	height: 36px;
+	width: 36px;
+	margin: 8px;
 }

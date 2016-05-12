@@ -131,17 +131,19 @@
 		$(document.getElementsByClassName ('loader-wrap')).addClass('fill')
 		var timerSix = setTimeout(fade, 300);
 	};
+
 	function fade() {
 		$(document.getElementsByClassName ('loader-mask')).addClass('fade')
 		var timerSeven = setTimeout(scrub, 3000);
 	};
+
 	function scrub() {
 		$(document.getElementsByClassName ('loader-mask')).removeClass('down fade')
 		$(document.getElementsByClassName ('loader-wrap')).removeClass('fill')
-	done = false
+		done = false
 	};
 
-		</script>
+</script>
 </body>
 
 

@@ -12,16 +12,28 @@
 
 <div class="chart">
 	<div class="pills-wrap">
-		<span class="square square-tl_open"></span>
+		<div class="pill"><span>Series 1</span><img src="svg/icon_close_fixed.svg"></div>
+		<div id="delete-pill" class="pill" onclick="deletePill()"><span>Series DD</span><img src="svg/icon_close_fixed.svg"></div>
+		<div class="pill"><span>Series 2</span><img src="svg/icon_close_fixed.svg"></div>
+		<div class="pill"><span>Series 3</span><img src="svg/icon_close_fixed.svg"></div>
+		<div class="pill"><span>Series 4</span><img src="svg/icon_close_fixed.svg"></div>
+		<div class="pill"><span>Series 5</span><img src="svg/icon_close_fixed.svg"></div>
+		<div class="pill"><span>Series 6</span><img src="svg/icon_close_fixed.svg"></div>
+		<div class="pill"><span>Series 7</span><img src="svg/icon_close_fixed.svg"></div>
+		<div class="pill"><span>Series 8</span><img src="svg/icon_close_fixed.svg"></div>
 	</div>
-</div> <!-- loader-mask end -->
-
+</div> 
+<img src="svg/tidy.jpg">
+<div class="row"><a href="svg/icon_close.svg">Before</a></div>
+<div class="row"><a href="svg/icon_close_fixed.svg">After</a></div>
 <script src="js/jquery-1.12.3.min.js"></script>
 
 <script>
+	function deletePill() {
+		$(document.getElementById ('delete-pill')).addClass('delete')
+	};
 
-
-		</script>
+</script>
 </body>
 
 
