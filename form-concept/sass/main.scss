@@ -1,0 +1,120 @@
+@import 'font-neuzeit';
+@import 'iconfont/style';
+
+$font-neuzeit: "neuzeit-gro_regular", Helvetica, Roboto, Arial, sans-serif;
+
+body {
+
+}
+.counter {
+  position: absolute;
+  bottom: 12px;
+  right: 14px;
+  font-size: 0.8em;
+}
+.content {
+	width: 90%;
+		max-width: 400px;
+		margin: 100px auto;
+}
+.input {
+	display: block;
+	font-size: 20px;
+	position: relative;
+	margin: 0.4em auto 0.8em auto;
+
+}
+.input__label {
+	display: block;
+	width: 100%;
+	font-size: inherit;
+	line-height:2em;
+	transform-origin: left center;
+	transform: translate3d(0, 2em, 0) scale3d(1, 1, 1);
+	transition: transform 0.4s;
+	transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+	color: #666666;
+}
+.input__field {
+	display: block;
+	width: 100%;
+	font-size: inherit;
+	height: 2em;
+	line-height: 2em;
+	border: none;
+	border-radius: 0;
+	background: transparent;
+	opacity: 0;
+	font-family: $font-neuzeit;
+	color: #141414;
+	-webkit-appearance: none; /* for box shadows to show on iOS */
+	transition: opacity 0.4s;
+	transition-timing-function: cubic-bezier(0.7, 0, 0.3, 1);
+}
+
+.input__field{
+	outline: none;
+
+}
+
+
+.input__field.valid {
+
+}
+.valid__icon {
+	position: absolute;
+	font-size:24px;
+	line-height: 40px;
+	right: 0;
+	bottom: 0em;
+	display:none;
+	color: #339900;
+
+}
+.valid .valid__icon {
+	display: block;
+}
+.valid .input__underline{
+	background-color: #339900;
+}
+.young .input__underline{
+	background-color: #cc3333 !important;
+}
+.young .valid__icon {
+	display: block;
+	color: #cc3333 !important;
+	position: static;
+	float: left;
+}
+.young .valid__icon:after {
+	display: inline-block;
+	content:"You must be over 18";
+	color: #cc3333 !important;
+	font-size:15px;
+	font-family: arial;
+	vertical-align: bottom;
+    margin-left: 0.4em;
+}
+
+
+.input--filled .input__field {
+	opacity: 1;
+}
+
+.input__underline {
+	display:block;
+	position:absolute;
+	bottom: 0;
+	width: 100%;
+	height: 1px;
+	background-color: #bfbfbf;
+}
+
+.input__field:focus + .input__underline {
+	background-color: #006193;
+	height:2px;
+}
+.input--filled .input__label {
+	transform: translate3d(0, 0.7em, 0) scale3d(0.75, 0.75, 1) translateZ(1px);
+
+}
