@@ -337,7 +337,9 @@
   content: "You must be over 18";
   color: #cc3333 !important;
   font-size: 15px;
-  font-family: arial; }
+  font-family: arial;
+  vertical-align: bottom;
+  margin-left: 0.4em; }
 
 .input--filled .input__field {
   opacity: 1; }
