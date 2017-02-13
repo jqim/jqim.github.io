@@ -1,0 +1,72 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+        "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Home page</title>
+    <style type="text/css" media="screen, print, projection">
+    body,
+    html {
+        margin:0;
+        padding:0;
+        color:#000;
+        background:#a7a09a;
+ 
+    }
+    body {
+
+        background:url(img/home-bg-img-still.jpg) top no-repeat; 
+        background-attachment:fixed; 
+        
+    }
+    h1 {
+        margin: 0;
+    }
+    #mininav {
+/*        background-image: url('img/home-mini-nav.jpg');
+        background-repeat: no-repeat;
+        background-position: top, center;*/
+        margin: 0 0 364px 0;
+        height: 155px;
+        width: 100%;
+    }
+    #midnav {
+        background-color: white;
+        height: 70px;
+        width: 100%;
+    }
+    .midnavnormal{
+        background-image: url('img/home-mid-nav.jpg');
+        background-repeat: no-repeat;
+        background-position: top, center;
+    }
+    .midnavscrolling{
+        background-image: url('img/home-mid-nav-scrolling.jpg');
+        background-repeat: no-repeat;
+        background-position: top, center;
+    }
+    #content {
+        background-image: url('img/home-content.jpg');
+        background-repeat: no-repeat;
+        background-position: bottom, center;
+        height: 1330px;
+        width: 100%;
+    }
+
+    </style>
+</head>
+<body>
+    <div id="mininav"></div>
+    <div id="midnav" class="midnavnormal"></div>
+    <div id="content"></div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery-scrolltofixed.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+                    $('#midnav').scrollToFixed();
+                         $('#midnav').bind('fixed.ScrollToFixed', function() { $(this).removeClass('midnavnormal').addClass('midnavscrolling'); });
+                         $('#midnav').bind('unfixed.ScrollToFixed', function() { $(this).removeClass('midnavscrolling').addClass('midnavnormal'); });
+    });
+    </script>
+</body>
+</html>

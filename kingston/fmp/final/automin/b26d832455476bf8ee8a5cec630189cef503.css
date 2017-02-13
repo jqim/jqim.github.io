@@ -1,0 +1,1143 @@
+.info-boxes{margin-bottom:70px}.alert{position:relative;margin-bottom:23px;padding:0;border:0
+none;background:#ecfcff url("../assets/img/arctic_sunset/alert-notice.png") left bottom repeat-x}.alert.alert-warning{background:#fffdec url("../assets/img/arctic_sunset/alert-warning.png") left bottom repeat-x}.alert.alert-error{background:#ffebe6 url("../assets/img/arctic_sunset/alert-error.png") left bottom repeat-x}.alert.alert-success{background:#efffe6 url("../assets/img/arctic_sunset/alert-success.png") left bottom repeat-x}.alert-body{padding:24px
+40px 24px 56px}.alert
+.close{position:absolute;top:0;left:0;float:none;opacity:1;filter:alpha(opacity=100);width:100%;height:100%;overflow:hidden;text-indent:1200px;background-color:rgba(0,0,0,0)}.alert span,
+.alert
+p{display:inline-block;margin:0;font-size:17.08px;line-height:23px}.alert
+span{padding-right:3px}.alert
+p{font-family:'HelveticaNeueW01-55Roma',Helvetica,Arial,sans-serif}.alert .alert-body{color:#11a2c5}.alert.alert-warning .alert-body{color:#c58811}.alert.alert-error .alert-body{color:#e7522e}.alert.alert-success .alert-body{color:#86ad25}.alert
+.ribbon{position:absolute;top:16px;left:-35px}.alert .ribbon
+span{background-position:left -300px}.alert
+.ribbon{background-position:right -350px}.alert.alert-warning .ribbon
+span{background-position:left -100px}.alert.alert-warning
+.ribbon{background-position:right -150px}.alert.alert-error .ribbon
+span{background-position:left 0}.alert.alert-error
+.ribbon{background-position:right -50px}.alert.alert-success .ribbon
+span{background-position:left -200px}.alert.alert-success
+.ribbon{background-position:right -250px}.alert .ribbon .post-label{background-position:center -80px}.alert.alert-warning .ribbon .post-label{background-position:center -100px}.alert.alert-error .ribbon .post-label{background-position:center -120px}.alert.alert-success .ribbon .post-label{background-position:center -140px}.buttons-wrap{margin-bottom:40px}.buttons{margin-bottom:20px}.buttons2 .page_prev,
+.buttons2
+.page_next{margin:5px}.button:hover,.button:focus{-webkit-transition:background-position .0s linear;-moz-transition:background-position .0s linear;-o-transition:background-position .0s linear;transition:background-position .0s linear}.button:hover,.button:focus,.button:active,.button.active,.button.disabled,.button[disabled]{background-color:transparent}.button.active,.button:active{background-image:url("../assets/img/arctic_sunset/buttons.png");-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none}.button,
+.entry
+.button{display:inline-block;font-family:Arial;font-size:13px;font-weight:700;white-space:nowrap;background-image:url("../assets/img/arctic_sunset/buttons.png");background-repeat:no-repeat;background-color:transparent;background-position:right -43px;height:43px;line-height:39px;padding:0;padding-right:22px;color:#626161;text-shadow:0 1px 1px #fff;margin:3px;border:0
+none;box-shadow:none}.button span,
+.entry .button span,
+.button input,
+.entry .button
+input{display:inline-block;background-image:url("../assets/img/arctic_sunset/buttons.png");background-repeat:no-repeat;background-position:left 0;background-color:transparent;padding:0;padding-left:22px;line-height:inherit;height:43px;border:none;outline:none;font-weight:700;font-family:Arial;font-size:13px;color:#626161}.button input,
+.entry .button
+input{height:43px;padding-bottom:5px}.button-large input,
+.entry .button-large
+input{height:53px}.button:hover,.button:focus{background-position:right -43px;background-image:url("../assets/img/arctic_sunset/buttons.png");background-color:transparent;color:#626161}.button:active{box-shadow:none;background-image:url("../assets/img/arctic_sunset/buttons.png")}.button-large{font-size:16.1px !important;height:53px !important;line-height:51px !important;padding-right:30px}.button-large span,
+.button-large
+input{padding-left:30px;height:53px}.button-yellow,
+.button-yellow input,
+.button-yellow span,
+.button-blue,
+.button-blue input,
+.button-blue span,
+.button-green,
+.button-green input,
+.button-green span,
+.button-red,
+.button-red input,
+.button-red span,
+.button.button-round:hover span,
+.button.button-round:hover input,
+.button.button-round.hover span,
+.button.button-round.hover
+input{color:#fff !important;text-shadow:0 1px 1px rgba(138,27,15,0.41)}.button.button-red span,
+.button.button-red
+input{background-position:left -86px}.button.button-red{background-position:right -129px}.button.button-yellow span,
+.button.button-yellow
+input{background-position:left -172px}.button.button-yellow{background-position:right -215px}.button.button-green span,
+.button.button-green
+input{background-position:left -258px}.button.button-green{background-position:right -301px}.button.button-blue span,
+.button.button-blue
+input{background-position:left -344px}.button.button-blue{background-position:right -387px}.button.button-round span,
+.button.button-round
+input{background-position:left -430px;padding-left:26px}.button.button-round{background-position:right -473px;padding-right:26px}.button.button-round:hover span,
+.button.button-round:hover input,
+.button.button-round.hover span,
+.button.button-round.hover
+input{background-position:left -516px;padding-left:26px}.button.button-round:hover,.button.button-round.hover{background-position:right -559px;padding-right:26px}.button.button-round:active span,
+.button.button-round:active input,
+.button.button-round.active span,
+.button.button-round.active
+input{background-position:left -1588px;padding-left:26px;color:#626161 !important;text-shadow:0 1px 1px rgba(255,255,255,0.41)}.button.button-round:active,.button.button-round.active{background-position:right -1631px;padding-right:26px}.button.button-red.button-round span,
+.button-red.button-round
+input{background-position:left -516px;padding-left:26px;color:#fff !important;text-shadow:0 1px 1px rgba(138,27,15,0.41)}.button.button-red.button-round{background-position:right -559px;padding-right:26px}.button.button-large span,
+.button.button-large
+input{background-position:left -1376px}.button.button-large{background-position:right -1428px}.button-red.button-large span,
+.button-red.button-large
+input{background-position:left -1482px;font-size:19.04px;text-transform:uppercase}.button-red.button-large{background-position:right -1535px}.button.button-right span,
+.button.button-right
+input{background-position:left -602px}.button.button-right{background-position:right -645px;padding-right:26px}.button.button-left span,
+.button.button-left
+input{background-position:left -688px;padding-left:26px}.button.button-left{background-position:right -731px}.button.button-pagination span,
+.button.button-pagination
+input{background-position:left -774px}.button.button-pagination{background-position:right -817px}.button.button-right.button-acute span,
+.button.button-right.button-acute
+input{background-position:left -860px}.button.button-right.button-acute{background-position:right -903px;padding-right:26px}.button.button-left.button-acute span,
+.button.button-left.button-acute
+input{background-position:left -946px;padding-left:26px}.button.button-left.button-acute{background-position:right -989px}.button.button-acute span,
+.button.button-acute
+input{background-position:left -1032px}.button.button-acute{background-position:right -1075px}.button.button-right.button-acute.button-red span,
+.button.button-right.button-acute.button-red
+input{background-position:left -1118px}.button.button-right.button-acute.button-red{background-position:right -1161px;padding-right:26px}.button.button-left.button-acute.button-red span,
+.button.button-left.button-acute.button-red
+input{background-position:left -1204px;padding-left:26px}.button.button-left.button-acute.button-red{background-position:right -1247px}.button.button-acute.button-red span,
+.button.button-acute.button-red
+input{background-position:left -1290px}.button.button-acute.button-red{background-position:right -1333px}.button [class^="icon-"],
+.button [class*=" icon-"]{display:inline-block;position:relative;width:25px;height:25px;line-height:39px;vertical-align:text-top;background-image:url("../assets/img/arctic_sunset/icons/button_icons.png");background-repeat:no-repeat;top:-5px}.button-large [class^="icon-"],
+.button-large [class*=" icon-"]{margin-top:0;top:-3px}.button
+i{margin-top:0;margin-right:5px}.button .icon-favorites{background-position:0 0}.button .icon-comments{background-position:-25px 0}.button .icon-statistic{background-position:-50px 0}.button .icon-ideas{background-position:-75px 0}.button .icon-tv{background-position:-100px 0}.button .icon-world{background-position:-125px 0}.button .icon-games{background-position:-150px 0}.button .icon-photo{background-position:-175px 0}.button.button-large .icon-favorites{background-position:0 -25px}.button.button-large .icon-comments{background-position:-25px -25px}.button.button-large .icon-statistic{background-position:-50px -25px}.button.button-large .icon-ideas{background-position:-75px -25px}.button.button-large .icon-tv{background-position:-100px -25px}.button.button-large .icon-world{background-position:-125px -25px}.button.button-large .icon-games{background-position:-150px -25px}.button.button-large .icon-photo{background-position:-175px -25px}.badge:empty{display:inline-block}.badge{position:relative;width:83px;height:83px;background-image:url("../assets/img/arctic_sunset/badges_text.png");background-repeat:no-repeat;background-position:0 -166px;padding:0;background-color:transparent;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0}.badge.badge-try{background-position:0 0}.badge.badge-popular{background-position:-83px 0}.badge.badge-discount{background-position:-166px 0}.badge.badge-new{background-position:0 -83px}.badge.badge-fresh{background-position:-83px -83px}.badge.badge-sale{background-position:-166px -83px}.custom-checkbox,.custom-radio{position:relative}.custom-checkbox input,
+.custom-radio
+input{position:absolute;left:7px;top:8px;margin:0;border:none;width:1px;height:1px;display:none}.custom-checkbox
+input{left:6px;top:7px}.ie8 .custom-checkbox input,
+.ie8 .custom-radio
+input{display:block}.ie7 .custom-checkbox
+input{left:2px;top:12px}.custom-checkbox label,
+.custom-radio
+label{display:block;position:relative;height:27px;line-height:27px;padding-left:36px;margin-bottom:8px;cursor:pointer;color:#6f6f6f}.custom-checkbox label::selection,
+.custom-radio label::selection{background:transparent;color:inherit}.custom-radio
+label{height:30px;line-height:26px;margin-bottom:4px}.custom-checkbox label img,
+.custom-radio label
+img{vertical-align:middle;top:-5px;position:relative}.custom-checkbox
+label{background:url("../assets/img/arctic_sunset/styled_checkbox.png") no-repeat}.custom-radio
+label{background:url("../assets/img/arctic_sunset/styled_radiobutton.png") no-repeat}.custom-checkbox label,
+.custom-radio
+label{background-position:-7px -10px}.custom-checkbox label.checked,
+.custom-radio
+label.checked{background-position:-7px -110px;color:#5c5c5c}.custom-checkbox label.focus,
+.custom-radio
+label.focus{outline:0}.checkbox-large .custom-checkbox
+label{background:url("../assets/img/arctic_sunset/styled_checkbox_large.png") no-repeat;height:37px;line-height:33px;padding-left:95px}.checkbox-large .custom-checkbox
+label{background-position:0 0}.checkbox-large .custom-checkbox
+label.checked{background-position:0 -100px}.clients_box{margin-bottom:50px;position:relative}.clients_box
+.clients_box_content{padding:25px
+0 25px 315px}.clients_box
+.client{display:inline-block;vertical-align:middle;padding:10px
+38px 10px 0}.clients_box .client
+img{width:100%}.clients_box
+.ribbon{position:absolute;top:37px;left:-35px}@media (max-width: 767px){.clients_box
+.clients_box_content{padding:25px
+0 25px 260px}.clients_box
+.client{padding:10px}}.comment-list{position:relative;margin-bottom:26px}.comment-list
+h2{font-size:23.1px;color:#54B0CB;margin-bottom:30px}.link-add-comment{position:absolute;top:9px;right:9px;color:#e23e29;font-size:14px;font-weight:700;text-decoration:underline}.comment-list
+li.comment{padding-left:80px;position:relative}.comment-list .children li.comment:before{content:'';display:block;width:11px;height:11px;position:absolute;top:7px;left:-28px;background:url("../assets/img/arctic_sunset/comment_sub.png") no-repeat}.comment-body{padding:26px
+20px 22px;background:url("../assets/img/arctic_sunset/comment_bg_bot.jpg") bottom repeat-x #FBFBFB;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;-webkit-box-shadow:0px 2px 3px 1px rgba(0,0,0,0.2);box-shadow:0px 2px 3px 1px rgba(0,0,0,0.2);position:relative;margin-bottom:22px}.comment-avatar{position:absolute;top:0;left:-80px;width:65px;height:65px;background:#fbfbfb;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;box-shadow:2px 2px 5px rgba(0,0,0,0.2)}.comment-avatar
+img{display:block;width:57px;height:57px;margin:4px}.comment-arrow{width:7px;height:12px;position:absolute;top:14px;left:-7px;z-index:2;background:url("../assets/img/arctic_sunset/comment_arrow.png") no-repeat}.comment-author{margin-bottom:5px;text-align:right;color:#b3b3b3;font-size:12px}.link-author{font-size:18.06px;font-weight:700;text-decoration:none;float:left;color:#292929;position:relative;top:-6px}.link-reply{color:#b3b3b3;padding-right:15px}.comment-entry{font-family:Arial;font-size:13px;font-weight:400;line-height:20px}.cuselFrameRight,.jScrollPaneDrag,.jScrollArrowUp,.jScrollArrowDown{background-image:url("../assets/img/arctic_sunset/selects1.png");background-repeat:no-repeat}.add-comment.no-bg .cusel,
+.add-comment.no-bg
+.cuselFrameRight{background-color:#e6e6e5}.cusel{width:100% !important;height:37px;background-position:left top;display:inline-block;position:relative;cursor:pointer;z-index:2}.cuselFrameRight{position:absolute;z-index:2;top:0;right:0;height:100%;width:32px;background-position:0 0}.cusel:hover .cuselFrameRight,
+.cuselFocus
+.cuselFrameRight{background-position:-50px 0}.cuselText{height:34px;cursor:pointer;overflow:hidden;line-height:37px;text-shadow:none;color:#292929;font-size:13px;font-weight:700}.cusel
+span{display:block;cursor:pointer;white-space:nowrap;padding:8px
+20px 8px 18px;zoom:1;border-top:1px solid #fff;border-bottom:1px solid #c0c0c0;position:relative;font-size:14px;font-weight:700}.cusel
+span.last{border-bottom:0 none}.cusel span:hover{color:#ea5535}.cusel
+.cuselActive{cursor:default;color:#EA5535}.cuselOpen{z-index:999}.cusel .cusel-scroll-wrap{display:block;visibility:hidden;position:absolute;left:-1px;top:90%;color:#292929;min-width:100%;width:auto;z-index:200;text-align:left;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}.cusel
+.jScrollPaneContainer{position:relative;overflow:hidden;background:#e5e5e5;background:linear-gradient(top,#e5e5e5,#ececec);background:-webkit-linear-gradient(top,#e5e5e5,#ececec);background:-moz-linear-gradient(top,#e5e5e5,#ececec);background:-ms-linear-gradient(top,#e5e5e5,#ececec);border:1px
+solid #d3d3d3;border-top:1px solid #c0c0c0;border-left:1px solid #B2B2B2;border-bottom:1px solid #B2B2B2;-webkit-border-radius:0 0 5px 5px;-moz-border-radius:0 0 5px 5px;border-radius:0 0 5px 5px;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}.cusel
+.jScrollPaneTrack{height:100%;width:7px !important;background:#999;position:absolute;top:0;right:4px}.cusel
+.jScrollPaneDrag{position:absolute;background-position:-40px -38px;cursor:pointer;width:15px !important;height:27px !important;right:-4px}.cusel
+.jScrollPaneDragTop{position:absolute;top:0;left:0;overflow:hidden}.cusel
+.jScrollPaneDragBottom{position:absolute;bottom:0;left:0;overflow:hidden}.cusel
+.jScrollArrowUp{position:absolute;top:0;right:1px;width:13px !important;height:12px;cursor:pointer;background-position:0 -34px;background-color:#595959;overflow:hidden}.cusel
+.jScrollArrowDown{width:13px !important;height:12px;position:absolute;top:auto;bottom:0;right:1px;cursor:pointer;background-position:-13px -34px;background-color:#595959;overflow:hidden}.select_styled_red.cusel,
+.select_styled_red
+.cuselFrameRight{background-image:url("../assets/img/arctic_sunset/selects2.png");background-repeat:no-repeat}.select_styled_red.cusel{background-position:0 0;height:42px;border:0
+none}.select_styled_red
+.cuselFrameRight{position:absolute;z-index:2;top:0;right:-2px;height:100%;width:44px;background-position:right -42px}.select_styled_red.cusel:hover .cuselFrameRight,
+.select_styled_red.cuselFocus
+.cuselFrameRight{background-position:right -84px}.select_styled_red
+.cuselText{height:40px;line-height:38px;text-shadow:0 1px 1px rgba(138,27,15,0.41);color:#fff;font-family:Arial;font-size:13px;font-weight:700}.select_styled_red.cusel
+span{color:#666;font-family:Arial;font-size:12px;font-weight:700}.select_styled_red.cusel
+span.first{border-top:0 none}.select_styled_red.cusel span:hover{background:#fafafa;background:-moz-linear-gradient(top,#fafafa 1%,#ebebeb 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(1%,#fafafa),color-stop(100%,#ebebeb));background:-webkit-linear-gradient(top,#fafafa 1%,#ebebeb 100%);background:-o-linear-gradient(top,#fafafa 1%,#ebebeb 100%);background:-ms-linear-gradient(top,#fafafa 1%,#ebebeb 100%);background:linear-gradient(to bottom,#fafafa 1%,#ebebeb 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fafafa',endColorstr='#ebebeb',GradientType=0);color:#262626}.select_styled_red.cusel
+.cuselActive{color:#ea5535 !important}.select_styled_red.cusel .cusel-scroll-wrap{left:0}.select_styled_red.cusel
+.jScrollPaneContainer{position:relative;overflow:hidden;background:#ededed;border:1px
+solid #dbdbdb;border-top:0 none}.ui-helper-hidden{display:none}.ui-helper-hidden-accessible{position:absolute !important;clip:rect(1px 1px 1px 1px);clip:rect(1px,1px,1px,1px)}.ui-helper-reset{margin:0;padding:0;border:0;outline:0;line-height:1.3;text-decoration:none;font-size:100%;list-style:none}.ui-helper-clearfix:before,.ui-helper-clearfix:after{content:"";display:table}.ui-helper-clearfix:after{clear:both}.ui-helper-clearfix{zoom:1}.ui-helper-zfix{width:100%;height:100%;top:0;left:0;position:absolute;opacity:0;filter:Alpha(Opacity=0)}.ui-state-disabled{cursor:default !important}.ui-icon{display:block;text-indent:-99999px;overflow:hidden;background-repeat:no-repeat}.ui-widget-overlay{position:absolute;top:0;left:0;width:100%;height:100%}.ui-widget{font-size:1.2em}.ui-widget .ui-widget{font-size:1em}.ui-widget input,
+.ui-widget select,
+.ui-widget textarea,
+.ui-widget
+button{font-size:1em}.ui-widget-content{border:1px
+solid #e3e3e3;background:#fff;color:#222}.ui-widget-content
+a{color:#222}.ui-widget-header{background:#fff url("../assets/img/arctic_sunset/calendar_header.png") repeat-x}#ui-datepicker-div{width:242px}.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default{border:0px
+solid #e9e9e9;font-weight:bold;color:#7d7d7d;padding:8px
+0;min-width:20px}.widget_calendar .ui-state-default,
+.widget_calendar .ui-widget-content .ui-state-default,
+.widget_calendar .ui-widget-header .ui-state-default{padding:10px
+0}.ui-state-default a,
+.ui-state-default a:link,
+.ui-state-default a:visited{color:#5a5c5c;text-decoration:none}.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus{background:#ff5f42;font-weight:bold;color:#5a5c5c}.ui-state-hover a,
+.ui-state-hover a:hover{color:#5a5c5c;text-decoration:none}#ui-datepicker-div .ui-state-active,
+#ui-datepicker-div .ui-widget-content .ui-state-active,
+#ui-datepicker-div .ui-widget-header .ui-state-active{border:0
+none;background:#d3d3d3;background:linear-gradient(top,#e0e0e0,#d3d3d3);background:-webkit-linear-gradient(top,#e0e0e0,#d3d3d3);background:-moz-linear-gradient(top,#e0e0e0,#d3d3d3);background:-ms-linear-gradient(top,#e0e0e0,#d3d3d3);font-weight:bold;color:#000}.ui-state-active a,
+.ui-state-active a:link,
+.ui-state-active a:visited{color:#5a5c5c;text-decoration:none}.ui-widget :active{outline:none}.ui-state-highlight,
+.ui-widget-content .ui-state-highlight,
+.ui-widget-header .ui-state-highlight{border:0px
+solid #d9d9d9;background:#f46141;background:linear-gradient(top,#f46141,#bf110c);background:-webkit-linear-gradient(top,#f46141,#bf110c);background:-moz-linear-gradient(top,#f46141,#bf110c);background:-ms-linear-gradient(top,#f46141,#bf110c);color:#fff}.ui-state-highlight.ui-state-active{background:#ffca00}.ui-state-highlight a,
+.ui-widget-content .ui-state-highlight a,
+.ui-widget-header .ui-state-highlight
+a{color:#404040}.ui-state-error,
+.ui-widget-content .ui-state-error,
+.ui-widget-header .ui-state-error{border:1px
+solid #cd0a0a;background:#fef1ec;color:#cd0a0a}.ui-state-error a,
+.ui-widget-content .ui-state-error a,
+.ui-widget-header .ui-state-error
+a{color:#cd0a0a}.ui-state-error-text,
+.ui-widget-content .ui-state-error-text,
+.ui-widget-header .ui-state-error-text{color:#cd0a0a}.ui-priority-primary,
+.ui-widget-content .ui-priority-primary,
+.ui-widget-header .ui-priority-primary{font-weight:bold}.ui-priority-secondary,
+.ui-widget-content .ui-priority-secondary,
+.ui-widget-header .ui-priority-secondary{opacity: .7;filter:Alpha(Opacity=70);font-weight:normal}.ui-state-disabled,
+.ui-widget-content .ui-state-disabled,
+.ui-widget-header .ui-state-disabled{opacity: .5;background-image:none}.ui-corner-all,.ui-corner-top,.ui-corner-left,.ui-corner-tl{-moz-border-radius-topleft:4px;-webkit-border-top-left-radius:4px;-khtml-border-top-left-radius:4px;border-top-left-radius:4px}.ui-corner-all,.ui-corner-top,.ui-corner-right,.ui-corner-tr{-moz-border-radius-topright:4px;-webkit-border-top-right-radius:4px;-khtml-border-top-right-radius:4px;border-top-right-radius:4px}.ui-corner-all,.ui-corner-bottom,.ui-corner-left,.ui-corner-bl{-moz-border-radius-bottomleft:4px;-webkit-border-bottom-left-radius:4px;-khtml-border-bottom-left-radius:4px;border-bottom-left-radius:4px}.ui-corner-all,.ui-corner-bottom,.ui-corner-right,.ui-corner-br{-moz-border-radius-bottomright:4px;-webkit-border-bottom-right-radius:4px;-khtml-border-bottom-right-radius:4px;border-bottom-right-radius:4px}.ui-widget-overlay{background:#aaa;opacity: .30;filter:Alpha(Opacity=30)}.ui-widget-shadow{margin:-8px 0 0 -8px;padding:8px;background:#aaa;opacity: .30;filter:Alpha(Opacity=30);-moz-border-radius:8px;-khtml-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}.ui-selectable-helper{position:absolute;z-index:100;border:1px
+dotted black}.ui-datepicker .ui-datepicker-header.ui-corner-all{-moz-border-radius-bottomleft:0px;-webkit-border-bottom-left-radius:0px;-khtml-border-bottom-left-radius:0px;border-bottom-left-radius:0px;-moz-border-radius-bottomright:0px;-webkit-border-bottom-right-radius:0px;-khtml-border-bottom-right-radius:0px;border-bottom-right-radius:0px}.ui-datepicker{padding:0;display:none;border:none;background:none !important;overflow:hidden;-webkit-box-shadow:0px 3px 5px 0px rgba(0,0,0,0.4);box-shadow:0px 3px 5px 0px rgba(0,0,0,0.4)}.widget_calendar .ui-datepicker{overflow:visible;-webkit-box-shadow:none;box-shadow:none}.ui-datepicker-inline.ui-datepicker{-webkit-box-shadow:0px 1px 1px 0px rgba(0,0,0,0.3);box-shadow:0px 1px 1px 0px rgba(0,0,0,0.3)}.widget_calendar .ui-datepicker-inline.ui-datepicker{-webkit-box-shadow:none;box-shadow:none}.ui-datepicker .ui-datepicker-header{position:relative;padding:0}.widget_calendar .ui-datepicker .ui-datepicker-header{margin:0
+-20px 0 -20px;-webkit-border-radius:8px 8px 0 0;-moz-border-radius:8px 8px 0 0;border-radius:8px 8px 0 0}.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-next{position:absolute;top:10px;width:31px;height:31px;cursor:pointer}#ui-datepicker-div .ui-datepicker-prev,
+#ui-datepicker-div .ui-datepicker-next{top:2px}.widget_calendar .ui-datepicker .ui-datepicker-prev,
+.widget_calendar .ui-datepicker .ui-datepicker-next{top:1px;border-radius:0 !important;-webkit-border-radius:0 !important;-moz-border-radius:0 !important}.ui-datepicker .ui-datepicker-prev,
+.ui-datepicker .ui-datepicker-prev-hover{left:8px;background:url("../assets/img/arctic_sunset/calendar_arrows.png") left top no-repeat}.widget_calendar .ui-datepicker .ui-datepicker-prev,
+.widget_calendar .ui-datepicker .ui-datepicker-prev-hover{left:13px}.ui-datepicker .ui-datepicker-next,
+.ui-datepicker .ui-datepicker-next-hover{right:8px;background:url("../assets/img/arctic_sunset/calendar_arrows.png") right top no-repeat}.widget_calendar .ui-datepicker .ui-datepicker-next,
+.widget_calendar .ui-datepicker .ui-datepicker-next-hover{right:13px}.ui-datepicker .ui-datepicker-prev span,
+.ui-datepicker .ui-datepicker-next
+span{display:block;position:absolute;left:50%;margin-left:-8px;top:50%;margin-top:-8px}.ui-datepicker .ui-datepicker-title{margin:0
+2.3em;height:39px;line-height:33px;text-align:center;font-size:14px;color:#fff;text-shadow:0 1px 1px rgba(156,0,11,0.35)}.widget_calendar .ui-datepicker .ui-datepicker-title{margin:0;text-align:center;font-size:14px;color:#fff;font-weight:700}.ui-datepicker .ui-datepicker-title
+select{font-size:1em;margin:1px
+0}.ui-datepicker select.ui-datepicker-month-year{width:100%}.ui-datepicker select.ui-datepicker-month,
+.ui-datepicker select.ui-datepicker-year{width:49%}.ui-datepicker
+table{width:100%;font-size: .9em;border-collapse:collapse;margin:0
+0 .4em}.ui-datepicker
+th{padding: .7em .3em;text-align:center;font-weight:bold !important;border:0}.ui-datepicker
+td{border:0;padding:0}.ui-datepicker td span,
+.ui-datepicker td
+a{display:block;padding: .2em;text-align:center;text-decoration:none}.ui-datepicker .ui-datepicker-buttonpane{background-image:none;margin: .7em 0 0 0;padding:0
+.2em;border-left:0;border-right:0;border-bottom:0}.ui-datepicker .ui-datepicker-buttonpane
+button{float:right;margin: .5em .2em .4em;cursor:pointer;padding: .2em .6em .3em .6em;width:auto;overflow:visible}.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current{float:left}.ui-datepicker-calendar .ui-state-disabled,
+.ui-datepicker-calendar .ui-state-disabled
+span{opacity:1;color:#ccc}.ui-datepicker-calendar{margin:0
+!important;background:#fff}.widget_calendar .ui-datepicker-calendar{background:none;border-collapse:collapse}.ui-datepicker-calendar
+thead{color:#646464;text-transform:uppercase}.ui-datepicker-calendar thead
+th{padding:4px
+0 2px;font-size:9px}.widget_calendar .ui-datepicker-calendar thead
+th{padding:7px
+0 10px;font-size:12px;color:#333;text-shadow:none;text-transform:none}.ui-datepicker-calendar tbody td,
+.ui-datepicker-calendar tbody td.ui-state-disabled{font-size:11px;padding:0;min-width:15px;text-align:center;font-weight:bold;border:none;background:#fafafa;background:linear-gradient(top,#fafafa,#f0f0f0);background:-webkit-linear-gradient(top,#fafafa,#f0f0f0);background:-moz-linear-gradient(top,#fafafa,#f0f0f0);background:-ms-linear-gradient(top,#fafafa,#f0f0f0)}.widget_calendar .ui-datepicker-calendar td span,
+.widget_calendar .ui-datepicker-calendar td
+a{border-top:1px solid transparent;border-left:1px solid transparent}.widget_calendar .ui-datepicker-calendar tbody
+td{font-size:13px;padding:0;text-align:center;font-weight:700 !important;border:none;border:1px
+solid #dcdcdc !important}.widget_calendar .ui-datepicker-calendar td.ui-datepicker-today
+a{background:#f46141;background:linear-gradient(top,#f46141,#bf110c);background:-webkit-linear-gradient(top,#f46141,#bf110c);background:-moz-linear-gradient(top,#f46141,#bf110c);background:-ms-linear-gradient(top,#f46141,#bf110c);text-shadow:0 1px 1px rgba(244,100,8,0.75);border-top:1px solid #f89370;border-left:1px solid #f47557}.widget_calendar .ui-datepicker-calendar td.ui-state-highlight a,
+.widget_calendar td.ui-datepicker-today.ui-state-highlight
+a{background:#d3d3d3;background:linear-gradient(top,#d3d3d3,#e6e6e6);background:-webkit-linear-gradient(top,#d3d3d3,#e6e6e6);background:-moz-linear-gradient(top,#d3d3d3,#e6e6e6);background:-ms-linear-gradient(top,#d3d3d3,#e6e6e6);text-shadow:0 1px 1px rgba(255,255,255,0.75) !important;border-top:1px solid #b9b9b9;border-left:1px solid #b9b9b9}.ui-datepicker-calendar tbody td.ui-state-highlight{font-weight:bold}.ui-datepicker.ui-datepicker-multi{width:auto}.ui-datepicker-multi .ui-datepicker-group{float:left}.ui-datepicker-multi .ui-datepicker-group
+table{width:95%;margin:0
+auto .4em}.ui-datepicker-multi-2 .ui-datepicker-group{width:50%}.ui-datepicker-multi-3 .ui-datepicker-group{width:33.3%}.ui-datepicker-multi-4 .ui-datepicker-group{width:25%}.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header{border-left-width:0}.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header{border-left-width:0}.ui-datepicker-multi .ui-datepicker-buttonpane{clear:left}.ui-datepicker-row-break{clear:both;width:100%;font-size:0em}.ui-datepicker-rtl{direction:rtl}.ui-datepicker-rtl .ui-datepicker-prev{right:2px;left:auto}.ui-datepicker-rtl .ui-datepicker-next{left:2px;right:auto}.ui-datepicker-rtl .ui-datepicker-prev:hover{right:1px;left:auto}.ui-datepicker-rtl .ui-datepicker-next:hover{left:1px;right:auto}.ui-datepicker-rtl .ui-datepicker-buttonpane{clear:right}.ui-datepicker-rtl .ui-datepicker-buttonpane
+button{float:left}.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current{float:right}.ui-datepicker-rtl .ui-datepicker-group{float:right}.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header{border-right-width:0;border-left-width:1px}.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header{border-right-width:0;border-left-width:1px}.blog_filter{text-align:center;position:relative}@media (max-width: 767px){.blog_filter{margin-left:10px;margin-right:10px}}.blog_filter
+ul{border-top:1px dashed #bfbfbf;border-bottom:1px dashed #bfbfbf}.blog_filter.boxed
+ul{border:0
+none}.blog_filter ul
+li{display:inline-block}.blog_filter .ico-cat{width:25px;height:30px;background-image:url("../assets/img/arctic_sunset/icons/categories_icons2.png");vertical-align:middle;margin-right:11px;top:0;left:7px}.blog_filter.boxed .ico-cat{background-image:url("../assets/img/arctic_sunset/icons/categories_icons.png")}.blog_filter .ico-cat.ico-cat1{background-position:0 0}.blog_filter .ico-cat.ico-cat2{background-position:-25px 0}.blog_filter .ico-cat.ico-cat3{background-position:-50px 0}.blog_filter .ico-cat.ico-cat4{background-position:-75px 0}.blog_filter .ico-cat.ico-cat5{background-position:-100px 0}.blog_filter .ico-cat.ico-cat6{background-position:-125px 0}.blog_filter li a:hover .ico-cat1,
+.blog_filter li.current-menu-item .ico-cat1{background-position:0 -30px}.blog_filter li a:hover .ico-cat2,
+.blog_filter li.current-menu-item .ico-cat2{background-position:-25px -30px}.blog_filter li a:hover .ico-cat3,
+.blog_filter li.current-menu-item .ico-cat3{background-position:-50px -30px}.blog_filter li a:hover .ico-cat4,
+.blog_filter li.current-menu-item .ico-cat4{background-position:-75px -30px}.blog_filter li a:hover .ico-cat5,
+.blog_filter li.current-menu-item .ico-cat5{background-position:-100px -30px}.blog_filter li a:hover .ico-cat6,
+.blog_filter li.current-menu-item .ico-cat6{background-position:-125px -30px}.blog_filter.boxed .ico-cat.ico-cat2,
+.blog_filter.boxed .ico-cat.ico-cat5{top:-2px}.blog_filter
+a{display:inline-block;height:55px;line-height:55px;padding:0
+10px;font-size:15px;font-weight:700;color:#878787;text-shadow:0 2px 0 #fff;position:relative;white-space:nowrap}.blog_filter a:hover,
+.blog_filter li.current-menu-item
+a{color:#292929}.blog_filter.boxed a:hover,
+.blog_filter.boxed li.current-menu-item
+a{color:#54B0CB}.blog_filter
+.note{top:10px;right:-4px}.widget_categories_filter
+.counter{display:inline-block;width:34px;height:18px;line-height:18px;font-size:11px;color:#fff;vertical-align:middle;text-align:center;text-shadow:0 1px 1px rgba(0,0,0,0.3);float:right;margin-top:4px;background:#878787;border:1px
+solid #7c7c7c;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:10px;box-shadow:inset 0 0 1px #fff;-webkit-box-shadow:inset 0 0 1px #fff;-moz-box-shadow:inset 0 0 1px #fff}.widget_checkbox_filter
+.counter{float:right}.widget_checkbox_filter label:hover,
+.widget_adv_filter label:hover{color:#54B0CB}.widget_checkbox_filter .custom-checkbox
+label{margin:0
+0 10px 0}.widget_radio_filter
+label{float:left;margin-bottom:7px}.widget_checkbox_filter .rowSubmit,
+.widget_radio_filter
+.rowSubmit{text-align:center}.widget_checkbox_filter .inner,
+.widget_radio_filter
+.inner{padding:21px
+24px 10px}.widget_checkbox_filter .widget-title,
+.widget_radio_filter .widget-title{margin-bottom:24px}.widget_checkbox_filter
+.divider{margin:11px
+0 12px !important}.widget_radio_filter
+.divider{margin:10px
+0 10px !important}.widget_adv_filter
+.inner{padding:0
+1px}.widget_adv_filter
+.adv_block{border-top:1px solid #fff;border-bottom:1px solid #dedede;padding:18px
+25px}.widget_adv_filter
+.rowSubmit.adv_block{border-bottom:0 none;padding:9px
+25px}.widget_adv_filter .widget-title{border-bottom:1px solid #dedede;margin-bottom:0;padding:20px
+25px 18px}.input_date{position:relative}.input_date
+.input_icon{background:url("../assets/img/arctic_sunset/icons/calendar.png") no-repeat;width:20px;height:20px;top:26px;right:36px}.widget_adv_filter
+.rowSubmit{text-align:center}.widget_adv_filter
+.field_text{float:none;margin:0;width:auto}.widget_adv_filter
+h6{text-transform:uppercase;margin:0
+0 18px}.widget_adv_filter .custom-checkbox label,
+.widget_adv_filter .custom-radio
+label{margin-bottom:10px;padding:0
+0 0 36px}.range-slider{margin:46px
+0 16px}a:hover,a:focus{color:#54B0CB;text-decoration:none}a:active{background-color:transparent}input,textarea,div{outline:0
+none;font-family:'HelveticaNeueW01-55Roma',Helvetica,Arial,sans-serif}input[type="submit"]:focus{outline:0
+none;font-family:Arial}button,input,select,textarea{vertical-align:top}.alpha{margin-left:0 !important}.omega{margin-right:0 !important}.content,.sidebar{padding-top:20px;padding-bottom:30px}#middle{position:relative;z-index:0}#middle.sidebar_left>.container>.row>.col-sm-8{float:right}.boxed{background:url("../assets/img/arctic_sunset/box_bg_bot.jpg") bottom repeat-x #fafafa;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;-webkit-box-shadow:0px 2px 3px 1px rgba(0,0,0,0.13);-moz-box-shadow:0px 2px 3px 1px rgba(0,0,0,0.13);box-shadow:0px 2px 3px 1px rgba(0,0,0,0.13);margin-bottom:20px;position:relative;z-index:0}.checkbox-controls{margin-bottom:30px}.progressbars{padding:20px
+40px 0}.badges
+.badge{margin-right:-12px}.ribbons{background:url("../assets/img/arctic_sunset/ribbons-shadow.png") 4px 0 no-repeat;padding-top:45px;height:250px}.ribbons
+.ribbon{margin-bottom:4px;display:block}.widget_graph{margin-bottom:30px}.widget_graph
+.inner{padding:17px
+17px 5px 9px}.widget_graph
+.graph{width:100%;height:200px}#graph-tooltip{position:absolute;display:none;width:44px;height:25px;font-size:11px;color:#6F6F6F;line-height:19px;white-space:nowrap;text-align:center;background:url("../assets/img/arctic_sunset/jslider.png") no-repeat -12px -26px}.flot-text{position:absolute;top:0;left:0;right:0;bottom:0;font-size:9px;color:#BBB}.post-audio .jp-playlist,
+.post-audio .jp-toggles,
+.post-audio .jp-mute,
+.post-audio .jp-unmute,
+.post-audio .jp-volume-bar,
+.post-audio .jp-volume-max,
+.post-audio .jp-stop,
+.post-audio .jp-current-time,
+.post-audio .jp-duration,
+.widget-audio .jp-current-time,
+.widget-audio .jp-duration,
+.widget-audio .jp-stop,
+.widget-audio .jp-mute,
+.widget-audio .jp-unmute,
+.widget-audio .jp-repeat,
+.widget-audio .jp-shuffle,
+.widget-audio .jp-volume-bar,
+.widget-audio .jp-volume-max{display:none !important}.post-audio .jp-audio{margin-bottom:69px}div.jp-interface{position:relative}a.jp-play,a.jp-pause,a.jp-previous,a.jp-next,div.jp-play-bar,div.jp-play-bar:after{background-image:url("../assets/img/arctic_sunset/jp-controls.png");background-repeat:no-repeat}div.jp-interface ul.jp-controls{list-style-type:none;margin:0;padding:0;overflow:hidden;position:absolute;left:50%;margin-left:-56px;margin-top:10px}div.jp-audio-stream ul.jp-controls{width:142px;padding:20px
+20px 0 20px}div.jp-interface ul.jp-controls
+li{display:inline;float:left}div.jp-interface ul.jp-controls
+a{display:block;overflow:hidden;text-indent:-9999px}a.jp-play,a.jp-pause{width:39px;height:45px}a.jp-play{background-position:-35px -10px}a.jp-pause{background-position:-74px -10px;display:none}a.jp-play:hover,a.jp-pause:hover,a.jp-previous:hover,a.jp-next:hover{opacity: .8}a.jp-previous,a.jp-next{width:35px;height:39px;margin-top:4px}a.jp-previous{background-position:0 -14px}a.jp-next{background-position:-113px -14px}a.jp-previous.disabled{background-position:0 -56px}a.jp-next.disabled{background-position:-113px -56px}div.jp-progress{overflow:hidden}div.jp-audio div.jp-progress{height:5px;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;overflow:hidden}div.jp-audio div.jp-type-playlist div.jp-progress{width:100%}div.jp-seek-bar{width:100% !important;height:4px;cursor:pointer;background:#d4d4d4;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px;border-top:1px solid #a4a4a4;overflow:hidden}div.jp-play-bar{background-position:0 0;width:0;height:5px;position:relative;top:-1px}div.jp-play-bar:after{content:'';display:block;background-position:right -5px;width:40px;height:5px;position:absolute;top:0;right:-2px}div.jp-audio div.jp-time-holder{position:absolute;top:50px}div.jp-audio div.jp-type-single div.jp-time-holder{left:110px;width:186px}div.jp-audio div.jp-type-playlist div.jp-time-holder{left:166px;width:130px}div.jp-current-time,div.jp-duration{width:60px;font-size: .64em;font-style:oblique}div.jp-current-time{float:left;display:inline}div.jp-duration{float:right;display:inline;text-align:right}div.jp-playlist
+li{padding:5px
+0 4px 20px;border-bottom:1px solid #eee}div.jp-jplayer audio,div.jp-jplayer{width:0px;height:0px}div.jp-jplayer{background-color:#000}div.jp-seeking-bg{background:url("../assets/img/arctic_sunset/seeking.gif")}.widget-audio{margin-bottom:40px}.widget-audio
+.inner{padding:9px}.widget-audio .jp-playlist ul
+li{display:none;padding:0;border:0
+none}.widget-audio .jp-playlist ul li.jp-playlist-current{display:block}.widget-audio .jp-playlist ul li.jp-playlist-current
+img{display:block;width:100%;min-height:39px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px}.widget-audio div.jp-interface ul.jp-controls{margin:10px
+auto 1px;padding:0;position:relative;left:0;top:0;width:110px}.widget-audio
+.title{position:relative;margin-bottom:9px}.widget-audio .title
+div{position:absolute;left:0;right:0;bottom:0;background:rgba(0,0,0,0.5);-webkit-border-radius:0 0 5px 5px;-moz-border-radius:0 0 5px 5px;border-radius:0 0 5px 5px;box-shadow:inset 0 0 5px rgba(0,0,0,0.25);padding:6px
+8px}.widget-audio .title
+strong{display:block;font-size:10px;color:#e5e5e5;margin-bottom:5px}.widget-audio .title
+span{display:block;font-size:12px;color:#fff}.jslider .jslider-bg i,
+.jslider .jslider-pointer,
+.jslider .jslider-value{background:url("../assets/img/arctic_sunset/jslider.png") no-repeat 0 0}.jslider{display:block;width:100%;height:1em;position:relative;top:0.6em;font-family:'HelveticaNeueW01-55Roma',Helvetica,Arial,sans-serif}.jslider
+table{width:100%;border-collapse:collapse;border:0}.jslider td,
+.jslider
+th{padding:0;vertical-align:top;text-align:left;border:0}.jslider table,
+.jslider table tr,
+.jslider table tr
+td{width:100%;vertical-align:top;padding:0;margin:0}.jslider .jslider-bg{position:relative}.jslider .jslider-bg
+i{height:19px;position:absolute;font-size:0;top:0}.jslider .jslider-bg
+.l{width:50%;background-position:0 0;left:0}.jslider .jslider-bg
+.r{width:50%;left:50%;background-position:right 0}.jslider .jslider-bg
+.v{position:absolute;width:60%;left:20%;top:-1px;height:13px;background-position:center -13px}.jslider .jslider-pointer{width:12px;height:21px;background-position:0 -26px;position:absolute;left:0;top:-2px;margin-left:-9px;cursor:pointer;cursor:hand}.jslider .jslider-pointer-to{left:80%}.jslider .jslider-label{font-size:10px;line-height:12px;color:#333;opacity:0.8;white-space:nowrap;padding:0
+2px;position:absolute;top:-23px;left:0}.jslider .jslider-label-to{left:auto;right:0}.jslider .jslider-value{font-size:11px;color:#6f6f6f;line-height:19px;white-space:nowrap;text-align:center;width:44px;height:25px;position:absolute;top:-34px;left:20%;z-index:1;background-position:-12px -26px;margin-left:-24px}.jslider .jslider-value-to{left:80%}.jslider .jslider-label small,
+.jslider .jslider-value
+small{position:relative;top:-0.4em}.jslider .jslider-scale{position:relative;top:-18px}.jslider .jslider-scale
+span{position:absolute;height:4px;border-left:none;font-size:0}.jslider .jslider-scale
+span{margin-left:-27px}.jslider .jslider-scale span:first-child{margin-left:0}.jslider .jslider-scale
+ins{font-size:10px;text-decoration:none;position:absolute;left:0;top:0;color:#ababab;margin-left:0 !important}.jslider-single .jslider-pointer-to,
+.jslider-single .jslider-value-to,
+.jslider-single .jslider-bg .v,
+.jslider-limitless .jslider-label{display:none}.widget-knob{width:104px;height:117px;display:inline-block;vertical-align:middle;position:relative;margin:5px;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}.widget-knob.widget-volume{width:124px;height:125px;background:url("../assets/img/arctic_sunset/knob-volume-bg.png") no-repeat;padding:9px
+0 0 10px}.volume{background-image:url("../assets/img/arctic_sunset/knob-volume.png")}.balance{background-image:url("../assets/img/arctic_sunset/knob-balance.png")}.widget-knob
+input{position:absolute;top:45px;left:43px;border:0
+none;padding:0;width:18px;height:12px;font:bold 12px/12px Arial;color:#626161;text-align:center;background:transparent}.tf_pagination{margin-bottom:20px}.tf_pagination .inner,
+.tf_pagination .inner
+.inner_links{display:inline-block;background-image:url("../assets/img/arctic_sunset/buttons.png");background-repeat:no-repeat;background-position:right -817px}.tf_pagination
+.inner{padding-right:22px;margin:0
+8px}.tf_pagination .inner
+.inner_links{height:43px;line-height:39px;padding-left:22px;background-position:left -774px}.tf_pagination .page-numbers{display:inline-block;padding:0
+6px;font-family:Arial;font-weight:bold;font-size:12px;color:#4f4e4e}.tf_pagination .page-numbers:hover,
+.tf_pagination .page-numbers.page_current{color:#54B0CB}.playSlider{width:100%;position:relative;margin:0
+auto;background:#cecece;box-shadow:0 6px 6px -3px rgba(0,0,0,0.3);-webkit-box-shadow:0 6px 6px -3px rgba(0,0,0,0.3);-moz-box-shadow:0 6px 6px -3px rgba(0,0,0,0.3)}.playSlider ul.slide-content{width:100%;overflow:hidden;list-style:none;list-style-position:inside;margin-left:0}.playSlider
+.nextBackControllers{display:block;text-indent:-9999px;outline:none;z-index:110;width:133px;height:49px;position:absolute;bottom:77px;right:15px;background:url("../assets/img/arctic_sunset/playSlider-controllers.png") 0 0 no-repeat}.playSlider .nextBackControllers a.prev,
+.playSlider .nextBackControllers
+a.next{background:url("../assets/img/arctic_sunset/playSlider-prev-next.png") 0 0 no-repeat;width:40px;height:39px;float:left;display:block;margin:9px
+0 0 4px}.playSlider .nextBackControllers
+a.next{background:url("../assets/img/arctic_sunset/playSlider-prev-next.png") -4px -39px no-repeat;margin:10px
+0 0 -7px}.playSlider .nextBackControllers a.pause,
+.playSlider .nextBackControllers
+a.play{background:url("../assets/img/arctic_sunset/playSlider-play.png") -2px -63px no-repeat;float:left;width:39px;height:45px;display:block;margin:4px
+7px 0 -3px}.playSlider .nextBackControllers
+a.play{background-position:-2px 1px}.playSlider ul.slide-content
+li{width:100%;display:block;margin:0;position:absolute;top:0;left:0}.playSlider ul.slide-content li
+img{position:absolute;top:0;left:0;margin-top:0;width:100%}.playSlider
+.sliderBullets{position:absolute;bottom:10px;left:50%;z-index:17;margin-left:-45px}.playSlider .sliderBullets
+a{display:block;float:left;text-indent:-9999px;outline:none;margin-left:5px;width:15px;height:15px}.playSlider .sliderBullets
+.on{background-position:0 -19px}.playSlider
+a{color:#333840}.playSlider a
+img{border:none}.prealoadImages{position:absolute;top:50%;left:50%;z-index:100}.playSlider
+.textHolder{height:69px;padding-top:27px;background:#fff;border-top:4px solid #cecece;position:absolute;bottom:54px;left:0;right:0;z-index:5;-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}.playSlider .textHolder
+p{color:#666;font-size:14px;padding:0
+150px 0 30px}.playSlider .textHolder p
+strong{font-size:21px;display:block;padding-bottom:2px;line-height:1em;color:#333}.playSlider .textHolder p strong
+a{color:#333}.playSlider .textHolder p
+span{display:block}.playSlider .textHolder
+h3{display:none}.playSlider
+.textOverlay{position:absolute;left:0;z-index:-1;bottom:0;display:block;background:url("../assets/img/arctic_sunset/playSlider_item_active.png") repeat-x #292929}.playSlider
+.progressBar{width:100%;height:5px;background:#cecece;position:absolute;z-index:20;bottom:49px;background:url("../assets/img/arctic_sunset/playSlider-progress.png") top left no-repeat}.playSlider
+.progressIndicator{position:absolute;top:0;left:0;height:5px;width:1px;background:url("../assets/img/arctic_sunset/playSlider-progress.png") bottom right no-repeat}.playSlider
+.navigation{width:100%;position:absolute;bottom:0;left:0;height:49px;background:url("../assets/img/arctic_sunset/playSlider-navigation-bk.jpg");margin:0;z-index:102}.playSlider .navigation
+li{display:block;float:left;margin:0}.playSlider .navigation li
+a{display:block;height:49px;line-height:49px;background:url("../assets/img/arctic_sunset/playSlider_line_bot.png") repeat-y scroll right top transparent;font-size:14px;font-weight:400;color:#666;margin:0;padding:0
+0 0 23px}.playSlider .navigation li a.on,
+.playSlider .navigation li a:hover{color:#fff}@media (max-width: 767px){.playSlider .textHolder
+p{padding:0
+113px 0 30px}.playSlider .textHolder p strong,
+.playSlider .textHolder p
+span{overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.playSlider
+.textHolder{height:45px;padding-top:6px;bottom:35px}.playSlider .navigation li
+a{font-size:12px}.playSlider
+.navigation{height:30px}.playSlider .navigation li
+a{height:30px;line-height:30px;padding:0
+0 0 8px}.playSlider
+.textOverlay{height:30px !important}.playSlider
+.progressBar{bottom:30px}.playSlider
+.nextBackControllers{bottom:38px;right:0;width:120px}}.post-item
+.ribbon{position:absolute;top:26px;left:-34px;z-index:2}.post-label{width:20px;height:20px;background-image:url("../assets/img/arctic_sunset/icons/post_label.png");background-repeat:no-repeat;background-position:center 0;margin:0;margin-top:8px}.post-label
+i{position:relative;top:0;left:0;display:inline-block;overflow:hidden;text-decoration:none;font-style:normal;background-repeat:no-repeat;margin-right:15px}.post-label.label-image{background-position:center -20px}.post-label.label-video{background-position:center -40px}.post-label.label-audio{background-position:center -60px}.post-item,.post-item-wide{position:relative;margin-bottom:50px;padding:10px}.post-item h2,
+.post-item-wide
+h2{font-size:29.12px;margin-bottom:10px}.post-item h2 a,
+.post-item-wide h2
+a{color:#54B0CB}.post-item h2 a:hover,
+.post-item-wide h2 a:hover{color:#54B0CB}.post-item .post-meta-top{margin-bottom:33px}.post-item .post-meta-top
+span{display:inline-block;font-size:13px;color:#868686;height:22px;line-height:22px;padding:0
+10px 0 25px;background-image:url("../assets/img/arctic_sunset/icons/posted.png");background-repeat:no-repeat;text-shadow:0 1px 1px #fff}.post-item .post-meta-top span.post-date{background-position:0 -22px}.post-item .post-meta-top span.post-author{background-position:0 0}.post-item .post-image,
+.post-item-wide .post-image,
+.tab_image,
+.carouFredsel .carousel-image{-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px}.post-item .post-image img,
+.post-item-wide .post-image img,
+.tab_image img,
+.carouFredsel .carousel-image
+img{-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;display:block;position:relative;z-index:-1}.post-item .post-image{margin-bottom:27px}.post-item .post-desc{margin-bottom:23px}.post-item .post-desc
+p{margin-bottom:10px}.post-item .post-meta-links .button-green{margin-left:0;padding-right:26px}.post-item .post-meta-links .button-green
+span{padding-left:26px}.post-item
+.button{margin-left:0}.post-item.style2 .inner,
+.post-item.style4 .inner,
+.post-item.post-quote .inner,
+.post-item.post-video .inner,
+.post-item.post-audio
+.inner{padding-top:46px;padding-right:40px;padding-bottom:14px;padding-left:40px}.post-item.style2
+h2{margin-top:4px;margin-bottom:10px}.post-item.style2 .post-meta-top{margin-bottom:20px;margin-left:-5px}.post-item.style3 .post-image{width:48%;float:left;margin:6px
+21px 5px 0}.post-item.style3 .post-meta-top{margin-bottom:16px}.post-item.style3 .post-meta-top
+span{margin-bottom:10px}.post-item.style3 .post-desc{margin-bottom:21px}.post-item.style4
+.inner{padding-top:60px}.post-item.post-quote
+.inner{padding:46px
+40px 14px 60px}.post-item.style4 .post-image{width:54%;float:right;margin:7px
+0 5px 10px}.post-item.style4
+h2{margin-bottom:10px}.post-item.post-quote
+h2{line-height:34px;margin-bottom:11px}.post-item.style4 .post-meta-top{margin-bottom:14px}.post-item.style4 .post-meta-top
+span{margin-bottom:13px}.post-item.post-quote .post-meta-top
+span{padding:0px
+18px 0px 27px}.post-item.style4 .post-desc{margin-bottom:20px}.post-item.style4 .post-desc
+p{margin-bottom:20px}.post-item.post-img
+.inner{padding:50px
+62px 40px}.post-item.post-img .post-meta-top{margin-bottom:27px;margin-left:-4px}.post-item.post-img .post-meta-top
+span{padding:0
+8px 0 33px}.carousel-inner{height:300px;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px;box-shadow:inset 0 0 10px rgba(0,0,0,0.45);-webkit-box-shadow:inset 0 0 10px rgba(0,0,0,0.45);-moz-box-shadow:inset 0 0 10px rgba(0,0,0,0.45)}.carousel-inner>.item{z-index:-1;height:300px;overflow:hidden}.carousel-inner>.item>img,.carousel-inner>.item>a>img{width:auto;max-width:none}.carousel-control{position:absolute;top:119px;left:0;width:23px;height:62px;margin-top:0;background-image:url("../assets/img/arctic_sunset/post_image_controls.png") !important;background-position:left top !important;background-color:transparent;border:none;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;opacity:1;filter:none !important}.carousel-control.right{right:0;left:auto;background-position:right top !important}.carousel-indicators{display:none}.post-item.post-video
+.inner{padding:54px
+62px 14px}.post-item.post-audio
+.inner{padding:50px
+62px 14px}.post-item.post-video .post-image{-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;box-shadow:none;-webkit-box-shadow:none;-moz-box-shadow:none;margin:0
+0 17px 0}.post-item.post-audio .post-image{margin:0
+0 9px 0}.post-item.post-video .post-image
+img{z-index:0}.post-item.post-video
+h2{line-height:33px;margin-bottom:12px}.post-item.post-video .post-meta-top{margin-left:-6px}.post-item.post-audio .post-meta-top{margin-bottom:33px;margin-left:-5px}.post-item.post-video .post-meta-top
+span{padding:0px
+6px 0px 31px;margin-bottom:0}.post-item.post-audio .post-meta-top
+span{padding:0px
+9px 0px 27px}.post-item.intro-text{margin-bottom:50px}.post-item.intro-text-boxed
+.divider{display:none}.post-item.intro-text .post-meta-top span,
+.post-item.intro-text-boxed .post-meta-top
+span{font-size:13px;text-transform:uppercase;color:#989898;text-shadow:0 1px 1px #fff;padding-right:11px}.post-item.intro-text .post-meta-top{margin-bottom:21px}.post-intro-text
+p{font-family:'HelveticaNeueW01-55Roma',Helvetica,Arial,sans-serif;font-size:17.08px;font-weight:400;color:#de3511;line-height:23px;margin:0}.post-item.intro-text-boxed .post-intro-text{background:url("../assets/img/arctic_sunset/box_bg_bot.jpg") bottom repeat-x #fafafa;-webkit-border-radius:8px;-moz-border-radius:8px;border-radius:8px;-webkit-box-shadow:0px 2px 3px 1px rgba(0,0,0,0.13);-moz-box-shadow:0px 2px 3px 1px rgba(0,0,0,0.13);box-shadow:0 2px 3px 1px rgba(0,0,0,0.13);margin-bottom:20px;padding:18px
+27px}.post-item.intro-text
+.divider{margin:17px
+0}.post-item-wide
+.inner{position:relative}.post-item-wide
+.badge{position:absolute;top:-4px;right:-4px;z-index:1}.post-item-wide
+.button{margin:0}.post-item-wide
+h2{margin-bottom:7px;line-height:32px}.post-item-wide
+p{margin-bottom:10px}.post-item-wide .post-image{margin-bottom:20px}.post-item-wide .post-meta-top{margin-bottom:28px;margin-left:-3px}.post-item-wide .post-meta-top
+span{display:block;font-size:13px;font-weight:700;color:#868686;text-transform:uppercase;height:20px;line-height:22px;padding:0
+20px 0 29px;background-image:url("../assets/img/arctic_sunset/icons/posted.png");background-repeat:no-repeat;background-position:0 -22px}.post-item-wide .post-descr{line-height:22px;margin-bottom:25px}.post-item-wide.boxed
+.inner{padding:32px
+33px 36px}div.pp_default .pp_top,
+div.pp_default .pp_top .pp_middle,
+div.pp_default .pp_top .pp_left,
+div.pp_default .pp_top .pp_right,
+div.pp_default .pp_bottom,
+div.pp_default .pp_bottom .pp_left,
+div.pp_default .pp_bottom .pp_middle,
+div.pp_default .pp_bottom
+.pp_right{height:13px}div.pp_default .pp_top
+.pp_left{background:url("../assets/img/arctic_sunset/prettyPhoto/default/sprite.html") -78px -93px no-repeat}div.pp_default .pp_top
+.pp_middle{background:url("../assets/img/arctic_sunset/prettyPhoto/default/sprite_x.html") top left repeat-x}div.pp_default .pp_top
+.pp_right{background:url("../assets/img/arctic_sunset/prettyPhoto/default/sprite.html") -112px -93px no-repeat}div.pp_default .pp_content
+.ppt{color:#f8f8f8}div.pp_default .pp_content_container
+.pp_left{background:url("../assets/img/arctic_sunset/prettyPhoto/default/sprite_y.html") -7px 0 repeat-y;padding-left:13px}div.pp_default .pp_content_container
+.pp_right{background:url("../assets/img/arctic_sunset/prettyPhoto/default/sprite_y.html") top right repeat-y;padding-right:13px}div.pp_default .pp_next:hover{background:url("../assets/img/arctic_sunset/prettyPhoto/default/sprite_next.html") center right no-repeat;cursor:pointer}div.pp_default .pp_previous:hover{background:url("../assets/img/arctic_sunset/prettyPhoto/default/sprite_prev.html") center left no-repeat;cursor:pointer}div.pp_default
+.pp_expand{background:url("../assets/img/arctic_sunset/prettyPhoto/default/sprite.html") 0 -29px no-repeat;cursor:pointer;height:28px;width:28px}div.pp_default .pp_expand:hover{background:url("../assets/img/arctic_sunset/prettyPhoto/default/sprite.html") 0 -56px no-repeat;cursor:pointer}div.pp_default
+.pp_contract{background:url("../assets/img/arctic_sunset/prettyPhoto/default/sprite.html") 0 -84px no-repeat;cursor:pointer;height:28px;width:28px}div.pp_default .pp_contract:hover{background:url("../assets/img/arctic_sunset/prettyPhoto/default/sprite.html") 0 -113px no-repeat;cursor:pointer}div.pp_default
+.pp_close{background:url("../assets/img/arctic_sunset/prettyPhoto/default/sprite.html") 2px 1px no-repeat;cursor:pointer;height:30px;width:30px}div.pp_default .pp_gallery ul li
+a{background:url("../assets/img/arctic_sunset/prettyPhoto/default/default_thumb.html") center center #f8f8f8;border:1px
+solid #aaa}div.pp_default
+.pp_social{margin-top:7px}div.pp_default .pp_gallery a.pp_arrow_previous,
+div.pp_default .pp_gallery
+a.pp_arrow_next{left:auto;position:static}div.pp_default .pp_nav .pp_play,
+div.pp_default .pp_nav
+.pp_pause{background:url("../assets/img/arctic_sunset/prettyPhoto/default/sprite.html") -51px 1px no-repeat;height:30px;width:30px}div.pp_default .pp_nav
+.pp_pause{background-position:-51px -29px}div.pp_default a.pp_arrow_previous,
+div.pp_default
+a.pp_arrow_next{background:url("../assets/img/arctic_sunset/prettyPhoto/default/sprite.html") -31px -3px no-repeat;height:20px;margin:4px
+0 0;width:20px}div.pp_default
+a.pp_arrow_next{background-position:-82px -3px;left:52px}div.pp_default .pp_content_container
+.pp_details{margin-top:5px}div.pp_default
+.pp_nav{clear:none;height:30px;position:relative;width:110px}div.pp_default .pp_nav
+.currentTextHolder{color:#999;font-family:Georgia;font-size:11px;font-style:italic;left:75px;line-height:25px;margin:0;padding:0
+0 0 10px;position:absolute;top:2px}div.pp_default .pp_close:hover,
+div.pp_default .pp_nav .pp_play:hover,
+div.pp_default .pp_nav .pp_pause:hover,
+div.pp_default .pp_arrow_next:hover,
+div.pp_default .pp_arrow_previous:hover{opacity:0.7}div.pp_default
+.pp_description{font-size:11px;font-weight:700;line-height:14px;margin:5px
+50px 5px 0}div.pp_default .pp_bottom
+.pp_left{background:url("../assets/img/arctic_sunset/prettyPhoto/default/sprite.html") -78px -127px no-repeat}div.pp_default .pp_bottom
+.pp_middle{background:url("../assets/img/arctic_sunset/prettyPhoto/default/sprite_x.html") bottom left repeat-x}div.pp_default .pp_bottom
+.pp_right{background:url("../assets/img/arctic_sunset/prettyPhoto/default/sprite.html") -112px -127px no-repeat}div.pp_default
+.pp_loaderIcon{background:url("../assets/img/arctic_sunset/prettyPhoto/default/loader.html") center center no-repeat}div.light_rounded .pp_top
+.pp_left{background:url("../assets/img/arctic_sunset/prettyPhoto/light_rounded/sprite.html") -88px -53px no-repeat}div.light_rounded .pp_top
+.pp_right{background:url("../assets/img/arctic_sunset/prettyPhoto/light_rounded/sprite.html") -110px -53px no-repeat}div.light_rounded .pp_next:hover{background:url("../assets/img/arctic_sunset/prettyPhoto/light_rounded/btnNext.html") center right no-repeat;cursor:pointer}div.light_rounded .pp_previous:hover{background:url("../assets/img/arctic_sunset/prettyPhoto/light_rounded/btnPrevious.html") center left no-repeat;cursor:pointer}div.light_rounded
+.pp_expand{background:url("../assets/img/arctic_sunset/prettyPhoto/light_rounded/sprite.html") -31px -26px no-repeat;cursor:pointer}div.light_rounded .pp_expand:hover{background:url("../assets/img/arctic_sunset/prettyPhoto/light_rounded/sprite.html") -31px -47px no-repeat;cursor:pointer}div.light_rounded
+.pp_contract{background:url("../assets/img/arctic_sunset/prettyPhoto/light_rounded/sprite.html") 0 -26px no-repeat;cursor:pointer}div.light_rounded .pp_contract:hover{background:url("../assets/img/arctic_sunset/prettyPhoto/light_rounded/sprite.html") 0 -47px no-repeat;cursor:pointer}div.light_rounded
+.pp_close{background:url("../assets/img/arctic_sunset/prettyPhoto/light_rounded/sprite.html") -1px -1px no-repeat;cursor:pointer;height:22px;width:75px}div.light_rounded .pp_nav
+.pp_play{background:url("../assets/img/arctic_sunset/prettyPhoto/light_rounded/sprite.html") -1px -100px no-repeat;height:15px;width:14px}div.light_rounded .pp_nav
+.pp_pause{background:url("../assets/img/arctic_sunset/prettyPhoto/light_rounded/sprite.html") -24px -100px no-repeat;height:15px;width:14px}div.light_rounded
+.pp_arrow_previous{background:url("../assets/img/arctic_sunset/prettyPhoto/light_rounded/sprite.html") 0 -71px no-repeat}div.light_rounded
+.pp_arrow_next{background:url("../assets/img/arctic_sunset/prettyPhoto/light_rounded/sprite.html") -22px -71px no-repeat}div.light_rounded .pp_bottom
+.pp_left{background:url("../assets/img/arctic_sunset/prettyPhoto/light_rounded/sprite.html") -88px -80px no-repeat}div.light_rounded .pp_bottom
+.pp_right{background:url("../assets/img/arctic_sunset/prettyPhoto/light_rounded/sprite.html") -110px -80px no-repeat}div.dark_rounded .pp_top
+.pp_left{background:url("../assets/img/arctic_sunset/prettyPhoto/dark_rounded/sprite.html") -88px -53px no-repeat}div.dark_rounded .pp_top
+.pp_right{background:url("../assets/img/arctic_sunset/prettyPhoto/dark_rounded/sprite.html") -110px -53px no-repeat}div.dark_rounded .pp_content_container
+.pp_left{background:url("../assets/img/arctic_sunset/prettyPhoto/dark_rounded/contentPattern.html") top left repeat-y}div.dark_rounded .pp_content_container
+.pp_right{background:url("../assets/img/arctic_sunset/prettyPhoto/dark_rounded/contentPattern.html") top right repeat-y}div.dark_rounded .pp_next:hover{background:url("../assets/img/arctic_sunset/prettyPhoto/dark_rounded/btnNext.html") center right no-repeat;cursor:pointer}div.dark_rounded .pp_previous:hover{background:url("../assets/img/arctic_sunset/prettyPhoto/dark_rounded/btnPrevious.html") center left no-repeat;cursor:pointer}div.dark_rounded
+.pp_expand{background:url("../assets/img/arctic_sunset/prettyPhoto/dark_rounded/sprite.html") -31px -26px no-repeat;cursor:pointer}div.dark_rounded .pp_expand:hover{background:url("../assets/img/arctic_sunset/prettyPhoto/dark_rounded/sprite.html") -31px -47px no-repeat;cursor:pointer}div.dark_rounded
+.pp_contract{background:url("../assets/img/arctic_sunset/prettyPhoto/dark_rounded/sprite.html") 0 -26px no-repeat;cursor:pointer}div.dark_rounded .pp_contract:hover{background:url("../assets/img/arctic_sunset/prettyPhoto/dark_rounded/sprite.html") 0 -47px no-repeat;cursor:pointer}div.dark_rounded
+.pp_close{background:url("../assets/img/arctic_sunset/prettyPhoto/dark_rounded/sprite.html") -1px -1px no-repeat;cursor:pointer;height:22px;width:75px}div.dark_rounded
+.pp_description{color:#fff;margin-right:85px}div.dark_rounded .pp_nav
+.pp_play{background:url("../assets/img/arctic_sunset/prettyPhoto/dark_rounded/sprite.html") -1px -100px no-repeat;height:15px;width:14px}div.dark_rounded .pp_nav
+.pp_pause{background:url("../assets/img/arctic_sunset/prettyPhoto/dark_rounded/sprite.html") -24px -100px no-repeat;height:15px;width:14px}div.dark_rounded
+.pp_arrow_previous{background:url("../assets/img/arctic_sunset/prettyPhoto/dark_rounded/sprite.html") 0 -71px no-repeat}div.dark_rounded
+.pp_arrow_next{background:url("../assets/img/arctic_sunset/prettyPhoto/dark_rounded/sprite.html") -22px -71px no-repeat}div.dark_rounded .pp_bottom
+.pp_left{background:url("../assets/img/arctic_sunset/prettyPhoto/dark_rounded/sprite.html") -88px -80px no-repeat}div.dark_rounded .pp_bottom
+.pp_right{background:url("../assets/img/arctic_sunset/prettyPhoto/dark_rounded/sprite.html") -110px -80px no-repeat}div.dark_rounded
+.pp_loaderIcon{background:url("../assets/img/arctic_sunset/prettyPhoto/dark_rounded/loader.html") center center no-repeat}div.dark_square .pp_left,
+div.dark_square .pp_middle,
+div.dark_square .pp_right,
+div.dark_square
+.pp_content{background:#000}div.dark_square
+.pp_description{color:#fff;margin:0
+85px 0 0}div.dark_square
+.pp_loaderIcon{background:url("../assets/img/arctic_sunset/prettyPhoto/dark_square/loader.html") center center no-repeat}div.dark_square
+.pp_expand{background:url("../assets/img/arctic_sunset/prettyPhoto/dark_square/sprite.html") -31px -26px no-repeat;cursor:pointer}div.dark_square .pp_expand:hover{background:url("../assets/img/arctic_sunset/prettyPhoto/dark_square/sprite.html") -31px -47px no-repeat;cursor:pointer}div.dark_square
+.pp_contract{background:url("../assets/img/arctic_sunset/prettyPhoto/dark_square/sprite.html") 0 -26px no-repeat;cursor:pointer}div.dark_square .pp_contract:hover{background:url("../assets/img/arctic_sunset/prettyPhoto/dark_square/sprite.html") 0 -47px no-repeat;cursor:pointer}div.dark_square
+.pp_close{background:url("../assets/img/arctic_sunset/prettyPhoto/dark_square/sprite.html") -1px -1px no-repeat;cursor:pointer;height:22px;width:75px}div.dark_square
+.pp_nav{clear:none}div.dark_square .pp_nav
+.pp_play{background:url("../assets/img/arctic_sunset/prettyPhoto/dark_square/sprite.html") -1px -100px no-repeat;height:15px;width:14px}div.dark_square .pp_nav
+.pp_pause{background:url("../assets/img/arctic_sunset/prettyPhoto/dark_square/sprite.html") -24px -100px no-repeat;height:15px;width:14px}div.dark_square
+.pp_arrow_previous{background:url("../assets/img/arctic_sunset/prettyPhoto/dark_square/sprite.html") 0 -71px no-repeat}div.dark_square
+.pp_arrow_next{background:url("../assets/img/arctic_sunset/prettyPhoto/dark_square/sprite.html") -22px -71px no-repeat}div.dark_square .pp_next:hover{background:url("../assets/img/arctic_sunset/prettyPhoto/dark_square/btnNext.html") center right no-repeat;cursor:pointer}div.dark_square .pp_previous:hover{background:url("../assets/img/arctic_sunset/prettyPhoto/dark_square/btnPrevious.html") center left no-repeat;cursor:pointer}div.light_square
+.pp_expand{background:url("../assets/img/arctic_sunset/prettyPhoto/light_square/sprite.html") -31px -26px no-repeat;cursor:pointer}div.light_square .pp_expand:hover{background:url("../assets/img/arctic_sunset/prettyPhoto/light_square/sprite.html") -31px -47px no-repeat;cursor:pointer}div.light_square
+.pp_contract{background:url("../assets/img/arctic_sunset/prettyPhoto/light_square/sprite.html") 0 -26px no-repeat;cursor:pointer}div.light_square .pp_contract:hover{background:url("../assets/img/arctic_sunset/prettyPhoto/light_square/sprite.html") 0 -47px no-repeat;cursor:pointer}div.light_square
+.pp_close{background:url("../assets/img/arctic_sunset/prettyPhoto/light_square/sprite.html") -1px -1px no-repeat;cursor:pointer;height:22px;width:75px}div.light_square .pp_nav
+.pp_play{background:url("../assets/img/arctic_sunset/prettyPhoto/light_square/sprite.html") -1px -100px no-repeat;height:15px;width:14px}div.light_square .pp_nav
+.pp_pause{background:url("../assets/img/arctic_sunset/prettyPhoto/light_square/sprite.html") -24px -100px no-repeat;height:15px;width:14px}div.light_square
+.pp_arrow_previous{background:url("../assets/img/arctic_sunset/prettyPhoto/light_square/sprite.html") 0 -71px no-repeat}div.light_square
+.pp_arrow_next{background:url("../assets/img/arctic_sunset/prettyPhoto/light_square/sprite.html") -22px -71px no-repeat}div.light_square .pp_next:hover{background:url("../assets/img/arctic_sunset/prettyPhoto/light_square/btnNext.html") center right no-repeat;cursor:pointer}div.light_square .pp_previous:hover{background:url("../assets/img/arctic_sunset/prettyPhoto/light_square/btnPrevious.html") center left no-repeat;cursor:pointer}div.facebook .pp_top
+.pp_left{background:url("../assets/img/arctic_sunset/prettyPhoto/facebook/sprite.html") -88px -53px no-repeat}div.facebook .pp_top
+.pp_middle{background:url("../assets/img/arctic_sunset/prettyPhoto/facebook/contentPatternTop.html") top left repeat-x}div.facebook .pp_top
+.pp_right{background:url("../assets/img/arctic_sunset/prettyPhoto/facebook/sprite.html") -110px -53px no-repeat}div.facebook .pp_content_container
+.pp_left{background:url("../assets/img/arctic_sunset/prettyPhoto/facebook/contentPatternLeft.html") top left repeat-y}div.facebook .pp_content_container
+.pp_right{background:url("../assets/img/arctic_sunset/prettyPhoto/facebook/contentPatternRight.html") top right repeat-y}div.facebook
+.pp_expand{background:url("../assets/img/arctic_sunset/prettyPhoto/facebook/sprite.html") -31px -26px no-repeat;cursor:pointer}div.facebook .pp_expand:hover{background:url("../assets/img/arctic_sunset/prettyPhoto/facebook/sprite.html") -31px -47px no-repeat;cursor:pointer}div.facebook
+.pp_contract{background:url("../assets/img/arctic_sunset/prettyPhoto/facebook/sprite.html") 0 -26px no-repeat;cursor:pointer}div.facebook .pp_contract:hover{background:url("../assets/img/arctic_sunset/prettyPhoto/facebook/sprite.html") 0 -47px no-repeat;cursor:pointer}div.facebook
+.pp_close{background:url("../assets/img/arctic_sunset/prettyPhoto/facebook/sprite.html") -1px -1px no-repeat;cursor:pointer;height:22px;width:22px}div.facebook
+.pp_description{margin:0
+37px 0 0}div.facebook
+.pp_loaderIcon{background:url("../assets/img/arctic_sunset/prettyPhoto/facebook/loader.html") center center no-repeat}div.facebook
+.pp_arrow_previous{background:url("../assets/img/arctic_sunset/prettyPhoto/facebook/sprite.html") 0 -71px no-repeat;height:22px;margin-top:0;width:22px}div.facebook
+.pp_arrow_previous.disabled{background-position:0 -96px;cursor:default}div.facebook
+.pp_arrow_next{background:url("../assets/img/arctic_sunset/prettyPhoto/facebook/sprite.html") -32px -71px no-repeat;height:22px;margin-top:0;width:22px}div.facebook
+.pp_arrow_next.disabled{background-position:-32px -96px;cursor:default}div.facebook
+.pp_nav{margin-top:0}div.facebook .pp_nav
+p{font-size:15px;padding:0
+3px 0 4px}div.facebook .pp_nav
+.pp_play{background:url("../assets/img/arctic_sunset/prettyPhoto/facebook/sprite.html") -1px -123px no-repeat;height:22px;width:22px}div.facebook .pp_nav
+.pp_pause{background:url("../assets/img/arctic_sunset/prettyPhoto/facebook/sprite.html") -32px -123px no-repeat;height:22px;width:22px}div.facebook .pp_next:hover{background:url("../assets/img/arctic_sunset/prettyPhoto/facebook/btnNext.html") center right no-repeat;cursor:pointer}div.facebook .pp_previous:hover{background:url("../assets/img/arctic_sunset/prettyPhoto/facebook/btnPrevious.html") center left no-repeat;cursor:pointer}div.facebook .pp_bottom
+.pp_left{background:url("../assets/img/arctic_sunset/prettyPhoto/facebook/sprite.html") -88px -80px no-repeat}div.facebook .pp_bottom
+.pp_middle{background:url("../assets/img/arctic_sunset/prettyPhoto/facebook/contentPatternBottom.html") top left repeat-x}div.facebook .pp_bottom
+.pp_right{background:url("../assets/img/arctic_sunset/prettyPhoto/facebook/sprite.html") -110px -80px no-repeat}div.pp_pic_holder a:focus{outline:none}div.pp_overlay{background:#000;display:none;left:0;position:absolute;top:0;width:100%;z-index:9500}div.pp_pic_holder{display:none;position:absolute;width:100px;z-index:10000}.pp_content{height:40px;min-width:40px}* html
+.pp_content{width:40px}.pp_content_container{position:relative;text-align:left;width:100%}.pp_content_container
+.pp_left{padding-left:20px}.pp_content_container
+.pp_right{padding-right:20px}.pp_content_container
+.pp_details{float:left;margin:10px
+0 2px}.pp_description{display:none;margin:0}.pp_social{float:left;margin:0}.pp_social
+.facebook{float:left;margin-left:5px;overflow:hidden;width:55px}.pp_social
+.twitter{float:left}.pp_nav{clear:right;float:left;margin:3px
+10px 0 0}.pp_nav
+p{float:left;margin:2px
+4px;white-space:nowrap}.pp_nav .pp_play,
+.pp_nav
+.pp_pause{float:left;margin-right:4px;text-indent:-10000px}a.pp_arrow_previous,a.pp_arrow_next{display:block;float:left;height:15px;margin-top:3px;overflow:hidden;text-indent:-10000px;width:14px}.pp_hoverContainer{position:absolute;top:0;width:100%;z-index:2000}.pp_gallery{display:none;left:50%;margin-top:-50px;position:absolute;z-index:10000}.pp_gallery
+div{float:left;overflow:hidden;position:relative}.pp_gallery
+ul{float:left;height:35px;margin:0
+0 0 5px;padding:0;position:relative;white-space:nowrap}.pp_gallery ul
+a{border:1px
+rgba(0,0,0,0.5) solid;display:block;float:left;height:33px;overflow:hidden}.pp_gallery ul a
+img{border:0}.pp_gallery
+li{display:block;float:left;margin:0
+5px 0 0;padding:0}.pp_gallery li.default
+a{background:url("../assets/img/arctic_sunset/prettyPhoto/facebook/default_thumbnail.html") 0 0 no-repeat;display:block;height:33px;width:50px}.pp_gallery .pp_arrow_previous,
+.pp_gallery
+.pp_arrow_next{margin-top:7px !important}a.pp_next{background:url("../assets/img/arctic_sunset/prettyPhoto/light_rounded/btnNext.html") 10000px 10000px no-repeat;display:block;float:right;height:100%;text-indent:-10000px;width:49%}a.pp_previous{background:url("../assets/img/arctic_sunset/prettyPhoto/light_rounded/btnNext.html") 10000px 10000px no-repeat;display:block;float:left;height:100%;text-indent:-10000px;width:49%}a.pp_expand,a.pp_contract{cursor:pointer;display:none;height:20px;position:absolute;right:30px;text-indent:-10000px;top:10px;width:20px;z-index:20000}a.pp_close{display:block;line-height:22px;position:absolute;right:0;text-indent:-10000px;top:0}.pp_loaderIcon{display:block;height:24px;left:50%;margin:-12px 0 0 -12px;position:absolute;top:50%;width:24px}#pp_full_res{line-height:1 !important}#pp_full_res
+.pp_inline{text-align:left}#pp_full_res .pp_inline
+p{margin:0
+0 15px}div.ppt{color:#fff;display:none;font-size:17px;margin:0
+0 5px 15px;z-index:9999}div.pp_default .pp_content,
+div.light_rounded
+.pp_content{background-color:#fff}div.pp_default #pp_full_res .pp_inline,
+div.light_rounded .pp_content .ppt,
+div.light_rounded #pp_full_res .pp_inline,
+div.light_square .pp_content .ppt,
+div.light_square #pp_full_res .pp_inline,
+div.facebook .pp_content .ppt,
+div.facebook #pp_full_res
+.pp_inline{color:#000}div.pp_default .pp_gallery ul li a:hover,
+div.pp_default .pp_gallery ul li.selected a,
+.pp_gallery ul a:hover,
+.pp_gallery li.selected
+a{border-color:#fff}div.pp_default .pp_details,
+div.light_rounded .pp_details,
+div.dark_rounded .pp_details,
+div.dark_square .pp_details,
+div.light_square .pp_details,
+div.facebook
+.pp_details{position:relative}div.light_rounded .pp_top .pp_middle,
+div.light_rounded .pp_content_container .pp_left,
+div.light_rounded .pp_content_container .pp_right,
+div.light_rounded .pp_bottom .pp_middle,
+div.light_square .pp_left,
+div.light_square .pp_middle,
+div.light_square .pp_right,
+div.light_square .pp_content,
+div.facebook
+.pp_content{background:#fff}div.light_rounded .pp_description,
+div.light_square
+.pp_description{margin-right:85px}div.light_rounded .pp_gallery a.pp_arrow_previous,
+div.light_rounded .pp_gallery a.pp_arrow_next,
+div.dark_rounded .pp_gallery a.pp_arrow_previous,
+div.dark_rounded .pp_gallery a.pp_arrow_next,
+div.dark_square .pp_gallery a.pp_arrow_previous,
+div.dark_square .pp_gallery a.pp_arrow_next,
+div.light_square .pp_gallery a.pp_arrow_previous,
+div.light_square .pp_gallery
+a.pp_arrow_next{margin-top:12px !important}div.light_rounded .pp_arrow_previous.disabled,
+div.dark_rounded .pp_arrow_previous.disabled,
+div.dark_square .pp_arrow_previous.disabled,
+div.light_square
+.pp_arrow_previous.disabled{background-position:0 -87px;cursor:default}div.light_rounded .pp_arrow_next.disabled,
+div.dark_rounded .pp_arrow_next.disabled,
+div.dark_square .pp_arrow_next.disabled,
+div.light_square
+.pp_arrow_next.disabled{background-position:-22px -87px;cursor:default}div.light_rounded .pp_loaderIcon,
+div.light_square
+.pp_loaderIcon{background:url("../assets/img/arctic_sunset/prettyPhoto/light_rounded/loader.html") center center no-repeat}div.dark_rounded .pp_top .pp_middle,
+div.dark_rounded .pp_content,
+div.dark_rounded .pp_bottom
+.pp_middle{background:url("../assets/img/arctic_sunset/prettyPhoto/dark_rounded/contentPattern.html") top left repeat}div.dark_rounded .currentTextHolder,
+div.dark_square
+.currentTextHolder{color:#c4c4c4}div.dark_rounded #pp_full_res .pp_inline,
+div.dark_square #pp_full_res
+.pp_inline{color:#fff}.pp_top,.pp_bottom{height:20px;position:relative}* html .pp_top,
+* html
+.pp_bottom{padding:0
+20px}.pp_top .pp_left,
+.pp_bottom
+.pp_left{height:20px;left:0;position:absolute;width:20px}.pp_top .pp_middle,
+.pp_bottom
+.pp_middle{height:20px;left:20px;position:absolute;right:20px}* html .pp_top .pp_middle,
+* html .pp_bottom
+.pp_middle{left:0;position:static}.pp_top .pp_right,
+.pp_bottom
+.pp_right{height:20px;left:auto;position:absolute;right:0;top:0;width:20px}.pp_fade,
+.pp_gallery li.default a
+img{display:none}.pricing_box{position:relative;clear:both;margin-bottom:50px}.price_col{margin-bottom:30px !important}.price_col
+.badge{display:none;position:absolute;top:-5px;right:-7px;z-index:3}.price_col.col_active
+.badge{display:block}.pricing_box
+.price_item{-webkit-box-shadow:1px 1px 3px 1px #ccc;box-shadow:1px 1px 3px 1px #ccc;position:relative;border:none;-webkit-border-radius:10px;-moz-border-radius:10px;border-radius:10px;background:#f4f3ee}.price_style1 .price_col
+.price_item{background:#faf6f3}.price_style1 .price_col.price_col_blue
+.price_item{background:#f0f4f5}.price_style1 .price_col.price_col_green
+.price_item{background:#DEF5E5}.price_style1 .price_col.price_col_purple
+.price_item{background:#F3F0F5}.price_style1 .price_col.col_active
+.price_item{background:#f4f3ee}.pricing_box
+ul{margin:0;text-align:center}.pricing_box.price_style1
+li.price_col{display:inline-block;padding:0;position:relative}.price_style1
+.price_col.col_active{margin:0
+-35px}.price_col.col_active{top:8px;z-index:1}.price_style1 .price_col
+.price_item{width:220px}.price_style1 .price_col.col_active
+.price_item{width:240px;position:relative}.price_style1 .price_col_head .price,
+.price_style2 .price_col_head
+.price{font-weight:bold;color:#FFF;line-height:66px;text-shadow:1px 1px 1px #555}.price_style1
+.price_col_head{height:68px;margin-bottom:23px}.price_style1 .col_active .price_col_head,
+.price_style2
+.price_col_head{height:88px;margin-bottom:13px}.price_style1 .price_col_head
+.price{font-size:54.04px}.price_style1 .col_active .price_col_head .price,
+.price_style2 .price_col_head
+.price{font-size:66.08px;line-height:80px}.price_style1 .price_col_head .price sup,
+.price_style2 .price_col_head .price
+sup{vertical-align:baseline;position:relative;top:0;font-size:0.6em;color:#FFF}.price_style1 .price_col_head .price span,
+.price_style2 .price_col_head .price
+span{font-size:0.23em;margin-left:-2.8em;font-weight:normal;color:#DEDEDE;position:relative;top:-2.3em}.price_style1 .price_col_head .price em,
+.price_style2 .price_col_head .price
+em{font-size:53.06px;font-style:normal;color:#DEDEDE}.price_col
+.price_col_head{position:relative;-webkit-box-shadow:inset 0 1px 1px 0 #fbd9af;box-shadow:inset 0 1px 1px 0 #fbd9af;background:-webkit-gradient(linear,left top,left bottom,color-stop(0.05,#f9ad59),color-stop(1,#f26617));background:-moz-linear-gradient(center top,#f9ad59 5%,#f26617 100%);background:-o-linear-gradient(top,#f9ad59 5%,#f26617 100%);background:-ms-linear-gradient(top,#f9ad59 5%,#f26617 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f9ad59',endColorstr='#f26617');background-color:#f68629;border-top:1px solid #f4b470;border-bottom:1px solid #c46c3e;-webkit-border-radius:10px 10px 0 0;-moz-border-radius:10px 10px 0 0;border-radius:10px 10px 0 0}.price_col.price_col_green
+.price_col_head{-webkit-box-shadow:inset 0 1px 1px 0 #dfecb1;box-shadow:inset 0 1px 1px 0 #dfecb1;background:-webkit-gradient(linear,left top,left bottom,color-stop(0.05,#b0d251),color-stop(1,#6fa019));background:-moz-linear-gradient(center top,#b0d251 5%,#6fa019 100%);background:-o-linear-gradient(top,#b0d251 5%,#6fa019 100%);background:-ms-linear-gradient(top,#b0d251 5%,#6fa019 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b0d251',endColorstr='#6fa019');background-color:#8fbc29;border-top:1px solid #b2d353;border-bottom:1px solid #739041}.price_col.price_col_blue
+.price_col_head{-webkit-box-shadow:inset 0 1px 1px 0 #b5e7ee;box-shadow:inset 0 1px 1px 0 #b5e7ee;background:-webkit-gradient(linear,left top,left bottom,color-stop(0.05,#74ccdc),color-stop(1,#2d94af));background:-moz-linear-gradient(center top,#74ccdc 5%,#2d94af 100%);background:-o-linear-gradient(top,#74ccdc 5%,#2d94af 100%);background:-ms-linear-gradient(top,#74ccdc 5%,#2d94af 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#74ccdc',endColorstr='#2d94af');background-color:#50bacf;border-top:1px solid #81d5e2;border-bottom:1px solid #3d899a}.price_col.price_col_purple
+.price_col_head{-webkit-box-shadow:inset 0 1px 1px 0 #eeb6c9;box-shadow:inset 0 1px 1px 0 #eeb6c9;background:-webkit-gradient(linear,left top,left bottom,color-stop(0.05,#da688d),color-stop(1,#b32646));background:-moz-linear-gradient(center top,#da688d 5%,#b32646 100%);background:-o-linear-gradient(top,#da688d 5%,#b32646 100%);background:-ms-linear-gradient(top,#da688d 5%,#b32646 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#da688d',endColorstr='#b32646');background-color:#ca426a;border-top:1px solid #da6a8f;border-bottom:1px solid #973d58}.price_style1 .price_col_head .price em,
+.price_style1 .price_col_head .price span,
+.price_style2 .price_col_head .price em,
+.price_style2 .price_col_head .price
+span{color:#ffeed8}.price_style1 .price_col_green .price_col_head .price em,
+.price_style1 .price_col_green .price_col_head .price span,
+.price_style2 .price_col_green .price_col_head .price em,
+.price_style2 .price_col_green .price_col_head .price
+span{color:#eaf9bb}.price_style1 .price_col_blue .price_col_head .price em,
+.price_style1 .price_col_blue .price_col_head .price span,
+.price_style2 .price_col_blue .price_col_head .price em,
+.price_style2 .price_col_blue .price_col_head .price
+span{color:#e0fbff}.price_style1 .price_col_purple .price_col_head .price em,
+.price_style1 .price_col_purple .price_col_head .price span,
+.price_style2 .price_col_purple .price_col_head .price em,
+.price_style2 .price_col_purple .price_col_head .price
+span{color:#fecfdc}.price_col
+.price_body_top{padding-bottom:20px;border-bottom:1px solid #e2dfd3;margin-bottom:10px}.price_col .price_col_body
+.price_body_inner{padding:0
+20px}.price_col .price_body_top
+strong{font-size:23.1px;display:block;font-weight:700 !important;color:#000}.price_col.col_active .price_body_top
+strong{font-size:29.12px}.price_style1 .price_col .price_body_top span,
+.price_style1 .price_col .price_col_body ul
+li{color:#967d6a}.price_style1 .price_col.price_col_blue .price_body_top span,
+.price_style1 .price_col.price_col_blue .price_col_body ul
+li{color:#88a1a7}.price_style1 .price_col.price_col_green .price_body_top span,
+.price_style1 .price_col.price_col_green .price_col_body ul
+li{color:#688a00}.price_style1 .price_col.price_col_purple .price_body_top span,
+.price_style1 .price_col.price_col_purple .price_col_body ul
+li{color:#c75786}.price_col .price_body_top span,
+.price_style1 .price_col.col_active .price_body_top
+span{font-size:12px;font-weight:700;color:#7c746d;display:block}.price_style1 .price_col .price_body_top
+span{font-size:10px}.price_style1 .price_col.col_active .price_body_top
+span{font-size:12px}.price_col .price_col_body ul
+li{color:#694d35;font-size:13px;font-weight:700;display:block;line-height:23px;padding:0;margin:0}.price_col.col_active .price_col_body ul
+li{color:#694d35 !important}.price_col
+.price_col_body{margin-bottom:14px}.price_style1 .price_col.col_active
+.price_col_body{margin-bottom:16px}.price_col .price_col_foot
+.sign_up{padding:0}.price_style1 .price_col.col_active .price_col_foot
+.sign_up{padding:8px
+0}.price_col
+.price_col_foot{background:#fff;-webkit-border-radius:0 0 10px 10px;-moz-border-radius:0 0 10px 10px;border-radius:0 0 10px 10px;border-top:1px solid #f0ebe3}@media (max-width: 767px){.pricing_box.price_style1
+li.price_col{display:block;margin:0
+0 20px;top:0}.price_style1 .price_col .price_item,
+.price_style1 .price_col.col_active
+.price_item{width:100%}}@media (max-width: 991px) and (min-width: 768px){.col-sm-8 .pricing_box.price_style1
+li.price_col{display:block;margin:0
+0 20px;top:0}.col-sm-8 .price_style1 .price_col .price_item,
+.col-sm-8 .price_style1 .price_col.col_active
+.price_item{width:100%}}.price_style2
+.price_col.col_active{top:0}.pricing_box.price_style2
+li.price_col{position:relative}.price_style2 .price_body_top
+strong{font-size:29.12px}.price_style2 .price_body_top
+.line{margin:16px
+10px 9px}.price_style2 .price_col_foot
+.sign_up{padding:13px
+0}.price_style3
+.price_col.col_active{top:0}.price_style3
+.price_item{background:#fff}.price_style3 .price_col_head
+strong{font-size:23.1px;font-weight:700;color:#fff;padding:12px
+0;display:block;text-shadow:0 1px 1px rgba(168,84,24,0.75)}.price_style3 .price_col.price_col_green .price_col_head
+strong{text-shadow:0 1px 1px rgba(103,137,24,0.75)}.price_style3 .price_col.price_col_blue .price_col_head
+strong{text-shadow:0 1px 1px rgba(39,131,152,0.75)}.price_style3 .price_col.price_col_purple .price_col_head
+strong{text-shadow:0 1px 1px rgba(145,28,60,0.75)}.price_style3 .price_body_top .price,
+.price_style3 .price_body_top
+span{font-size:24.08px;font-weight:900;color:#040404;white-space:nowrap}.price_style3
+.price_body_top{margin-bottom:24px}.price_style3 .price_body_top
+span{display:inline-block;font-size:42px}@media (min-width: 768px) and (max-width: 991px){.price_style3 .price_body_top .price,
+.price_style3 .price_body_top
+span{font-size:20.02px}.price_style3 .price_body_top
+span{font-size:36.12px}}.price_style3 .price_col_body
+.price_body_inner{padding:0}.price_style3
+.price_body_top{padding:24px
+10px}.price_style3 .price_col_body ul li,
+.price_style3 .price_col.col_active .price_col_body ul
+li{line-height:34px;color:#808080 !important}.price_style3 .price_col_body ul li
+span{color:#000}.price_style3 .price_col_body
+ul{border-bottom:1px solid #e6e6e6;padding-bottom:26px}.price_style3
+.price_body_bottom{background:#F1F0EA;border:4px
+solid #FFF;padding:12px
+0;font-size:13px;color:#553C28}.price_style3
+.price_col_body{margin-bottom:0}.pricing_box.price_style3
+.price_item{-webkit-border-radius:10px 10px 0 0;-moz-border-radius:10px 10px 0 0;border-radius:10px 10px 0 0}.price_style3
+.price_col_bottom{position:relative;margin:0
+-3px 0 -1px}.price_style3 .price_col_bottom
+img{display:block;width:100%;height:41px !important}.price_style3
+.price_col_foot{padding-top:5px}.price_style3 .price_col_foot
+.button{position:relative;top:9px;z-index:2}.widget_avatar{margin-bottom:40px}.widget_avatar
+*{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}.widget_avatar
+.inner{padding:14px
+10px 11px}.widget_avatar
+.avatar{width:95px;height:95px;margin:0
+auto;padding:11px
+0 0 11px;background:url("../assets/img/arctic_sunset/avatar-bg.png") no-repeat}.widget_avatar .avatar
+img{display:block;width:84px;height:84px;border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%}.widget_avatar
+h5{font-size:18.06px;font-weight:700;text-align:center;color:#323232;margin-bottom:0}.widget_avatar
+.subtitle{display:block;margin-bottom:12px;text-align:center;font-size:12px;color:#999}.widget_avatar
+.follow{text-align:center}.widget_avatar
+.button{margin:0;position:relative}.widget_avatar .button
+span{padding-left:52px}.widget_avatar
+.plus{width:24px;height:31px;background:url("../assets/img/arctic_sunset/icons/plus_small.png") no-repeat;position:absolute;top:4px;left:13px}.widget_avatar
+.followers{text-align:center;font:bold 10px Arial;font-size:10px;color:#a6a6a6;margin-bottom:14px}.widget_avatar
+.counter{color:#dd533f}.progressbar{margin:50px
+0;position:relative}.progressbar .pbar::selection{background:transparent}.progressbar .ui-widget-header{border:0
+none !important}.progressbar span,
+.progressbar .elapsed,
+.progressbar
+.remained{position:absolute;top:-20px;font-size:10px;color:#ababab}.progressbar span.mark-left,
+.progressbar
+.remained{left:0}.progressbar span.mark-right,
+.progressbar
+.elapsed{right:0}.progressbar .percent,
+.progressbar .elapsed,
+.progressbar
+.remained{display:none}.progressbar.style2 .percent,
+.progressbar.style2 .mark-left,
+.progressbar.style2 .mark-right{display:none}.progressbar.style2 .elapsed,
+.progressbar.style2
+.remained{display:block}.progressbar .ui-progressbar-value{display:block !important}.progressbar .ui-corner-all{border-radius:6px;-webkit-border-radius:6px;-moz-border-radius:6px}.progressbar .ui-progressbar{height:10px;overflow:visible !important;position:relative;z-index:0}.progressbar .ui-widget-content{border:0
+none;height:13px;padding:6px
+8px 0;background:url("../assets/img/arctic_sunset/progressbars.png");position:relative}.progressbar .ui-widget-content:after{content:'';display:block;position:absolute;top:0;right:-2px;width:11px;height:19px;background:url("../assets/img/arctic_sunset/progressbars.png") right 0}.progressbar .ui-progressbar .ui-progressbar-value{margin:0;height:5px;position:relative;background:url("../assets/img/arctic_sunset/progressbars.png") left -19px no-repeat;min-width:5px !important}.progressbar .ui-progressbar .ui-progressbar-value:after{content:'';display:block;position:absolute;top:-7px;right:-9px;z-index:1;width:19px;height:20px;background:url("../assets/img/arctic_sunset/progressbars.png") 0 -30px no-repeat}.progressbar.style2{z-index:2}.progressbar.style2 .ui-widget-content{padding-right:6px !important}.progressbar.style2 .ui-progressbar .ui-progressbar-value:after{background:url("../assets/img/arctic_sunset/progressbars.png") right -19px no-repeat;width:5px;height:5px;top:0;right:-2px}.progressbar.style2
+.downloadbar{position:absolute;z-index:1;width:100%;height:9px;top:-1px;left:0}.progressbar.style2 .downloadbar .ui-widget-content{border:0
+none;background:none}.progressbar.style2 .downloadbar .ui-widget-content:after{background:none}.progressbar.style2 .downloadbar .ui-progressbar .ui-progressbar-value{height:5;position:relative;background:url("../assets/img/arctic_sunset/progressbars.png") left -24px no-repeat;margin-top:1px;max-width:99%}.progressbar.style2 .downloadbar .ui-progressbar .ui-progressbar-value:after{background:url("../assets/img/arctic_sunset/progressbars.png") right -24px no-repeat;width:3px;height:5px;top:0;right:-3px}.rate{display:inline-block;width:123px;height:25px;background-image:url("../assets/img/arctic_sunset/icons/rating.png");background-repeat:no-repeat;background-position:center 0}.rate.rate-1{background-position:center -25px}.rate.rate-2{background-position:center -50px}.rate.rate-3{background-position:center -75px}.rate.rate-4{background-position:center -100px}.rate.rate-5{background-position:center -125px}.rating{margin-bottom:25px}.rating
+span.star{display:block;float:left;width:25px;height:23px;padding:0
+3px;background-repeat:no-repeat}.rating
+span.off{background-image:url("../assets/img/arctic_sunset/icons/star_off.png")}.rating span.on,
+.rating span.star:hover,
+.rating
+span.over{background-image:url("../assets/img/arctic_sunset/icons/star_on.png");cursor:pointer}.ribbon{min-width:15px;height:50px;padding-right:25px;display:inline-block;background-image:url("../assets/img/arctic_sunset/ribbons.png");background-repeat:no-repeat;background-position:right -50px}.ribbon
+span{display:block;height:50px;line-height:36px;padding-left:40px;background-image:url("../assets/img/arctic_sunset/ribbons.png");background-repeat:no-repeat;background-position:left 0;font-size:16.1px;font-weight:700;color:#fff;text-shadow:0 1px 1px rgba(0,0,0,0.3);white-space:nowrap}.ribbon.ribbon-yellow
+span{background-position:left -100px}.ribbon.ribbon-yellow{background-position:right -150px}.ribbon.ribbon-green
+span{background-position:left -200px}.ribbon.ribbon-green{background-position:right -250px}.ribbon.ribbon-blue
+span{background-position:left -300px}.ribbon.ribbon-blue{background-position:right -350px}.service_list{margin-bottom:50px}.service_list .service_title
+h2{color:#de3511;font-size:23.1px}.service_list_1{margin-bottom:20px}.service_list_1
+.button{margin-left:-5px}.service_list_1
+.service_item{position:relative;margin-bottom:40px}.service_list_1 .service_item,
+.service_list_2
+.service_item{padding-left:80px}.service_list_1 .service_img,
+.service_list_2
+.service_img{position:absolute;top:0;left:0}.service_list_1
+.service_img.service_img1{top:3px;left:3px}.service_list_1
+.service_img.service_img2{top:4px;left:8px}.service_list_1
+.service_img.service_img3{top:3px;left:1px}.service_list_1
+.service_img.service_img4{top:4px;left:-4px}.service_list_1
+.service_img.service_img5{top:4px;left:10px}.service_list_1
+.service_img.service_img6{top:4px;left:7px}.service_list_1 .service_img img,
+.service_list_2 .service_img
+img{display:block}.service_list_1 .service_title,
+.service_list_2
+.service_title{margin-bottom:8px}.service_list_1 .service_title h2,
+.service_list_2 .service_title
+h2{margin-bottom:0}.service_desc
+p{color:#5f5f5f;text-shadow:0 2px 2px #FFF;margin-bottom:15px;line-height:20px}.service_list_1 .link-more{margin-bottom:15px}.service_list_2
+.inner{padding:66px
+0 11px}.service_list_2
+.service_title{margin-bottom:9px}.service_list_2
+.service_img{left:10px}.service_list_2
+.service_item{position:relative;margin-bottom:55px}.service_list_2 .service_title
+h2{font-size:21px;text-transform:uppercase}.service_list_2 .service_desc
+p{margin-right:10px}.service_list_3,.service_list_4{position:relative;margin-bottom:0}.service_list_3 .service_item,
+.service_list_4
+.service_item{text-align:center;margin-bottom:50px}.service_list_3
+.service_img{margin-bottom:23px}.service_list_3 .service_title
+h2{margin-bottom:20px;font-size:23.1px;color:#000}.service_list_3 .service_desc
+p{line-height:21px;margin-bottom:22px}.service_list_4
+.inner{padding:41px
+25px 33px}.service_list_4
+.service_img{height:70px;margin-bottom:18px}.service_list_4 .service_title
+h2{margin-bottom:19px;font-size:23.1px}.service_list_4 .service_desc
+p{line-height:21px;margin-bottom:22px}.caroufredsel_wrapper{margin:0
+auto !important}.carouFredsel{position:relative;z-index:0;margin-top:20px;margin-bottom:40px;height:150px}.col-sm-8 .carouFredsel,
+.col-sm-6 .carouFredsel,
+.col-sm-4
+.carouFredsel{height:130px}.carouFredsel
+li{float:left;position:relative}.carousel-image{overflow:hidden;height:141px}.col-sm-8 .carousel-image,
+.col-sm-6 .carousel-image,
+.col-sm-4 .carousel-image{height:120px}.carouFredsel li:hover .carousel-image
+a{display:block;background-color:#1d1610;background-image:url("../assets/img/arctic_sunset/icons/hover.png");background-repeat:no-repeat;background-position:center 50px}.carouFredsel.feature li:hover .carousel-image,
+.carouFredsel.most-commented li:hover .carousel-image{background:none}.carouFredsel li:hover .carousel-title,
+.col-sm-6 .carouFredsel.style2 li:hover .carousel-title{display:none}.carouFredsel.feature li:hover .carousel-title,
+.carouFredsel.most-commented li:hover .carousel-title{display:block}.carousel-title{position:absolute;right:0;left:0;bottom:0;padding:10px
+15px;background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjkiLz4KICAgIDxzdG9wIG9mZnNldD0iNzIlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjAuNjUiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);background:-moz-linear-gradient(left,rgba(0,0,0,0.9) 0%,rgba(0,0,0,0.65) 72%,rgba(0,0,0,0) 100%);background:-webkit-gradient(linear,left top,right top,color-stop(0%,rgba(0,0,0,0.9)),color-stop(72%,rgba(0,0,0,0.65)),color-stop(100%,rgba(0,0,0,0)));background:-webkit-linear-gradient(left,rgba(0,0,0,0.9) 0%,rgba(0,0,0,0.65) 72%,rgba(0,0,0,0) 100%);background:-o-linear-gradient(left,rgba(0,0,0,0.9) 0%,rgba(0,0,0,0.65) 72%,rgba(0,0,0,0) 100%);background:-ms-linear-gradient(left,rgba(0,0,0,0.9) 0%,rgba(0,0,0,0.65) 72%,rgba(0,0,0,0) 100%);background:linear-gradient(to right,rgba(0,0,0,0.9) 0%,rgba(0,0,0,0.65) 72%,rgba(0,0,0,0) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e6000000',endColorstr='#00000000',GradientType=1);-webkit-border-radius:0 0 6px 6px;-moz-border-radius:0 0 6px 6px;border-radius:0 0 6px 6px}.carousel-title
+p{text-shadow:none;color:#fff;margin:0;font-family:'HelveticaNeueW01-55Roma',Helvetica,Arial,sans-serif;font-size:12px;line-height:16px;font-weight:700}.carouFredsel .prev,
+.carouFredsel
+.next{display:block;width:24px;height:141px;overflow:hidden;text-indent:100px;background-image:url("../assets/img/arctic_sunset/caroufredsel_controls.png");background-repeat:no-repeat;background-color:#fbfbfb;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;box-shadow:1px 2px 5px rgba(0,0,0,0.2);-webkit-box-shadow:1px 2px 5px rgba(0,0,0,0.2);-moz-box-shadow:1px 2px 5px rgba(0,0,0,0.2);position:absolute;top:0}.col-sm-8 .carouFredsel .prev,
+.col-sm-8 .carouFredsel .next,
+.col-sm-6 .carouFredsel .prev,
+.col-sm-6 .carouFredsel .next,
+.col-sm-4 .carouFredsel .prev,
+.col-sm-4 .carouFredsel
+.next{height:120px}.carouFredsel
+.prev{background-position:left center;left:1px}.carouFredsel
+.next{background-position:right center;right:1px}.col-sm-12 .carouFredsel
+li{height:141px;margin:0
+1px}.col-sm-8 .carouFredsel li,
+.col-sm-6 .carouFredsel li,
+.col-sm-4 .carouFredsel
+li{height:120px;margin:0
+1px}.col-sm-6 .carouFredsel
+li{margin:0
+6px}.col-sm-12 .carouFredsel
+li{width:216px}.col-sm-8 .carouFredsel li,
+.col-sm-6 .carouFredsel li,
+.col-sm-4 .carouFredsel
+li{width:186px}.col-sm-12 .carousel-title{top:44px;left:6px;right:6px;bottom:auto;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px}.col-sm-6 .carousel-title{top:auto;left:8px;right:8px;bottom:8px;-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px}.col-sm-6 .carouFredsel.style2 .carousel-title{background:url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjI4JSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIgc3RvcC1vcGFjaXR5PSIwLjY1Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMC45Ii8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);background:-moz-linear-gradient(left,rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 28%,rgba(0,0,0,0.9) 100%);background:-webkit-gradient(linear,left top,right top,color-stop(0%,rgba(0,0,0,0)),color-stop(28%,rgba(0,0,0,0.65)),color-stop(100%,rgba(0,0,0,0.9)));background:-webkit-linear-gradient(left,rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 28%,rgba(0,0,0,0.9) 100%);background:-o-linear-gradient(left,rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 28%,rgba(0,0,0,0.9) 100%);background:-ms-linear-gradient(left,rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 28%,rgba(0,0,0,0.9) 100%);background:linear-gradient(to right,rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 28%,rgba(0,0,0,0.9) 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000',endColorstr='#e6000000',GradientType=1);text-align:right}.carouFredsel.most-commented{background:none;padding:0;height:auto}.carouFredsel.most-commented
+li{height:194px}.carouFredsel.most-commented .carousel-title{top:auto;right:0;left:0;bottom:0;padding:2px
+3px;background:none;filter:none}.carouFredsel.most-commented .carousel-title
+p{font-size:15px;padding-left:10px;color:#292929;line-height:18px}.carouFredsel.feature{height:316px}.carouFredsel.feature
+li{height:300px;margin:8px
+2px 0}.carouFredsel.feature
+li{width:238px}.carouFredsel.feature
+li.wide{width:442px}.carouFredsel.feature .carousel-image{height:300px}.carouFredsel.feature .prev,
+.carouFredsel.feature
+.next{width:23px;height:60px;background-image:url("../assets/img/arctic_sunset/caroufredsel_controls3.png");top:133px;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;box-shadow:none;-webkit-box-shadow:none;-moz-box-shadow:none;background-color:transparent}.carouFredsel.feature
+.prev{left:4px;background-position:top left}.carouFredsel.feature
+.next{right:4px;background-position:top right}.carouFredsel.feature .carousel-title{top:auto;right:0;left:0;bottom:0;padding:0;background:#000;background:rgba(0,0,0,0.75);-webkit-border-radius:0 0 6px 6px;-moz-border-radius:0 0 6px 6px;border-radius:0 0 6px 6px}.carouFredsel.feature .carousel-title
+h5{text-shadow:none;color:#fff;margin:0;white-space:nowrap;height:48px;line-height:48px;display:inline-block;padding-left:24px}.ico-feature{width:26px;height:26px;background-image:url("../assets/img/arctic_sunset/icons/feature_icon.png");position:absolute;top:-241px;left:13px}.ico-feature.ico-feature1{background-position:left 0}.ico-feature.ico-feature2{background-position:left -26px}.carouFredsel.feature
+.badge{position:absolute;top:-4px;right:-3px}.widget_gallery{margin-bottom:40px}.widget_gallery
+.inner{padding:9px}.widget_gallery
+.carousel{margin-bottom:0}.widget_gallery .carousel-inner{height:355px}.widget_gallery .carousel-inner>.item{height:355px !important}.widget_gallery .carousel-title{-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;background:rgba(0,0,0,0.5);padding:20px
+23px}.widget_gallery .carousel-title
+h6{color:#fff;text-shadow:none;font-size:18.06px;font-weight:400;float:left;margin:0}.widget_gallery .carousel-title
+p{float:right;font-style:italic;font-size:13px;font-weight:400;padding:4px
+0 0 10px}.widget_gallery .carousel-control{top:147px;left:0}.widget_gallery .carousel-control.right{left:auto;right:0}.widget_gallery .carousel-indicators{display:none}.tabs_framed{margin-bottom:30px}.col-sm-4
+.tabs_framed{margin-bottom:25px}.tab-content{overflow:visible;background:url("../assets/img/arctic_sunset/box_bg_bot.jpg") bottom repeat-x #fafafa;border-radius:0 4px 4px 4px;-webkit-border-radius:0 4px 4px 4px;-moz-border-radius:0 4px 4px 4px;-webkit-box-shadow:1px 2px 1px 1px rgba(0,0,0,0.13);-moz-box-shadow:1px 2px 1px 1px rgba(0,0,0,0.13);box-shadow:1px 2px 1px 1px rgba(0,0,0,0.13);position:relative;z-index:0;padding:35px}.tabs
+li{float:left;text-align:center;height:39px;line-height:39px;position:relative;border:1px
+solid #dfdcd6;border-bottom:0 none;-webkit-border-radius:5px 5px 0 0;-moz-border-radius:5px 5px 0 0;border-radius:5px 5px 0 0;margin-right:2px;margin-top:4px;background:#e9e9e9;background:linear-gradient(top,#f6f6f6,#e9e9e9);background:-webkit-linear-gradient(top,#f6f6f6,#e9e9e9);background:-moz-linear-gradient(top,#f6f6f6,#e9e9e9);background:-ms-linear-gradient(top,#f6f6f6,#e9e9e9)}.tabs
+li.active{margin-top:0;height:43px;line-height:43px;border-color:#fafafa;background:#fafafa;box-shadow:1px 1px 6px rgba(0,0,0,0.2);-webkit-box-shadow:1px 1px 6px rgba(0,0,0,0.2);-moz-box-shadow:1px 1px 6px rgba(0,0,0,0.2)}.tabs li
+a{font-size:15px;color:#949494;text-shadow:0 1px 1px #fff;display:block;padding:0
+20px}.tabs li.active
+a{font-size:17.08px;color:#292929}@media (max-width: 991px){.tabs li
+a{padding:0
+5px}}@media (max-width: 479px){.tabs li
+a{font-size:12px}.tabs li.active
+a{font-size:13px}}.tabs li
+span{display:inline-block;width:16px;height:16px;line-height:14px;font-size:10px;color:#fff;margin-right:5px;background:#a7a7a7;background:linear-gradient(top,#d2d2d2,#a7a7a7);background:-webkit-linear-gradient(top,#d2d2d2,#a7a7a7);background:-moz-linear-gradient(top,#d2d2d2,#a7a7a7);background:-ms-linear-gradient(top,#d2d2d2,#a7a7a7);border:1px
+solid #b8b8b8;border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;box-shadow:1px 1px 1px rgba(0,0,0,0.2);-webkit-box-shadow:1px 1px 1px rgba(0,0,0,0.2);-moz-box-shadow:1px 1px 1px rgba(0,0,0,0.2);text-shadow:1px 1px 1px #393939;position:relative;top:-2px}.tabs li.active
+span{background:#4f4f4f;background:linear-gradient(top,#9e9e9e,#4f4f4f);background:-webkit-linear-gradient(top,#9e9e9e,#4f4f4f);background:-moz-linear-gradient(top,#9e9e9e,#4f4f4f);background:-ms-linear-gradient(top,#9e9e9e,#4f4f4f);border:1px
+solid #5c5c5c;top:-3px}.tab-content
+h2{margin-bottom:12px}.col-sm-4 .tab-content{padding:30px
+30px 20px}.col-sm-4 .tab_image.pull-left,
+.col-sm-4 .tab_image.pull-right{width:45%}.col-sm-4
+.tab_image{margin:0
+0 12px 0}.col-sm-4 .tab_image.pull-left{margin:5px
+16px 5px 0}.col-sm-4 .tab_image.pull-right{margin:5px
+0 5px 16px}.col-sm-4 .tab-content
+h4{margin-bottom:13px;color:#de3511}.col-sm-8 .tab-content{padding:30px
+35px 26px}.col-sm-8 .tab-content
+h2{color:#de3511}.col-sm-8 .tab_image.pull-left,
+.col-sm-8 .tab_image.pull-right{width:25%}.col-sm-8
+.tab_image{margin:0
+0 12px 0}.col-sm-8 .tab_image.pull-left{margin:5px
+16px 5px 0}.col-sm-8 .tab_image.pull-right{margin:5px
+0 5px 16px}.col-sm-12 .tab-content{padding:36px
+35px 24px}.col-sm-12 .tabs li.active
+a{color:#54B0CB}.col-sm-12 .tab_image.pull-left,
+.col-sm-12 .tab_image.pull-right{width:32%}.col-sm-12
+.tab_image{margin:0
+0 12px 0}.col-sm-12 .tab_image.pull-left{margin:6px
+3% 10px 0}.col-sm-12 .tab_image.pull-right{margin:4px
+0 10px 3%}.col-sm-6 .tab-content{padding:28px
+36px 20px}.col-sm-6 .tabs li.active
+a{color:#54B0CB}.tab_icon{float:left;margin-top:6px}.col-sm-6 .tab-content h2,
+.col-sm-6 .tab-content
+p{margin-left:70px}.tabs_article .tab-content{padding:30px
+35px 26px}.tabs_article .tab-content
+h2{color:#292929}.col-sm-8 .tab_image.pull-left,
+.col-sm-8 .tab_image.pull-right{width:26%}.col-sm-8
+.tab_image{margin:0
+0 12px 0}.col-sm-8 .tab_image.pull-left{margin:5px
+16px 5px 0}.col-sm-8 .tab_image.pull-right{margin:5px
+0 5px 16px}.tabs_framed.styled
+.note{top:-6px;right:-2px}.tabs_framed.styled .tabs
+li{height:30px;line-height:30px}.tabs_framed.styled .tabs
+li.active{margin-top:4px}.tabs_framed.styled .tabs li
+a{font-size:14px}.tabs_framed.styled .tabs li.active
+a{color:#6f6f6f}.tabs_framed.styled .tab-content{padding:18px
+20px 10px}.tabs_framed.styled
+.tab_image{float:left;width:32%;margin:0
+13px 10px 0;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}.tabs_framed.styled .tab_image
+img{-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px}.tabs_framed.styled .tab-content
+h4{font-size:17.08px;margin-bottom:6px}.tabs_framed.styled .tab-content
+p{margin-left:0;font-size:12px;line-height:16px;color:#878787}.tabs_framed.styled a.see-more{color:#888}.toggle{position:relative;margin-bottom:30px}.col-sm-4
+.toggle{margin-bottom:25px}.toggle-header{position:relative;display:inline-block}.toggle.boxed .toggle-header{display:block}.toggle-header
+h4{margin-bottom:0;margin-left:22px;text-shadow:0 1px 1px #fff;color:#de3511}.toggle.boxed .toggle-header
+h4{color:#292929}.toggle-header
+.question{float:left;text-shadow:0 1px 1px #fff;font-size:19.04px;color:#292929}.toggle.boxed .toggle-header
+.question{color:#de3511}.toggle-link{display:block;padding:11px
+40px 11px 0}.toggle.boxed .toggle-link{padding:11px
+40px 11px 23px}.toggle-link
+i{width:12px;height:12px;background-image:url("../assets/img/arctic_sunset/toggle_mark.png");background-repeat:no-repeat;background-position:right -12px;position:absolute;top:16px;right:0;left:auto}.toggle-link.collapsed
+i{background-position:right 0}.toggle.boxed .toggle-link
+i{background-position:left -12px;top:16px;right:4px}.toggle.boxed .toggle-link.collapsed
+i{background-position:left 0}.toggle-body
+.inner{padding:20px
+4px 4px}.toggle.boxed .toggle-body
+.inner{padding:9px
+33px 15px}.video-js,
+.video-js
+*{-webkit-box-sizing:content-box;-moz-box-sizing:content-box;box-sizing:content-box}.video-js{background-color:#000;position:relative;padding:0;margin:0
+auto;font-size:10px;vertical-align:middle}.video-js,
+.video-js .vjs-tech{-webkit-border-radius:6px;-moz-border-radius:6px;border-radius:6px}.video-js .vjs-tech{position:absolute;top:0;left:0;width:100%;height:100%}.video-js:-moz-full-screen{position:absolute}body.vjs-full-window{padding:0;margin:0;height:100%;overflow-y:auto}.video-js.vjs-fullscreen{position:fixed;overflow:hidden;z-index:1000;left:0;top:0;bottom:0;right:0;width:100% !important;height:100% !important;_position:absolute}.video-js:-webkit-full-screen{width:100% !important;height:100% !important}.vjs-poster{margin:0
+auto;padding:0;cursor:pointer;border-radius:0 !important;-webkit-border-radius:0 !important;-moz-border-radius:0 !important;position:relative;width:100%;max-height:100%}.video-js .vjs-text-track-display{text-align:center;position:absolute;bottom:4em;left:1em;right:1em;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}.video-js .vjs-text-track{display:none;color:#fff;font-size:1.4em;text-align:center;margin-bottom:0.1em;background:#000;background:rgba(0,0,0,0.5)}.video-js .vjs-subtitles{color:#fff}.video-js .vjs-captions{color:#fc6}.vjs-tt-cue{display:block}.vjs-fade-in,.vjs-fade-out{visibility:visible !important;opacity:1 !important;-webkit-transition:visibility 0s linear 0s, opacity 0.3s linear;-moz-transition:visibility 0s linear 0s, opacity 0.3s linear;-ms-transition:visibility 0s linear 0s, opacity 0.3s linear;-o-transition:visibility 0s linear 0s, opacity 0.3s linear;transition:visibility 0s linear 0s, opacity 0.3s linear}.vjs-fade-out{visibility:hidden !important;opacity:0 !important;-webkit-transition:visibility 0s linear 1.5s, opacity 1.5s linear;-moz-transition:visibility 0s linear 1.5s, opacity 1.5s linear;-ms-transition:visibility 0s linear 1.5s, opacity 1.5s linear;-o-transition:visibility 0s linear 1.5s, opacity 1.5s linear;transition:visibility 0s linear 1.5s, opacity 1.5s linear}.vjs-default-skin .vjs-controls{position:absolute;bottom:0;left:0;right:0;margin:0;padding:0;height:2.6em;color:#fff;border-top:1px solid #404040;background:#242424;background:-moz-linear-gradient(top,#242424 50%,#1f1f1f 50%,#171717 100%);background:-webkit-gradient(linear,0% 0%,0% 100%,color-stop(50%,#242424),color-stop(50%,#1f1f1f),color-stop(100%,#171717));background:-webkit-linear-gradient(top,#242424 50%,#1f1f1f 50%,#171717 100%);background:-o-linear-gradient(top,#242424 50%,#1f1f1f 50%,#171717 100%);background:-ms-linear-gradient(top,#242424 50%,#1f1f1f 50%,#171717 100%);background:linear-gradient(top,#242424 50%,#1f1f1f 50%,#171717 100%);visibility:hidden;opacity:0;-webkit-border-radius:0 0 6px 6px;-moz-border-radius:0 0 6px 6px;border-radius:0 0 6px 6px}.vjs-default-skin .vjs-control{position:relative;float:left;text-align:center;margin:0;padding:0;height:2.6em;width:2.6em}.vjs-default-skin .vjs-control:focus{outline:0}.vjs-default-skin .vjs-control-text{border:0;clip:rect(0 0 0 0);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px}.vjs-default-skin .vjs-play-control{width:5em;cursor:pointer !important}.vjs-default-skin.vjs-paused .vjs-play-control
+div{width:15px;height:17px;background:url("../assets/img/arctic_sunset/video-js.png");margin:0.5em auto 0}.vjs-default-skin.vjs-playing .vjs-play-control
+div{width:15px;height:17px;background:url("../assets/img/arctic_sunset/video-js.png") -25px 0;margin:0.5em auto 0}.vjs-default-skin .vjs-rewind-control{width:5em;cursor:pointer !important}.vjs-default-skin .vjs-rewind-control
+div{width:19px;height:16px;background:url("../assets/img/arctic_sunset/video-js.png");margin:0.5em auto 0}.vjs-default-skin .vjs-mute-control{width:3.8em;cursor:pointer !important;float:right}.vjs-default-skin .vjs-mute-control
+div{width:22px;height:16px;background:url("../assets/img/arctic_sunset/video-js.png") -75px -25px;margin:0.5em auto 0}.vjs-default-skin .vjs-mute-control.vjs-vol-0
+div{background:url("../assets/img/arctic_sunset/video-js.png") 0 -25px}.vjs-default-skin .vjs-mute-control.vjs-vol-1
+div{background:url("../assets/img/arctic_sunset/video-js.png") -25px -25px}.vjs-default-skin .vjs-mute-control.vjs-vol-2
+div{background:url("../assets/img/arctic_sunset/video-js.png") -50px -25px}.vjs-default-skin .vjs-volume-control{width:5em;float:right}.vjs-default-skin .vjs-volume-bar{position:relative;width:5em;height:0.6em;margin:1em
+auto 0;cursor:pointer !important;-moz-border-radius:0.3em;-webkit-border-radius:0.3em;border-radius:0.3em;background:#666;background:-moz-linear-gradient(top,#333,#666);background:-webkit-gradient(linear,0% 0%,0% 100%,from(#333),to(#666));background:-webkit-linear-gradient(top,#333,#666);background:-o-linear-gradient(top,#333,#666);background:-ms-linear-gradient(top,#333,#666);background:linear-gradient(top,#333,#666)}.vjs-default-skin .vjs-volume-level{position:absolute;top:0;left:0;height:0.6em;-moz-border-radius:0.3em;-webkit-border-radius:0.3em;border-radius:0.3em;background:#fff;background:-moz-linear-gradient(top,#fff,#ccc);background:-webkit-gradient(linear,0% 0%,0% 100%,from(#fff),to(#ccc));background:-webkit-linear-gradient(top,#fff,#ccc);background:-o-linear-gradient(top,#fff,#ccc);background:-ms-linear-gradient(top,#fff,#ccc);background:linear-gradient(top,#fff,#ccc)}.vjs-default-skin .vjs-volume-handle{position:absolute;top:-0.2em;width:0.8em;height:0.8em;background:#ccc;left:0;border:1px
+solid #fff;-moz-border-radius:0.6em;-webkit-border-radius:0.6em;border-radius:0.6em}.vjs-default-skin div.vjs-progress-control{position:absolute;left:4.8em;right:4.8em;height:1.0em;width:auto;top:-1.3em;border-bottom:1px solid #1F1F1F;border-top:1px solid #222;background:#333;background:-moz-linear-gradient(top,#222,#333);background:-webkit-gradient(linear,0% 0%,0% 100%,from(#222),to(#333));background:-webkit-linear-gradient(top,#222,#333);background:-o-linear-gradient(top,#333,#222);background:-ms-linear-gradient(top,#333,#222);background:linear-gradient(top,#333,#222)}.vjs-default-skin .vjs-progress-holder{position:relative;cursor:pointer !important;padding:0;margin:0;height:1.0em;-moz-border-radius:0.6em;-webkit-border-radius:0.6em;border-radius:0.6em;background:#111;background:-moz-linear-gradient(top,#111,#262626);background:-webkit-gradient(linear,0% 0%,0% 100%,from(#111),to(#262626));background:-webkit-linear-gradient(top,#111,#262626);background:-o-linear-gradient(top,#111,#262626);background:-ms-linear-gradient(top,#111,#262626);background:linear-gradient(top,#111,#262626)}.vjs-default-skin .vjs-progress-holder .vjs-play-progress,
+.vjs-default-skin .vjs-progress-holder .vjs-load-progress{position:absolute;display:block;height:1.0em;margin:0;padding:0;left:0;top:0;-moz-border-radius:0.6em;-webkit-border-radius:0.6em;border-radius:0.6em}.vjs-default-skin .vjs-play-progress{background:#fff;background:-moz-linear-gradient(top,#fff 0%,#d6d6d6 50%,#fff 100%);background:-webkit-gradient(linear,0% 0%,0% 100%,color-stop(0%,#fff),color-stop(50%,#d6d6d6),color-stop(100%,#fff));background:-webkit-linear-gradient(top,#fff 0%,#d6d6d6 50%,#fff 100%);background:-o-linear-gradient(top,#fff 0%,#d6d6d6 50%,#fff 100%);background:-ms-linear-gradient(top,#fff 0%,#d6d6d6 50%,#fff 100%);background:linear-gradient(top,#fff 0%,#d6d6d6 50%,#fff 100%);background:#efefef;background:-moz-linear-gradient(top,#efefef 0%,#f5f5f5 50%,#dbdbdb 50%,#f1f1f1 100%);background:-webkit-gradient(linear,0% 0%,0% 100%,color-stop(0%,#efefef),color-stop(50%,#f5f5f5),color-stop(50%,#dbdbdb),color-stop(100%,#f1f1f1));background:-webkit-linear-gradient(top,#efefef 0%,#f5f5f5 50%,#dbdbdb 50%,#f1f1f1 100%);background:-o-linear-gradient(top,#efefef 0%,#f5f5f5 50%,#dbdbdb 50%,#f1f1f1 100%);background:-ms-linear-gradient(top,#efefef 0%,#f5f5f5 50%,#dbdbdb 50%,#f1f1f1 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#efefef',endColorstr='#f1f1f1',GradientType=0);background:linear-gradient(top,#efefef 0%,#f5f5f5 50%,#dbdbdb 50%,#f1f1f1 100%)}.vjs-default-skin .vjs-load-progress{opacity:0.8;background:#666;background:-moz-linear-gradient(top,#666,#333);background:-webkit-gradient(linear,0% 0%,0% 100%,from(#666),to(#333));background:-webkit-linear-gradient(top,#666,#333);background:-o-linear-gradient(top,#666,#333);background:-ms-linear-gradient(top,#666,#333);background:linear-gradient(top,#666,#333)}.vjs-default-skin div.vjs-seek-handle{position:absolute;width:16px;height:16px;margin-top:-0.3em;left:0;top:0;background:url("../assets/img/arctic_sunset/video-js.png") 0 -50px;-moz-border-radius:0.8em;-webkit-border-radius:0.8em;border-radius:0.8em;-webkit-box-shadow:0 2px 4px 0 #000;-moz-box-shadow:0 2px 4px 0 #000;box-shadow:0 2px 4px 0 #000}.vjs-default-skin .vjs-time-controls{position:absolute;right:0;height:1.0em;width:4.8em;top:-1.3em;border-bottom:1px solid #1F1F1F;border-top:1px solid #222;background-color:#333;font-size:1em;line-height:1.0em;font-weight:normal;font-family:Helvetica,Arial,sans-serif;background:#333;background:-moz-linear-gradient(top,#222,#333);background:-webkit-gradient(linear,0% 0%,0% 100%,from(#222),to(#333));background:-webkit-linear-gradient(top,#222,#333);background:-o-linear-gradient(top,#333,#222);background:-ms-linear-gradient(top,#333,#222);background:linear-gradient(top,#333,#222)}.vjs-default-skin .vjs-current-time{left:0}.vjs-default-skin .vjs-duration{right:0;display:none}.vjs-default-skin .vjs-remaining-time{right:0}.vjs-time-divider{display:none}.vjs-default-skin .vjs-time-control{font-size:1em;line-height:1;font-weight:normal;font-family:Helvetica,Arial,sans-serif}.vjs-default-skin .vjs-time-control
+span{line-height:25px}.vjs-secondary-controls{float:right}.vjs-default-skin .vjs-fullscreen-control{width:3.8em;cursor:pointer !important;float:right}.vjs-default-skin .vjs-fullscreen-control
+div{width:16px;height:16px;background:url("../assets/img/arctic_sunset/video-js.png") -50px 0;margin:0.5em auto 0}.vjs-default-skin.vjs-fullscreen .vjs-fullscreen-control
+div{background:url("../assets/img/arctic_sunset/video-js.png") -75px 0}.vjs-default-skin .vjs-big-play-button{display:block;z-index:2;position:absolute;top:50%;left:50%;width:8.0em;height:8.0em;margin:-41px 0 0 -39px;text-align:center;vertical-align:center;cursor:pointer !important}.vjs-default-skin div.vjs-big-play-button:hover{opacity: .8}.vjs-default-skin div.vjs-big-play-button
+span{position:absolute;top:50%;left:50%;display:block;width:65px;height:61px;margin:-30px 0 0 -32px;background:url("../assets/img/arctic_sunset/play.png") no-repeat}.vjs-loading-spinner{display:none !important;position:absolute;top:50%;left:50%;width:55px;height:55px;margin:-28px 0 0 -28px;-webkit-animation-name:rotatethis;-webkit-animation-duration:1s;-webkit-animation-iteration-count:infinite;-webkit-animation-timing-function:linear;-moz-animation-name:rotatethis;-moz-animation-duration:1s;-moz-animation-iteration-count:infinite;-moz-animation-timing-function:linear}@-webkit-keyframes
+rotatethis{0%{-webkit-transform:scale(0.6) rotate(0deg)}12.5%{-webkit-transform:scale(0.6) rotate(0deg)}12.51%{-webkit-transform:scale(0.6) rotate(45deg)}25%{-webkit-transform:scale(0.6) rotate(45deg)}25.01%{-webkit-transform:scale(0.6) rotate(90deg)}37.5%{-webkit-transform:scale(0.6) rotate(90deg)}37.51%{-webkit-transform:scale(0.6) rotate(135deg)}50%{-webkit-transform:scale(0.6) rotate(135deg)}50.01%{-webkit-transform:scale(0.6) rotate(180deg)}62.5%{-webkit-transform:scale(0.6) rotate(180deg)}62.51%{-webkit-transform:scale(0.6) rotate(225deg)}75%{-webkit-transform:scale(0.6) rotate(225deg)}75.01%{-webkit-transform:scale(0.6) rotate(270deg)}87.5%{-webkit-transform:scale(0.6) rotate(270deg)}87.51%{-webkit-transform:scale(0.6) rotate(315deg)}100%{-webkit-transform:scale(0.6) rotate(315deg)}}@-moz-keyframes
+rotatethis{0%{-moz-transform:scale(0.6) rotate(0deg)}12.5%{-moz-transform:scale(0.6) rotate(0deg)}12.51%{-moz-transform:scale(0.6) rotate(45deg)}25%{-moz-transform:scale(0.6) rotate(45deg)}25.01%{-moz-transform:scale(0.6) rotate(90deg)}37.5%{-moz-transform:scale(0.6) rotate(90deg)}37.51%{-moz-transform:scale(0.6) rotate(135deg)}50%{-moz-transform:scale(0.6) rotate(135deg)}50.01%{-moz-transform:scale(0.6) rotate(180deg)}62.5%{-moz-transform:scale(0.6) rotate(180deg)}62.51%{-moz-transform:scale(0.6) rotate(225deg)}75%{-moz-transform:scale(0.6) rotate(225deg)}75.01%{-moz-transform:scale(0.6) rotate(270deg)}87.5%{-moz-transform:scale(0.6) rotate(270deg)}87.51%{-moz-transform:scale(0.6) rotate(315deg)}100%{-moz-transform:scale(0.6) rotate(315deg)}}div.vjs-loading-spinner
+.ball1{opacity:0.12;position:absolute;left:20px;top:0px;width:13px;height:13px;background:#fff;border-radius:13px;-webkit-border-radius:13px;-moz-border-radius:13px;border:1px
+solid #ccc}div.vjs-loading-spinner
+.ball2{opacity:0.25;position:absolute;left:34px;top:6px;width:13px;height:13px;background:#fff;border-radius:13px;-webkit-border-radius:13px;-moz-border-radius:13px;border:1px
+solid #ccc}div.vjs-loading-spinner
+.ball3{opacity:0.37;position:absolute;left:40px;top:20px;width:13px;height:13px;background:#fff;border-radius:13px;-webkit-border-radius:13px;-moz-border-radius:13px;border:1px
+solid #ccc}div.vjs-loading-spinner
+.ball4{opacity:0.50;position:absolute;left:34px;top:34px;width:13px;height:13px;background:#fff;border-radius:10px;-webkit-border-radius:10px;-moz-border-radius:15px;border:1px
+solid #ccc}div.vjs-loading-spinner
+.ball5{opacity:0.62;position:absolute;left:20px;top:40px;width:13px;height:13px;background:#fff;border-radius:13px;-webkit-border-radius:13px;-moz-border-radius:13px;border:1px
+solid #ccc}div.vjs-loading-spinner
+.ball6{opacity:0.75;position:absolute;left:6px;top:34px;width:13px;height:13px;background:#fff;border-radius:13px;-webkit-border-radius:13px;-moz-border-radius:13px;border:1px
+solid #ccc}div.vjs-loading-spinner
+.ball7{opacity:0.87;position:absolute;left:0px;top:20px;width:13px;height:13px;background:#fff;border-radius:13px;-webkit-border-radius:13px;-moz-border-radius:13px;border:1px
+solid #ccc}div.vjs-loading-spinner
+.ball8{opacity:1.00;position:absolute;left:6px;top:6px;width:13px;height:13px;background:#fff;border-radius:13px;-webkit-border-radius:13px;-moz-border-radius:13px;border:1px
+solid #ccc}.vjs-default-skin .vjs-menu-button{float:right;margin:0.2em 0.5em 0 0;padding:0;width:3em;height:2em;cursor:pointer !important;border:1px
+solid #111;-moz-border-radius:0.3em;-webkit-border-radius:0.3em;border-radius:0.3em;background:#4d4d4d;background:-moz-linear-gradient(top,#4d4d4d 0%,#3f3f3f 50%,#333 50%,#252525 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#4d4d4d),color-stop(50%,#3f3f3f),color-stop(50%,#333333),color-stop(100%,#252525));background:-webkit-linear-gradient(top,#4d4d4d 0%,#3f3f3f 50%,#333 50%,#252525 100%);background:-o-linear-gradient(top,#4d4d4d 0%,#3f3f3f 50%,#333 50%,#252525 100%);background:-ms-linear-gradient(top,#4d4d4d 0%,#3f3f3f 50%,#333 50%,#252525 100%);background:linear-gradient(top,#4d4d4d 0%,#3f3f3f 50%,#333 50%,#252525 100%)}.vjs-default-skin .vjs-menu-button
+div{background:url("../assets/img/arctic_sunset/video-js.png") 0px -75px no-repeat;width:16px;height:16px;margin:0.2em auto 0;padding:0}.vjs-default-skin .vjs-menu-button
+ul{display:none;opacity:0.8;padding:0;margin:0;position:absolute;width:10em;bottom:2em;max-height:15em;left:-3.5em;background-color:#111;border:2px
+solid #333;-moz-border-radius:0.7em;-webkit-border-radius:1em;border-radius: .5em;-webkit-box-shadow:0 2px 4px 0 #000;-moz-box-shadow:0 2px 4px 0 #000;box-shadow:0 2px 4px 0 #000;overflow:auto}.vjs-default-skin .vjs-menu-button:focus ul,
+.vjs-default-skin .vjs-menu-button:hover
+ul{display:block;list-style:none}.vjs-default-skin .vjs-menu-button ul
+li{list-style:none;margin:0;padding:0.3em 0 0.3em 20px;line-height:1.4em;font-size:1.2em;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;text-align:left}.vjs-default-skin .vjs-menu-button ul li.vjs-selected{text-decoration:underline;background:url("../assets/img/arctic_sunset/video-js.png") -125px -50px no-repeat}.vjs-default-skin .vjs-menu-button ul li:focus,
+.vjs-default-skin .vjs-menu-button ul li:hover,
+.vjs-default-skin .vjs-menu-button ul li.vjs-selected:focus,
+.vjs-default-skin .vjs-menu-button ul li.vjs-selected:hover{background-color:#ccc;color:#111;outline:0}.vjs-default-skin .vjs-menu-button ul li.vjs-menu-title{text-align:center;text-transform:uppercase;font-size:1em;line-height:2em;padding:0;margin:0
+0 0.3em 0;color:#fff;font-weight:bold;cursor:default;background:#4d4d4d;background:-moz-linear-gradient(top,#4d4d4d 0%,#3f3f3f 50%,#333 50%,#252525 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#4d4d4d),color-stop(50%,#3f3f3f),color-stop(50%,#333333),color-stop(100%,#252525));background:-webkit-linear-gradient(top,#4d4d4d 0%,#3f3f3f 50%,#333 50%,#252525 100%);background:-o-linear-gradient(top,#4d4d4d 0%,#3f3f3f 50%,#333 50%,#252525 100%);background:-ms-linear-gradient(top,#4d4d4d 0%,#3f3f3f 50%,#333 50%,#252525 100%);background:linear-gradient(top,#4d4d4d 0%,#3f3f3f 50%,#333 50%,#252525 100%)}.vjs-default-skin .vjs-captions-button
+div{background-position:-25px -75px}.vjs-default-skin .vjs-chapters-button
+div{background-position:-100px -75px}.vjs-default-skin .vjs-chapters-button
+ul{width:20em;left:-8.5em}.video_player{position:relative;border:1px
+solid #cfcfcf;border-bottom:0 none;margin-bottom:60px}.video_player,
+.video_player .video-js,
+.video_player .vjs-poster{border-radius:5px 5px 0 0 !important;-webkit-border-radius:5px 5px 0 0 !important;-moz-border-radius:5px 5px 0 0 !important}.video_player .vjs-fade-out,
+.video_player .vjs-controls{visibility:visible !important;opacity:1 !important}.video_player .vjs-time-controls,
+.video_player .vjs-volume-control{display:none}.video_player .vjs-controls{bottom:-33px;left:-1px;right:-1px;margin:0;padding:0;height:33px;border:0
+none;border-left:1px solid #cfcfcf;border-right:1px solid #cfcfcf;background:#f00;background:-moz-linear-gradient(top,#f00 0%,#fdd193 5%,#fa975f 13%,#dd2014 89%,#ac0905 100%);background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#ff0000),color-stop(5%,#fdd193),color-stop(13%,#fa975f),color-stop(89%,#dd2014),color-stop(100%,#ac0905));background:-webkit-linear-gradient(top,#f00 0%,#fdd193 5%,#fa975f 13%,#dd2014 89%,#ac0905 100%);background:-o-linear-gradient(top,#f00 0%,#fdd193 5%,#fa975f 13%,#dd2014 89%,#ac0905 100%);background:-ms-linear-gradient(top,#f00 0%,#fdd193 5%,#fa975f 13%,#dd2014 89%,#ac0905 100%);background:linear-gradient(to bottom,#f00 0%,#fdd193 5%,#fa975f 13%,#dd2014 89%,#ac0905 100%);filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff0000',endColorstr='#ac0905',GradientType=0);-webkit-border-radius:0 0 5px 5px;-moz-border-radius:0 0 5px 5px;border-radius:0 0 5px 5px;box-shadow:0 3px 5px -1px rgba(0,0,0,0.3);-webkit-box-shadow:0 3px 5px -1px rgba(0,0,0,0.3);-moz-box-shadow:0 3px 5px -1px rgba(0,0,0,0.3)}.video_player .vjs-paused .vjs-play-control div,
+.video_player .vjs-playing .vjs-play-control div,
+.video_player .vjs-fullscreen-control div,
+.video_player div.vjs-seek-handle,
+.video_player .vjs-mute-control div,
+.video_player .vjs-mute-control.vjs-vol-0 div,
+.video_player div.vjs-progress-control,
+.video_player .vjs-progress-holder .vjs-play-progress{background-image:url("../assets/img/arctic_sunset/video_controls.png");background-repeat:no-repeat}.video_player .vjs-control{height:31px;width:37px;margin-top:1px}.video_player .vjs-paused .vjs-play-control div,
+.video_player .vjs-playing .vjs-play-control
+div{width:46px;height:31px;margin:0;background-position:0 -20px;-webkit-border-radius:0 0 0 5px;-moz-border-radius:0 0 0 5px;border-radius:0 0 0 5px}.video_player .vjs-playing .vjs-play-control
+div{background-position:-50px -20px}.video_player .vjs-fullscreen-control
+div{width:37px;height:31px;background-position:-180px -20px;margin:0;-webkit-border-radius:0 0 5px 0;-moz-border-radius:0 0 5px 0;border-radius:0 0 5px 0}.video_player .vjs-mute-control
+div{width:39px;height:31px;background-position:-100px -20px;margin:0
+0 0 -2px}.video_player .vjs-mute-control.vjs-vol-0
+div{background-position:-140px -20px}.video_player div.vjs-seek-handle{position:absolute;width:17px;height:17px;margin-top:-3px;left:0;top:0;background-position:-220px -20px;-moz-border-radius:0;-webkit-border-radius:0;border-radius:0;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none}.video_player div.vjs-progress-control{position:absolute;top:10px;left:54px;right:86px;height:12px;border:0
+none;background-color:transparent;background-position:right 0;border-radius:6px;-webkit-border-radius:6px;-moz-border-radius:6px}.video_player .vjs-progress-holder .vjs-load-progress,
+.video_player .vjs-progress-holder .vjs-play-progress{height:8px;margin:2px
+0;border-radius:6px;-webkit-border-radius:6px;-moz-border-radius:6px}.video_player .vjs-progress-holder .vjs-play-progress{height:7px;margin:2px}.video_player .vjs-progress-holder .vjs-load-progress{opacity:0.3;background:#a80000;max-width:99% !important}.video_player .vjs-progress-holder .vjs-play-progress{background-position:0 -12px;filter:none}.video_player .vjs-progress-holder{background:transparent}.widget-container{margin-bottom:25px}.widget-container .widget-title{font-size:20.02px;margin-bottom:13px}.widget_categories
+.inner{padding:22px
+28px 16px}.widget_categories li,
+.widget_recent_comments li,
+.widget_recent_entries
+li{border-bottom:1px solid #E1E0E0;border-top:1px solid #FFF;padding:8px
+0}.widget_categories li.first,
+.widget_recent_comments li.first,
+.widget_recent_entries
+li.first{border-top:0 none}.widget_categories li.last,
+.widget_recent_comments li.last,
+.widget_recent_entries
+li.last{border-bottom:0 none}.widget_categories li
+a{font-size:15px;color:#747474;position:relative}.widget_categories li a
+span{position:relative}.widget_categories li a:hover,
+.widget_categories li.current-menu-item
+a{color:#54B0CB}.widget_categories .ico-cat{width:25px;height:30px;background-image:url("../assets/img/arctic_sunset/icons/categories_icons.png");vertical-align:middle;margin-right:11px}.widget_categories .ico-cat.ico-cat1{background-position:0 0;top:2px}.widget_categories .ico-cat.ico-cat2{background-position:-25px 0;top:-2px}.widget_categories .ico-cat.ico-cat3{background-position:-50px 0;top:-1px}.widget_categories .ico-cat.ico-cat4{background-position:-75px 0}.widget_categories .ico-cat.ico-cat5{background-position:-100px 0;top:-2px}.widget_categories .ico-cat.ico-cat6{background-position:-125px 0}.widget_categories li a:hover .ico-cat1,
+.widget_categories li.current-menu-item .ico-cat1{background-position:0 -30px;top:2px}.widget_categories li a:hover .ico-cat2,
+.widget_categories li.current-menu-item .ico-cat2{background-position:-25px -30px}.widget_categories li a:hover .ico-cat3,
+.widget_categories li.current-menu-item .ico-cat3{background-position:-50px -30px}.widget_categories li a:hover .ico-cat4,
+.widget_categories li.current-menu-item .ico-cat4{background-position:-75px -30px}.widget_categories li a:hover .ico-cat5,
+.widget_categories li.current-menu-item .ico-cat5{background-position:-100px -30px}.widget_categories li a:hover .ico-cat6,
+.widget_categories li.current-menu-item .ico-cat6{background-position:-125px -30px}.widget_categories
+.note{top:-7px !important;right:-17px !important}.widget_recent_entries .inner,
+.widget_recent_comments
+.inner{padding:22px
+28px 12px}.widget_recent_comments .widget-title,
+.widget_recent_entries .widget-title{margin-bottom:8px}.widget_recent_comments li,
+.widget_recent_entries
+li{padding:15px
+0 17px}.widget-container .widget-thumb{float:left;vertical-align:top;width:60px;height:58px;margin-right:16px;margin-top:3px;box-shadow:inset 0 0 5px rgba(0,0,0,0.3);-webkit-box-shadow:inset 0 0 5px rgba(0,0,0,0.3);-moz-box-shadow:inset 0 0 5px rgba(0,0,0,0.3)}.widget-container .widget-thumb
+img{display:block;position:relative;z-index:-1;width:100%;height:100% !important}.widget-container .post-title,
+.widget-container
+.recent_comment{font-weight:400;color:#5f5f5f;line-height:16px}.widget-container .recent_comment
+a{color:#54B0CB}.widget-container a.post-title:hover{color:#54B0CB}.widget_tag_cloud
+.inner{padding:22px
+26px 27px}.widget_tag_cloud .widget-title{margin-bottom:17px}.tagcloud
+a{display:inline-block;font-family:Arial;font-size:12px;font-weight:700;text-align:center;white-space:nowrap;background-image:url("../assets/img/arctic_sunset/tag.png");background-repeat:no-repeat;background-position:right -28px;height:28px;line-height:28px;padding-right:15px;color:#6f6f6f;text-shadow:0 1px 1px #fff;margin:5px}.tagcloud a:hover{color:#54B0CB}.tagcloud a
+span{display:inline-block;background-image:url("../assets/img/arctic_sunset/tag.png");background-repeat:no-repeat;background-position:left 0;padding-left:21px;line-height:inherit}.flickr
+.inner{padding:22px
+22px 27px}.flickr .widget-title{margin-bottom:18px}.flickr-inner{text-align:center;font-size:0}.flickr_badge_image{display:inline-block;margin:1px}.flickr_badge_image
+a{display:block;box-shadow:inset 0 0 5px rgba(0,0,0,0.3);-webkit-box-shadow:inset 0 0 5px rgba(0,0,0,0.3);-moz-box-shadow:inset 0 0 5px rgba(0,0,0,0.3)}.flickr_badge_image a
+img{display:block;width:60px;height:60px !important;position:relative;z-index:-1}.ie8 .flickr
+.flickr_badge_image{width:60px !important;height:60px !important}.widget_text
+.inner{padding:22px
+28px 9px}.widget_text .widget-title{margin-bottom:14px}.widget_text .textwidget
+p{line-height:21px;margin-bottom:15px}.widget_calendar{border:5px
+solid #ddd}.widget_calendar
+.inner{padding:0
+20px 20px}.widget_calendar.boxed{background:url("../assets/img/arctic_sunset/box_bg_bot.jpg") bottom repeat-x #fafafa;-webkit-border-radius:12px;-moz-border-radius:12px;border-radius:12px}.ie8
+#date_departure{display:none !important}
